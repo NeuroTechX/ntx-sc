@@ -1,0 +1,92 @@
+.sidebar {
+	width: 300px;
+	height: 100vh;
+	background-color: white;
+	color: black;
+	border-color: darkgray;
+	position: fixed;
+	top: 0;
+	left: -300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.5s ease;
+	z-index: 1;
+	background-color: transparent;
+
+	.sidebar-top {
+		padding: 50px 20px 25px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-bottom: 1px solid white;
+		font-weight: 900;
+
+		.brand {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: left;
+			font-size: 28px;
+
+			.icon {
+				width: 50px;
+				height: 50px;
+			}
+		}
+	}
+	.sidebar-center {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		border-bottom: 1px solid white;
+
+		.list {
+			padding: 0;
+			list-style: none;
+
+			.list-item {
+				font-size: 14px;
+				font-weight: 500;
+				cursor: pointer;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+
+				.list-item-text {
+					width: 100%;
+					font-size: 22px;
+					padding: 15px 0;
+					margin-bottom: 5px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					cursor: pointer;
+					border-radius: 15px;
+
+					&:hover {
+						background-color: white;
+						color: black;
+						transition: all 0.5s ease-in-out;
+					}
+				}
+			}
+		}
+	}
+
+	.sidebar-bottom {
+		width: 80%;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+	&.active {
+		left: 0px;
+		background-color: #111827;
+		color: #9ca3af;
+		border-color: white;
+	}
+}
