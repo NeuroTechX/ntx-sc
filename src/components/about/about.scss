@@ -1,4 +1,79 @@
+@import "../../global.scss";
+
 .about {
 	height: 100vh;
-	background-color: lightblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.about-wrapper {
+		height: 90%;
+		width: 90%;
+		margin: 10px;
+		display: flex;
+
+		.about-left {
+			flex: 1.2;
+			background-color: $buttonColor;
+			h1 {
+				margin: 25px 0 0 50px;
+
+				font-family: Saira;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 40px;
+				line-height: 63px;
+			}
+
+			p {
+				width: 80%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-family: Hind;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 24px;
+				line-height: 38px;
+				margin: 25px 0 0 50px;
+			}
+
+			.about-button-container {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding-top: 10px;
+
+				.about-button {
+					width: 437px;
+					height: 60px;
+					border-radius: 15px;
+					background-color: $backgroundColor;
+					border: none;
+					font-size: 20px;
+					font-weight: 600;
+					transition: all 0.5s ease;
+					cursor: pointer;
+
+					&:hover {
+						background-color: $buttonHover;
+						color: white;
+					}
+				}
+			}
+		}
+
+		.about-right {
+			flex: 0.8;
+			.about-img {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				object-fit: cover;
+				overflow: hidden;
+			}
+		}
+	}
 }
