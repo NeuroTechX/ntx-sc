@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .landing {
 	height: 100vh;
 	width: 100vw;
@@ -85,7 +87,7 @@
 						padding: 7px;
 						font-size: 24px;
 						color: rgb(255, 255, 255);
-						background-color: rgba(179, 190, 190);
+						background-color: $buttonColor;
 						outline: none;
 						border-style: none;
 						border-radius: 15px;
@@ -93,7 +95,7 @@
 						transition: all 0.5s ease;
 
 						&:hover {
-							background-color: #23b2c6;
+							background-color: $buttonHover;
 						}
 					}
 				}
