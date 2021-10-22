@@ -3,7 +3,10 @@
 .competition {
 	height: 100vh;
 	background-color: lightgray;
-
+	img {
+		height: 100vh;
+		width: 100%;
+	}
 	.competition-wrapper {
 		width: 100%;
 		height: 100vh;
