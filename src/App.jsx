@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import { useState } from "react";
 import Sidebar from "./components/sidebar/Sidebar";
 import Competition from "./components/competition/Competition";
+import WhyJoin from "./components/WhyJoin/WhyJoin";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -19,6 +20,7 @@ function App() {
 			/>
 			<Landing />
 			<About />
+			<WhyJoin />
 			{/* <Competition /> */}
 		</div>
 	);
