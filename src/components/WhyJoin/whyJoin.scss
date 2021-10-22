@@ -1,0 +1,49 @@
+@import "../../global.scss";
+
+.whyJoinWrapper {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	position: relative;
+
+	.wj-topbar {
+		width: 100%;
+		height: 205px;
+		background-color: #404747;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.wj-topbar-text {
+			color: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 40px;
+			line-height: 60px;
+			font-family: Saira;
+		}
+	}
+
+	.wj-left {
+		height: calc(100vh - 205px);
+		background-color: $backgroundColor;
+		position: absolute;
+		bottom: 0;
+		width: 50%;
+		left: 50px;
+		margin-right: 25px;
+	}
+
+	.wj-right {
+		height: calc(100vh - 205px);
+		width: 50%;
+		position: absolute;
+		bottom: 0;
+		right: 50px;
+		object-fit: cover;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: left;
+	}
+}
