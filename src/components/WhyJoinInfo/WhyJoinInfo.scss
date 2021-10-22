@@ -1,20 +1,23 @@
 @import "../../global.scss";
 
-.about {
+.wji {
 	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative;
 
-	.about-wrapper {
+	.wji-wrapper {
 		height: 95%;
 		width: 92%;
 		display: flex;
 		position: absolute;
-		bottom: 0;
+		top: 0;
 
-		.about-left {
+		.wji-left {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
 			flex: 1.2;
 			background-color: $backgroundColor;
 			h1 {
@@ -38,18 +41,41 @@
 				line-height: 38px;
 				margin: 25px 0 0 50px;
 			}
-		}
 
-		.about-right {
-			flex: 0.8;
-			.about-img {
-				width: 100%;
-				height: 100%;
+			.wji-button-container {
 				display: flex;
 				align-items: center;
 				justify-content: center;
+				margin-bottom: 25px;
+
+				.wji-button {
+					width: 437px;
+					height: 60px;
+					border-radius: 15px;
+					background-color: $buttonColor;
+					border: none;
+					font-size: 20px;
+					font-weight: 600;
+					transition: all 0.5s ease;
+					cursor: pointer;
+
+					&:hover {
+						background-color: $buttonHover;
+						color: white;
+					}
+				}
+			}
+		}
+
+		.wji-right {
+			flex: 0.8;
+			overflow: hidden;
+			justify-content: left;
+
+			.wji-img {
+				width: 100%;
+				height: 100%;
 				object-fit: cover;
-				overflow: hidden;
 			}
 		}
 	}

@@ -4,6 +4,8 @@ import Navbar from "./components/navbar/Navbar";
 import { useState } from "react";
 import Sidebar from "./components/sidebar/Sidebar";
 import Competition from "./components/competition/Competition";
+import WhyJoinBar from "./components/WhyJoinBar/WhyJoinBar";
+import WhyJoinInfo from "./components/WhyJoinInfo/WhyJoinInfo";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -19,7 +21,8 @@ function App() {
 			/>
 			<Landing />
 			<About />
-			{/* <Competition /> */}
+			<WhyJoinBar />
+			<WhyJoinInfo />
 		</div>
 	);
 }
