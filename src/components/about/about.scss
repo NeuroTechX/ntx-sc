@@ -38,31 +38,6 @@
 				line-height: 38px;
 				margin: 25px 0 0 50px;
 			}
-
-			.about-button-container {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				padding-top: 10px;
-
-				.about-button {
-					width: 437px;
-					height: 60px;
-					border-radius: 15px;
-					background-color: $buttonColor;
-					border: none;
-					font-family: Hind;
-					font-size: 20px;
-					font-weight: 600;
-					transition: all 0.5s ease;
-					cursor: pointer;
-
-					&:hover {
-						background-color: $buttonHover;
-						color: white;
-					}
-				}
-			}
 		}
 
 		.about-right {
