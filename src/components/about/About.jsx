@@ -31,11 +31,11 @@ const About = () => {
 						neuroengineers, who will be equipped to
 						drive the field forward.
 					</p>
-					<div className="about-button-container">
+					{/* <div className="about-button-container">
 						<button className="about-button">
 							WATCH OUR VIDEO TO LEARN MORE!
 						</button>
-					</div>
+					</div> */}
 				</div>
 				<div className="about-right">
 					<img
