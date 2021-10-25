@@ -1,5 +1,5 @@
-import "./competition.scss";
-import Caligraphy from "../img/light blue 1.png";
+import "./competitionVideo.scss";
+import Caligraphy from "../img/light blue.png";
 
 const Competition = () => {
 	return (
