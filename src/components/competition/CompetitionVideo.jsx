@@ -1,4 +1,4 @@
-import "./competition.scss";
+import "./competitionVideo.scss";
 import Caligraphy from "../img/light blue.png";
 
 const Competition = () => {
