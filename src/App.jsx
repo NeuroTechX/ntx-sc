@@ -7,7 +7,8 @@ import CompetitionVideo from "./components/competition/CompetitionVideo";
 import CompetitionInfo from "./components/competition/CompetitionInfo";
 import WhyJoinBar from "./components/whyJoin/WhyJoinBar";
 import WhyJoinInfo from "./components/whyJoin/WhyJoinInfo";
-import JoinInfoBar from "./components/JoinInfoBar/JoinInfoBar";
+import JoinInfoBar from "./components/JoinInfo/JoinInfoBar";
+import JoinInfo from "./components/JoinInfo/JoinInfo";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -28,6 +29,7 @@ function App() {
 			<CompetitionVideo />
 			<CompetitionInfo />
 			<JoinInfoBar />
+			<JoinInfo />
 		</div>
 	);
 }
