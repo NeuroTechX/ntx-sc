@@ -9,6 +9,7 @@ import WhyJoinBar from "./components/whyJoin/WhyJoinBar";
 import WhyJoinInfo from "./components/whyJoin/WhyJoinInfo";
 import JoinInfoBar from "./components/JoinInfo/JoinInfoBar";
 import JoinInfo from "./components/JoinInfo/JoinInfo";
+import News from "./components/news/News";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -30,6 +31,7 @@ function App() {
 			<CompetitionInfo />
 			<JoinInfoBar />
 			<JoinInfo />
+			<News />
 		</div>
 	);
 }
