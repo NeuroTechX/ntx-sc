@@ -12,6 +12,7 @@ import JoinInfo from "./components/JoinInfo/JoinInfo";
 import News from "./components/news/News";
 import PartnerBar from "./components/partner/PartnerBar";
 import Partners from "./components/partner/Partners";
+import FAQ from "./components/FAQ/FAQ";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -36,6 +37,7 @@ function App() {
 			<News />
 			<PartnerBar />
 			<Partners />
+			<FAQ />
 		</div>
 	);
 }
