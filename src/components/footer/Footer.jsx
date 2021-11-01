@@ -5,7 +5,7 @@ const Footer = () => {
 		<div className="footer">
 			<div className="footerContainer">
 				<div className="left">
-					<div className="textbox">
+					<div className="textBox">
 						<h1>ABOUT THIS SITE</h1>
 						<p>
 							NeuroTechX brings hackers, enthusiasts,
