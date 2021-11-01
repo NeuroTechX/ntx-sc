@@ -1,6 +1,6 @@
-@import "../../global.scss";
+@import "../../../../global.scss";
 
-.news {
+.landing {
 	height: 100vh;
 	width: 100vw;
 	position: relative;
@@ -9,9 +9,10 @@
 			rgba(255, 255, 255, 0.3),
 			rgba(255, 255, 255, 0.1)
 		),
-		url(https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
+		url(https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3000&q=3000)
 			center;
-	width: 100%;
+	min-width: 100%;
+	min-width: 100%;
 	background-size: cover;
 	background-position: center;
 
@@ -49,30 +50,24 @@
 			position: absolute;
 
 			.top {
-				h1 {
-					font-family: "Saira";
-					font-size: 50px;
-					font-style: normal;
-					font-weight: bold;
-					font-size: 50px;
-					font-weight: 400;
-				}
+				font-family: Hind;
+				font-size: 16px;
+				font-weight: 400;
 			}
 
 			.center {
-				font-family: "Hind", sans-serif;
+				font-family: "Saira", sans-serif;
 				display: flex;
 				flex-direction: column;
-				font-weight: normal;
-
+				align-items: center;
+				justify-content: center;
+				font-weight: 700;
 				h2 {
-					font-size: 20px;
-					margin: 30px;
+					font-size: 52px;
 				}
 
 				h3 {
-					font-size: 20px;
-					margin: 30px;
+					font-size: 64px;
 				}
 			}
 
