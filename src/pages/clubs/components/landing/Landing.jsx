@@ -1,9 +1,9 @@
-import "./clubsLanding.scss";
+import "./landing.scss";
 
-export default function Clubs() {
+export default function Landing() {
 	return (
 		<div
-			className="clubs"
+			className="landing"
 			// initial={{ opacity: 0 }}
 			// animate={{ opacity: 1 }}
 			// transition={{ duration: 1, delay: 0.5 }}
@@ -20,10 +20,8 @@ export default function Clubs() {
 					// }}
 				>
 					<div className="center">
-						<h3>CLUBS</h3>
-					</div>
-					<div className="bottom">
-						<h2>NeuroTechX Affiliated Student Clubs</h2>
+						<h2>NEUROTECHX</h2>
+						<h3>STUDENT CLUBS</h3>
 					</div>
 				</div>
 			</div>

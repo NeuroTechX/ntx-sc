@@ -1,11 +1,16 @@
-import ClubsLanding from "./components/landing/ClubsLanding";
+import Landing from "./components/landing/Landing";
+import JoinInfoBar from "./components/JoinInfo/JoinInfoBar";
+import JoinInfo from "./components/JoinInfo/JoinInfo";
 
-function Clubs() {
+function Home() {
 	return (
-		<div className="clubs">
-			<ClubsLanding />
+		<div className="home">
+			<Landing />
+
+			<JoinInfoBar />
+			<JoinInfo />
 		</div>
 	);
 }
 
-export default Clubs;
+export default Home;
