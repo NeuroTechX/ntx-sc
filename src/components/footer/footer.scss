@@ -1,0 +1,65 @@
+.footer {
+	position: relative;
+	width: 100vw;
+	height: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 305px;
+
+	.footerContainer {
+		height: 100%;
+		width: 100%;
+		background-color: #404747;
+		font-family: "Hind";
+		color: white;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+
+		.right {
+			display: flex;
+
+			flex: 0.2;
+			flex-direction: column;
+			float: right;
+			margin: 50px 0 0 100px;
+			h1 {
+				font-size: 30px;
+				text-align: left;
+			}
+			ul {
+				list-style: none;
+				text-align: left;
+				font-size: 20px;
+			}
+		}
+		.left {
+			display: flex;
+			flex-direction: column;
+			float: left;
+			flex: 0.8;
+			margin: 50px;
+			.textbox {
+				width: 1000px;
+				h1 {
+					float: top;
+					font-size: 24px;
+				}
+				p {
+					font-size: 20px;
+					button {
+						margin: 5px 0;
+						border: none;
+						background: none;
+						font-size: inherit;
+						font-style: inherit;
+						color: inherit;
+						cursor: pointer;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+}
