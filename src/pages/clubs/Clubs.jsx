@@ -1,4 +1,4 @@
-import ClubsLanding from "./components/ClubsLanding";
+import ClubsLanding from "./components/landing/ClubsLanding";
 
 function Clubs() {
 	return (
