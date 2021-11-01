@@ -15,12 +15,13 @@ import Partners from "./components/partner/Partners";
 import FAQ from "./components/FAQ/FAQ";
 import Dashboard from "./components/dashboard/Dashboard";
 import Clubs from "./pages/clubs/Clubs";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
 	return (
 		<div className="app">
-			{/* <Navbar
+			<Navbar
 				menuOpen={menuOpen}
 				setMenuOpen={setMenuOpen}
 			/>
@@ -28,7 +29,7 @@ function App() {
 				menuOpen={menuOpen}
 				setMenuOpen={setMenuOpen}
 			/>
-			<Landing />
+			{/* <Landing />
 			<About />
 			<WhyJoinBar />
 			<WhyJoinInfo />
@@ -42,6 +43,7 @@ function App() {
 			<FAQ />
 			<Dashboard /> */}
 			<Clubs />
+			<Footer />
 		</div>
 	);
 }
