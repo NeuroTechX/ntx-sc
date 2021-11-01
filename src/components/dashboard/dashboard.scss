@@ -1,0 +1,37 @@
+@import "../../global.scss";
+
+.dashboard {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.container {
+		width: 1200px;
+		height: 600px;
+		background-color: #f5f5f5;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+
+		.cards {
+			margin: 20px;
+			width: 1000px;
+			height: 400px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			position: absolute;
+
+			.card {
+				background-color: $buttonColor;
+				width: 180px;
+				height: 180px;
+				margin: 10px;
+			}
+		}
+	}
+}

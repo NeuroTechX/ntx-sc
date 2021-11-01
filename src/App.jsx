@@ -13,6 +13,7 @@ import News from "./components/news/News";
 import PartnerBar from "./components/partner/PartnerBar";
 import Partners from "./components/partner/Partners";
 import FAQ from "./components/FAQ/FAQ";
+import Dashboard from "./components/dashboard/Dashboard";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -38,6 +39,7 @@ function App() {
 			<PartnerBar />
 			<Partners />
 			<FAQ />
+			<Dashboard />
 		</div>
 	);
 }
