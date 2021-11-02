@@ -4,6 +4,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Clubs from "./pages/clubs/Clubs";
+import CompetitionInfo from "./pages/competition info/CompetitionInfo";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ function App() {
 				menuOpen={menuOpen}
 				setMenuOpen={setMenuOpen}
 			/>
-			<Clubs />
+			<CompetitionInfo />
 			<Footer />
 		</div>
 	);
