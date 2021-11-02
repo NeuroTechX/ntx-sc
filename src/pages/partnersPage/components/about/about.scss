@@ -1,0 +1,56 @@
+@import "../../../../global.scss";
+
+.about {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+
+	.about-wrapper {
+		height: 95%;
+		width: 92%;
+		display: flex;
+		position: absolute;
+		bottom: 0;
+
+		.about-left {
+			flex: 1.2;
+			background-color: $backgroundColor;
+			h1 {
+				margin: 25px 0 0 50px;
+				font-family: "Saira", sans-serif;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 40px;
+				line-height: 63px;
+			}
+
+			p {
+				width: 80%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-family: Hind;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 20px;
+				line-height: 38px;
+				margin: 25px 0 0 50px;
+			}
+		}
+
+		.about-right {
+			flex: 0.8;
+			.about-img {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				object-fit: cover;
+				overflow: hidden;
+			}
+		}
+	}
+}
