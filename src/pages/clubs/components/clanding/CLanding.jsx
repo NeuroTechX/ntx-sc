@@ -1,4 +1,4 @@
-import "./landing.scss";
+import "./cLanding.scss";
 
 export default function Landing() {
 	return (

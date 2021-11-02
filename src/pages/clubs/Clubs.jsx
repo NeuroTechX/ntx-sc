@@ -1,14 +1,13 @@
-import Landing from "./components/landing/Landing";
-import JoinInfoBar from "./components/JoinInfo/JoinInfoBar";
-import JoinInfo from "./components/JoinInfo/JoinInfo";
+import CLanding from "./components/clanding/CLanding";
+import ParticipatingBar from "./components/participating/ParticipatingBar";
+import Participating from "./components/participating/Participating";
 
 function Home() {
 	return (
 		<div className="home">
-			<Landing />
-
-			<JoinInfoBar />
-			<JoinInfo />
+			<CLanding />
+			<ParticipatingBar />
+			<Participating />
 		</div>
 	);
 }
