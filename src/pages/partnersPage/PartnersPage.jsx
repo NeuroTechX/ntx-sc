@@ -1,4 +1,4 @@
-import About from "./components/about/About";
+import About from "./components/main/Main";
 import Landing from "./components/partnersLanding/PartnersLanding";
 import CompetitionVideo from "./components/competition/CompetitionVideo";
 import CompetitionInfo from "./components/competition/CompetitionInfo";

@@ -20,22 +20,13 @@ export default function Landing() {
 					// }}
 				>
 					<div className="top">
-						<h1>WELCOME TO</h1>
+						<h1>PARTNERS</h1>
 					</div>
 					<div className="center">
-						<h2>NEUROTECHX</h2>
-						<h3>STUDENT CLUBS</h3>
-					</div>
-					<div className="bottom">
-						<div className="btn-container">
-							<button className="btn">ABOUT</button>
-							<button className="btn">
-								COMPETITION
-							</button>
-							<button className="btn">
-								GET STARTED
-							</button>
-						</div>
+						<h2>
+							THANK YOU TO OUR AWESOME PARTNERS
+							SUPPORTING NEUROTECH INNOVATION
+						</h2>
 					</div>
 				</div>
 			</div>
