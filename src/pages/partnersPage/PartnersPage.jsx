@@ -1,7 +1,5 @@
 import About from "./components/main/Main";
 import Landing from "./components/partnersLanding/PartnersLanding";
-import CompetitionVideo from "./components/competition/CompetitionVideo";
-import CompetitionInfo from "./components/competition/CompetitionInfo";
 import WhyJoinBar from "./components/whyJoin/WhyJoinBar";
 import WhyJoinInfo from "./components/whyJoin/WhyJoinInfo";
 import JoinInfoBar from "./components/JoinInfo/JoinInfoBar";
@@ -19,8 +17,6 @@ function Home() {
 			<About />
 			<WhyJoinBar />
 			<WhyJoinInfo />
-			<CompetitionVideo />
-			<CompetitionInfo />
 			<JoinInfoBar />
 			<JoinInfo />
 			<News />

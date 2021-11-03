@@ -1,4 +1,4 @@
-import "./mainInfoBar.scss";
+import "./infoBar.scss";
 
 const WhyJoinBar = () => {
 	return (
