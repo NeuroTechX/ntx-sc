@@ -1,7 +1,6 @@
 import "./main.scss";
 import PartnersBar from "./PartnersBar";
 import Logo from "../../assets/NTX-Logo-Black.png";
-import InfluencerBar from "./InfluencersBar";
 
 const About = () => {
 	return (
@@ -25,7 +24,6 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			<InfluencerBar />
 		</>
 	);
 };

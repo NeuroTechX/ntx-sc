@@ -1,6 +1,6 @@
-@import "../../../../global.scss";
+@import "../../../global.scss";
 
-.partnerBar {
+.infoBar {
 	width: 100%;
 	height: 205px;
 	background-color: $black;
@@ -9,7 +9,7 @@
 	justify-content: center;
 }
 
-.partnerText {
+.infoText {
 	color: white;
 	font-family: "Saira", sans-serif;
 	font-size: 40px;

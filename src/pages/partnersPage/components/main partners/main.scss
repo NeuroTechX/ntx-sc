@@ -17,7 +17,9 @@
 		justify-content: space-around;
 
 		.neuro {
-			background-color: white;
+			background: #ffffff;
+			box-shadow: 5px 5px 10px #d9d9d9,
+				-5px -5px 10px #ffffff;
 			width: 685px;
 			height: 404px;
 			border-radius: 38px;
@@ -38,7 +40,11 @@
 		}
 
 		.branch {
-			background-color: white;
+			background: #ffffff;
+			box-shadow: 5px 5px 10px #d9d9d9,
+				-5px -5px 10px #ffffff;
+			box-shadow: 5px 5px 10px #d9d9d9,
+				-5px -5px 10px #ffffff;
 			width: 785px;
 			height: 500px;
 			border-radius: 38px;
