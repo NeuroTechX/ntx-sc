@@ -1,11 +1,15 @@
-import ClubsLanding from "./components/landing/ClubsLanding";
+import CLanding from "./components/clanding/CLanding";
+import ParticipatingBar from "./components/participating/ParticipatingBar";
+import Participating from "./components/participating/Participating";
 
-function Clubs() {
+function Home() {
 	return (
-		<div className="clubs">
-			<ClubsLanding />
+		<div className="home">
+			<CLanding />
+			<ParticipatingBar />
+			<Participating />
 		</div>
 	);
 }
 
-export default Clubs;
+export default Home;

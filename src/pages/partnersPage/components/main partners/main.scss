@@ -1,0 +1,74 @@
+@import "../../../../global.scss";
+
+.main {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-color: $backgroundColor;
+
+	.main-wrapper {
+		height: 95%;
+		width: 92%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+
+		.neuro {
+			background: #ffffff;
+			box-shadow: 5px 5px 10px #d9d9d9,
+				-5px -5px 10px #ffffff;
+			width: 685px;
+			height: 404px;
+			border-radius: 38px;
+
+			.imgContainer {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				img {
+					width: 90%;
+					height: 90%;
+					object-fit: contain;
+				}
+			}
+		}
+
+		.branch {
+			background: #ffffff;
+			box-shadow: 5px 5px 10px #d9d9d9,
+				-5px -5px 10px #ffffff;
+			box-shadow: 5px 5px 10px #d9d9d9,
+				-5px -5px 10px #ffffff;
+			width: 785px;
+			height: 500px;
+			border-radius: 38px;
+
+			.imgContainer {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				img {
+					width: 90%;
+					height: 90%;
+					object-fit: contain;
+				}
+			}
+		}
+
+		.branch {
+			background-color: white;
+			width: 691px;
+			height: 240.11px;
+			border-radius: 38px;
+		}
+	}
+}
