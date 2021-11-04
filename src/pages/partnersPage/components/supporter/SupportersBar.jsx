@@ -1,11 +1,11 @@
 import "../infoBar.scss";
 
-const InfluencerBar = () => {
+const SupportersBar = () => {
 	return (
 		<div className="partnerBar">
-			<div className="partnerText">INFLUENCERS</div>
+			<div className="partnerText">SUPPORTERS</div>
 		</div>
 	);
 };
 
-export default InfluencerBar;
+export default SupportersBar;

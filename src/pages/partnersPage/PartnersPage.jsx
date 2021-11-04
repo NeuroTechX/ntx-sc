@@ -8,6 +8,7 @@ import News from "./components/news/News";
 import Partners from "./components/influencer/Influencers";
 import FAQ from "./components/FAQ/FAQ";
 import Dashboard from "./components/dashboard/Dashboard";
+import Supporters from "./components/supporter/Supporters";
 
 function Home() {
 	return (
@@ -15,6 +16,7 @@ function Home() {
 			<Landing />
 			<Main />
 			<Partners />
+			<Supporters />
 			<WhyJoinBar />
 			<WhyJoinInfo />
 			<JoinInfoBar />

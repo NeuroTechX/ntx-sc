@@ -1,11 +1,11 @@
-import "./influencers.scss";
-import InfluencersBar from "./SupportersBar";
+import "./supporters.scss";
+import SupportersBar from "./SupportersBar";
 
-const Influencers = () => {
+const Supporters = () => {
 	return (
 		<>
-			<InfluencersBar />
-			<div className="influencers">
+			<SupportersBar />
+			<div className="supporters">
 				<div className="container">
 					<div className="center">
 						<div className="centerCard">
@@ -44,6 +44,42 @@ const Influencers = () => {
 								alt=""
 							/>
 						</div>
+						<div className="centerCard">
+							<img
+								src="https://maat.neurable.com/uploads/-/system/appearance/logo/1/LogoDark_StackCMYK.png"
+								alt=""
+							/>
+						</div>
+						<div className="centerCard">
+							<img
+								src="https://maat.neurable.com/uploads/-/system/appearance/logo/1/LogoDark_StackCMYK.png"
+								alt=""
+							/>
+						</div>
+						<div className="centerCard">
+							<img
+								src="https://maat.neurable.com/uploads/-/system/appearance/logo/1/LogoDark_StackCMYK.png"
+								alt=""
+							/>
+						</div>
+						<div className="centerCard">
+							<img
+								src="https://maat.neurable.com/uploads/-/system/appearance/logo/1/LogoDark_StackCMYK.png"
+								alt=""
+							/>
+						</div>
+						<div className="centerCard">
+							<img
+								src="https://maat.neurable.com/uploads/-/system/appearance/logo/1/LogoDark_StackCMYK.png"
+								alt=""
+							/>
+						</div>
+						<div className="centerCard">
+							<img
+								src="https://maat.neurable.com/uploads/-/system/appearance/logo/1/LogoDark_StackCMYK.png"
+								alt=""
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -51,4 +87,4 @@ const Influencers = () => {
 	);
 };
 
-export default Influencers;
+export default Supporters;

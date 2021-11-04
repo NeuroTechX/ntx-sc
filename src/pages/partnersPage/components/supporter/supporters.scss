@@ -1,6 +1,6 @@
 @import "../../../../global.scss";
 
-.influencers {
+.supporters {
 	background-color: $backgroundColor;
 	.container {
 		height: 100vh;
@@ -12,14 +12,14 @@
 
 		.center {
 			height: 600px;
-			width: 800px;
+			width: 1400px;
 			display: flex;
 			align-items: center;
 			justify-content: space-around;
 			flex-wrap: wrap;
 			margin: 20px;
-			margin-left: 400px;
-			margin-right: 400px;
+			margin-left: 200px;
+			margin-right: 200px;
 			.centerCard {
 				display: flex;
 				justify-content: center;
