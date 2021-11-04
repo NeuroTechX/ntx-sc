@@ -1,9 +1,9 @@
 import "./partnersLanding.scss";
 
-export default function Landing() {
+export default function PLanding() {
 	return (
 		<div
-			className="landing"
+			className="pLanding"
 			// initial={{ opacity: 0 }}
 			// animate={{ opacity: 1 }}
 			// transition={{ duration: 1, delay: 0.5 }}

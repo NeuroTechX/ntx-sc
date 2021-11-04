@@ -4,7 +4,8 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Clubs from "./pages/clubs/Clubs";
-import PartnersPage from "./pages/partnersPage/PartnersPage";
+import PartnersPage from "./pages/partners page/PartnersPage";
+import GetStarted from "./pages/get started page/GetStarted";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ function App() {
 				menuOpen={menuOpen}
 				setMenuOpen={setMenuOpen}
 			/>
-			<PartnersPage />
+			<GetStarted />
 			<Footer />
 		</div>
 	);
