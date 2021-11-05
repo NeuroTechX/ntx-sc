@@ -1,13 +1,11 @@
-import GtLanding from "./components/GtLanding/GtLanding";
-import WhyJoinBar from "./components/whyJoin/WhyJoinBar";
-import WhyJoinInfo from "./components/whyJoin/WhyJoinInfo";
+import Gs1 from "./components/gs1/Gs1";
+import GtLanding from "./components/GsLanding/GsLanding";
 
 function GetStarted() {
 	return (
 		<div className="home">
 			<GtLanding />
-			<WhyJoinBar />
-			<WhyJoinInfo />
+			<Gs1 />
 		</div>
 	);
 }
