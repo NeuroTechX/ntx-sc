@@ -1,0 +1,65 @@
+@import "../../../../../global.scss";
+
+.fields {
+	height: 150vh;
+	width: 100%;
+	background-color: #f6f6f6;
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+	.banner {
+		position: absolute;
+		width: 900px;
+		height: 148px;
+		top: 50px;
+		left: 0;
+		z-index: 3;
+		background: #31afbe;
+		padding-left: 200px;
+		display: flex;
+		align-items: center;
+		h1 {
+			color: white;
+			font-family: "Saira";
+			font-weight: bold;
+			font-size: 40px;
+		}
+	}
+
+	.container {
+		height: 130vh;
+		width: 50%;
+		background-color: rgba(221, 239, 241, 0.95);
+		z-index: 1;
+		position: absolute;
+
+		.textBox {
+			padding-top: 295px;
+			margin-left: 300px;
+			width: 460px;
+			height: 706px;
+			font-family: Hind;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 21px;
+			line-height: 35px;
+			color: #000000;
+		}
+	}
+
+	.imgContainer {
+		width: 531px;
+		height: 949px;
+		z-index: 4;
+		position: absolute;
+		left: 100px;
+		top: 300px;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
