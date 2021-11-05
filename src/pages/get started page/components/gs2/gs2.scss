@@ -1,6 +1,6 @@
 @import "../../../../global.scss";
 
-.gs1 {
+.gs2 {
 	height: 100vh;
 	width: 100%;
 	background-color: #f6f6f6;
@@ -16,7 +16,7 @@
 		z-index: 1;
 		position: absolute;
 	}
-	.bottom {
+	.top {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -81,7 +81,7 @@
 		}
 	}
 
-	.top {
+	.bottom {
 		display: flex;
 		flex-direction: row;
 		flex: 0.5;
@@ -90,20 +90,21 @@
 		width: 1115px;
 		height: 388px;
 
-		.right {
+		.left {
 			width: 350px;
 			height: 100%;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			margin-left: 50px;
+			margin-right: 50px;
 			img {
 				height: 100%;
 				width: 100%;
 				object-fit: cover;
 			}
 		}
-		.left {
+		.right {
+			float: right;
 			background-color: $brandColor;
 			width: 725px;
 			height: 100%;
@@ -120,7 +121,6 @@
 					color: white;
 					font-size: 18px;
 					margin-top: 30px;
-					margin-left: 25px;
 
 					h1 {
 						font-size: 24px;
