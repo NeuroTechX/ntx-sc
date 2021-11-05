@@ -1,9 +1,9 @@
-import Landing from "./components/landing/Landing";
+import CILanding from "./components/landing/CILanding";
 
 function CompetitionInfo() {
 	return (
 		<div className="cInfo">
-			<Landing />
+			<CILanding />
 		</div>
 	);
 }

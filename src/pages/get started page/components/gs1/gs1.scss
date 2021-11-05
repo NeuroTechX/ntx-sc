@@ -1,0 +1,145 @@
+@import "../../../../global.scss";
+
+.gs1 {
+	height: 100vh;
+	width: 100%;
+	background-color: #f6f6f6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	flex-direction: column;
+	.backgroundColumn {
+		height: 100vh;
+		width: 50%;
+		background-color: rgba(221, 239, 241, 0.95);
+		z-index: 1;
+		position: absolute;
+	}
+	.top {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		flex: 0.5;
+		z-index: 2;
+		background-color: #b1bebf;
+		margin: 75px;
+		width: 1115px;
+		height: 388px;
+
+		.container {
+			width: 90%;
+			height: 80%;
+			display: flex;
+			align-content: inherit;
+			justify-content: center;
+			border-right: 3px solid white;
+			font-family: "Hind";
+			font-weight: 700;
+			.textBox {
+				color: white;
+				margin-top: 25px;
+				text-align: center;
+
+				h1 {
+					font-size: 24px;
+				}
+				h2 {
+					font-weight: 400;
+					font-size: 22px;
+					margin: 25px;
+					width: 250px;
+				}
+			}
+		}
+	}
+
+	.rContainer {
+		width: 76%;
+		height: 80%;
+		margin: 30px;
+		display: flex;
+		align-content: inherit;
+		justify-content: center;
+		font-family: "Hind";
+		font-weight: 700;
+		.textBox {
+			color: white;
+			margin-top: 25px;
+			text-align: center;
+
+			h1 {
+				font-size: 24px;
+			}
+			h2 {
+				font-weight: 400;
+				font-size: 22px;
+				margin: 25px;
+				width: 250px;
+			}
+		}
+	}
+
+	.bottom {
+		display: flex;
+		flex-direction: row;
+		flex: 0.5;
+		z-index: 2;
+		margin: 75px;
+		width: 1115px;
+		height: 388px;
+
+		.left {
+			width: 350px;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 50px;
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+		.right {
+			float: right;
+			background-color: $brandColor;
+			width: 725px;
+			height: 100%;
+
+			.textBox {
+				width: 90%;
+				height: 90%;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				font-family: "Hind";
+
+				.text {
+					color: white;
+					font-size: 18px;
+					margin-top: 30px;
+
+					h1 {
+						font-size: 24px;
+						margin-bottom: 15px;
+						margin-top: 25px;
+					}
+					p {
+						margin-bottom: 20px;
+					}
+					ul {
+						margin-bottom: 20px;
+
+						li {
+							list-style: none;
+							margin-bottom: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

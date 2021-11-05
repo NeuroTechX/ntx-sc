@@ -1,9 +1,9 @@
-import "./landing.scss";
+import "./gsLanding.scss";
 
-export default function Landing() {
+export default function GsLanding() {
 	return (
 		<div
-			className="landing"
+			className="gsLanding"
 			// initial={{ opacity: 0 }}
 			// animate={{ opacity: 1 }}
 			// transition={{ duration: 1, delay: 0.5 }}
@@ -19,23 +19,13 @@ export default function Landing() {
 					// 	delay: 1,
 					// }}
 				>
-					<div className="banner">
-						<h2>NEUROTECHX STUDENT CLUBS</h2>
-						<h3>COMPETITION 2021</h3>
+					<div className="top">
+						<h1>GET STARTED</h1>
 					</div>
 					<div className="bottom">
 						<div className="btn-container">
 							<button className="btn">
-								ONLINE COMPETITION
-							</button>
-							<button className="btn">
-								PREVIOUS EDITIONS
-							</button>
-							<button className="btn">
-								OVERALL LEADERBOARD
-							</button>
-							<button className="btn">
-								TOP 5 FAVOURITE PROJECTS
+								FIRST STEPS
 							</button>
 						</div>
 					</div>
