@@ -4,64 +4,47 @@ export default function Gs1() {
 	return (
 		<div className="gs1">
 			<div className="backgroundColumn"></div>
+
 			<div className="top">
-				<div className="container">
-					<div className="textBox">
-						<h1>1. Meet with people</h1>
-						<h2>
-							Probe interest Minimum number of 3 is
-							recommended Find mentors (graduate students
-							and/or prof)
-						</h2>
-					</div>
-				</div>
-				<div className="container">
-					<div className="textBox">
-						<h1>2. Organize your team</h1>
-						<h2>
-							Shared Resources (G-Drive) Organization &
-							Planning Members & Roles
-						</h2>
-					</div>
-				</div>
-				<div className="rContainer">
-					<div className="textBox">
-						<h1>3. Seek university approval</h1>
-						<h2>
-							For money, meeting space, help with
-							communications, etc.
-						</h2>
-					</div>
-				</div>
-			</div>
-			<div className="bottom">
 				<div className="left">
-					<img
-						src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
-						alt=""
-					/>
-				</div>
-				<div className="right">
 					<div className="textBox">
 						<div className="text">
 							<h1>
-								4. Start website (required for sponsorship
-								& hardware)
+								5. Start by reproducing experiments to
+								build competences
 							</h1>
-							<p>
-								Your student club website should contain
-								at least the following information:
-							</p>
+							<p>Here is a list of resources:</p>
 
 							<ul>
-								<li>University</li>
-								<li>logo </li>
-								<li>Projects </li>
-								<li>Team</li>
-								<li> Partners</li>
-								<li>Contact Us / Join our Club!</li>
+								<li>Curriculum</li>
+								<li>NeurotechEDU</li>
+								<li>Awesome list of resources</li>
+								<li>Badges / Leaderboard</li>
 							</ul>
 						</div>
+					</div>
+				</div>
+				<div className="right">
+					<img
+						src="https://images.unsplash.com/photo-1572625259782-94ac200efcdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+						alt=""
+					/>
+				</div>
+			</div>
+			<div className="bottom">
+				<div className="container">
+					<div className="textBox">
+						<h1>6. Seek fabrication space*</h1>
+						<h2>Many cities have FabLab</h2>
+					</div>
+				</div>
+
+				<div className="rContainer">
+					<div className="textBox">
+						<h1>7. Organize your own event(s)</h1>
+						<h2>
+							Introduction / Demonstration NeuroTech 101
+						</h2>
 					</div>
 				</div>
 			</div>
