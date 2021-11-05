@@ -1,4 +1,5 @@
 import "./landing.scss";
+import { Link } from "react-router-dom";
 
 export default function Landing() {
 	return (
@@ -28,13 +29,38 @@ export default function Landing() {
 					</div>
 					<div className="bottom">
 						<div className="btn-container">
-							<button className="btn">ABOUT</button>
-							<button className="btn">
-								COMPETITION
-							</button>
-							<button className="btn">
-								GET STARTED
-							</button>
+							<Link
+								to="/started"
+								style={{
+									textDecoration: "none",
+									color: "inherit",
+								}}
+							>
+								<button className="btn">ABOUT</button>
+							</Link>
+							<Link
+								to="/competition"
+								style={{
+									textDecoration: "none",
+									color: "inherit",
+								}}
+							>
+								<button className="btn">
+									COMPETITION
+								</button>
+							</Link>
+
+							<Link
+								to="/started"
+								style={{
+									textDecoration: "none",
+									color: "inherit",
+								}}
+							>
+								<button className="btn">
+									GET STARTED
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>

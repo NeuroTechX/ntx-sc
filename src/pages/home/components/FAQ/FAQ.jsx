@@ -25,7 +25,7 @@ const FAQ = () => {
 						on, can we pick our own projects?
 					</h2>
 					<button>+</button>
-					<h3></h3>
+					<h3>fdsa</h3>
 				</div>
 				<div className="questionBox">
 					<h2>
@@ -35,14 +35,14 @@ const FAQ = () => {
 						Initiative and Competitions?
 					</h2>
 					<button>+</button>
-					<h3></h3>
+					<h3>fdsa</h3>
 				</div>
 				<div className="questionBox">
 					<h2>
 						Wow! I want to join, where do I start?
 					</h2>
 					<button>+</button>
-					<h3></h3>
+					<h3>fdsa</h3>
 				</div>
 				<div className="btn-container">
 					<button>More FAQs</button>

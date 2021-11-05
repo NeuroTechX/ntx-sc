@@ -1,4 +1,4 @@
-import CILanding from "./components/landing/CILanding";
+import CILanding from "./components/CILanding";
 
 function CompetitionInfo() {
 	return (
