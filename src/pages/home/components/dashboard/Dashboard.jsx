@@ -1,4 +1,3 @@
-import Footer from "../footer/Footer";
 import "./dashboard.scss";
 
 const Dashboard = () => {
@@ -30,7 +29,6 @@ const Dashboard = () => {
 					</div>
 				</div>
 			</div>
-			<Footer />
 		</>
 	);
 };
