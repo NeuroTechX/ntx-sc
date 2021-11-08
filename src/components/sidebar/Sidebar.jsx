@@ -10,17 +10,24 @@ export default function Sidebar({
 		<div
 			className={"sidebar " + (menuOpen && "active")}
 		>
-			∫
-			<div className="sidebar-top">
-				<span className="brand">
-					<img
-						src={logo}
-						alt="Logo"
-						className="icon"
-					/>
-					Student Clubs
-				</span>
-			</div>
+			<Link
+				to="/"
+				style={{
+					textDecoration: "none",
+					color: "inherit",
+				}}
+			>
+				<div className="sidebar-top">
+					<span className="brand">
+						<img
+							src={logo}
+							alt="Logo"
+							className="icon"
+						/>
+						Student Clubs
+					</span>
+				</div>
+			</Link>
 			<div className="sidebar-center">
 				<ul className="list">
 					<li className="list-item">
@@ -31,7 +38,10 @@ export default function Sidebar({
 								color: "inherit",
 							}}
 						>
-							<span className="list-item-text link">
+							<span
+								className="list-item-text link"
+								onClick={() => setMenuOpen(false)}
+							>
 								Home
 							</span>
 						</Link>
@@ -42,7 +52,10 @@ export default function Sidebar({
 								color: "inherit",
 							}}
 						>
-							<span className="list-item-text link">
+							<span
+								className="list-item-text link"
+								onClick={() => setMenuOpen(false)}
+							>
 								Get Started
 							</span>
 						</Link>
@@ -53,7 +66,10 @@ export default function Sidebar({
 								color: "inherit",
 							}}
 						>
-							<span className="list-item-text link">
+							<span
+								className="list-item-text link"
+								onClick={() => setMenuOpen(false)}
+							>
 								Clubs
 							</span>
 						</Link>
@@ -64,7 +80,10 @@ export default function Sidebar({
 								color: "inherit",
 							}}
 						>
-							<span className="list-item-text">
+							<span
+								className="list-item-text"
+								onClick={() => setMenuOpen(false)}
+							>
 								Competition
 							</span>
 						</Link>
@@ -76,7 +95,10 @@ export default function Sidebar({
 								color: "inherit",
 							}}
 						>
-							<span className="list-item-text">
+							<span
+								className="list-item-text"
+								onClick={() => setMenuOpen(false)}
+							>
 								Partners
 							</span>
 						</Link>

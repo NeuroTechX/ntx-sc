@@ -4,10 +4,17 @@
 	display: flex;
 	align-items: center;
 	padding: 0px 20px;
-	transition: all 0.5s ease;
+	transition: all 0.8s ease;
 	z-index: 1000;
 	position: fixed;
-	background-color: transparent;
+	background-image: linear-gradient(
+		to right,
+		rgba(49, 175, 190, 0.7),
+		rgba(64, 123, 155, 0),
+		rgba(71, 76, 102, 0),
+		rgba(47, 38, 48, 0),
+		rgba(0, 0, 0, 0)
+	);
 
 	.left {
 		.hamburger {
@@ -29,7 +36,12 @@
 		}
 	}
 	&.active {
-		background-color: #111827;
+		background-image: linear-gradient(
+			to right,
+			#111827,
+			#111827
+		);
+		transition: all 0.5s ease;
 		color: #9ca3af;
 
 		.hamburger {

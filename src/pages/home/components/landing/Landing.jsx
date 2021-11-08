@@ -19,6 +19,7 @@ export default function Landing() {
 					// 	duration: 2,
 					// 	delay: 1,
 					// }}
+					id="home"
 				>
 					<div className="top">
 						<h1>WELCOME TO</h1>

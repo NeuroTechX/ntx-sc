@@ -12,6 +12,7 @@ import Clubs from "./pages/clubs/Clubs";
 import PartnersPage from "./pages/partners page/PartnersPage";
 import GetStarted from "./pages/get started page/GetStarted";
 import CompetitionInfo from "./pages/competitionInfo/CompetitionInfo";
+import PageNavigationListener from "./utilities/PageNavigationListener";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -19,6 +20,7 @@ function App() {
 		<div className="app">
 			<>
 				<Router>
+					<PageNavigationListener />
 					<Navbar
 						menuOpen={menuOpen}
 						setMenuOpen={setMenuOpen}
