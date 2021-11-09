@@ -1,12 +1,12 @@
-import "./alumni.scss";
-import { alumniClubs } from "../data";
+import "./participating.scss";
+import { studentClubs } from "../data";
 
-const New = () => {
+const Participating = () => {
 	return (
-		<div className="newClub">
+		<div className="participatingInfo">
 			<div className="container">
 				<div className="cards">
-					{alumniClubs.map((data) => (
+					{studentClubs.map((data) => (
 						<div className="card">
 							<a href={data.link} target="_blank">
 								<div className="infoBox">
@@ -28,4 +28,4 @@ const New = () => {
 	);
 };
 
-export default New;
+export default Participating;

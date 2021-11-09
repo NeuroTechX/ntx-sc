@@ -1,6 +1,10 @@
 import CLanding from "./components/clanding/CLanding";
-import ParticipatingBar from "./components/participating/ParticipatingBar";
-import Participating from "./components/participating/Participating";
+import ParticipatingBar from "./components/all/ParticipatingBar";
+import Participating from "./components/all/Participating";
+import New from "./components/new/New";
+import NewBar from "./components/new/NewBar";
+import AlumniBar from "./components/alumni/AlumniBar";
+import Alumni from "./components/alumni/Alumni";
 
 function Home() {
 	return (
@@ -8,6 +12,10 @@ function Home() {
 			<CLanding />
 			<ParticipatingBar />
 			<Participating />
+			<NewBar />
+			<New />
+			<AlumniBar />
+			<Alumni />
 		</div>
 	);
 }

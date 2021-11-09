@@ -1,6 +1,6 @@
-import "./participatingBar.scss";
+import "./newBar.scss";
 
-const WhyJoinBar = () => {
+const NewBar = () => {
 	return (
 		<div className="participatingBar">
 			<div className="participatingText">
@@ -10,4 +10,4 @@ const WhyJoinBar = () => {
 	);
 };
 
-export default WhyJoinBar;
+export default NewBar;
