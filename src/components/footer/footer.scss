@@ -18,46 +18,32 @@
 
 		.right {
 			display: flex;
-
-			flex: 0.2;
-			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			flex: 0.5;
+			flex-direction: row;
 			float: right;
-			margin: 50px 0 0 100px;
-			h1 {
-				font-size: 30px;
-				text-align: left;
+			margin: 50px;
+			a {
+				text-decoration: none;
+				color: inherit;
 			}
-			ul {
-				list-style: none;
-				text-align: left;
-				font-size: 20px;
+			.icon {
+				width: 100px;
+				height: 100px;
+				cursor: pointer;
 			}
 		}
 		.left {
 			display: flex;
 			flex-direction: column;
+			justify-content: center;
 			float: left;
-			flex: 0.8;
+			flex: 0.5;
 			margin: 50px;
-			.textBox {
-				width: 1000px;
-				h1 {
-					float: top;
-					font-size: 24px;
-				}
-				p {
-					font-size: 20px;
-					button {
-						margin: 5px 0;
-						border: none;
-						background: none;
-						font-size: inherit;
-						font-style: inherit;
-						color: inherit;
-						cursor: pointer;
-						font-weight: 600;
-					}
-				}
+			img {
+				width: 100px;
+				height: 100px;
 			}
 		}
 	}
