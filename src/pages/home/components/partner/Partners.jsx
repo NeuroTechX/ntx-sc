@@ -38,26 +38,6 @@ const Partners = () => {
 						/>
 					</div>
 				</div>
-				<div className="bottom">
-					<div className="bottomCard">
-						<img
-							src="https://www.gtec.at/wp-content/themes/gtc/images/logo.svg"
-							alt=""
-						/>
-					</div>
-					<div className="bottomCard">
-						<img
-							src="https://brainvision.com/wp-content/uploads/2016/11/Logo_BrainProducts.png"
-							alt=""
-						/>
-					</div>
-					<div className="bottomCard"></div>
-					<div className="bottomCard"></div>
-					<div className="bottomCard"></div>
-					<div className="bottomCard"></div>
-					<div className="bottomCard"></div>
-					<div className="bottomCard"></div>
-				</div>
 			</div>
 		</div>
 	);

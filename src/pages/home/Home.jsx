@@ -26,7 +26,7 @@ function Home() {
 			<News />
 			<PartnerBar />
 			<Partners />
-			<FAQ />
+			{/* <FAQ /> */}
 			<Dashboard />
 		</div>
 	);

@@ -52,7 +52,7 @@ export default function Landing() {
 							</Link>
 
 							<Link
-								to="/started"
+								to="/start"
 								style={{
 									textDecoration: "none",
 									color: "inherit",

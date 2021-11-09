@@ -24,9 +24,9 @@
 		flex: 0.5;
 		z-index: 2;
 		background-color: #b1bebf;
-		margin: 75px;
-		width: 1115px;
-		height: 388px;
+		margin-top: 75px;
+		width: 80%;
+		height: 400px;
 
 		.container {
 			width: 90%;
@@ -37,10 +37,14 @@
 			border-right: 3px solid white;
 			font-family: "Hind";
 			font-weight: 700;
+			position: relative;
 			.textBox {
+				position: absolute;
 				color: white;
-				margin-top: 25px;
+				margin-top: 12px;
 				text-align: center;
+				display: flex;
+				flex-direction: column;
 
 				h1 {
 					font-size: 24px;
@@ -48,7 +52,7 @@
 				h2 {
 					font-weight: 400;
 					font-size: 22px;
-					margin: 25px;
+					padding: 25px;
 					width: 250px;
 				}
 			}
@@ -64,10 +68,14 @@
 		justify-content: center;
 		font-family: "Hind";
 		font-weight: 700;
+		position: relative;
 		.textBox {
+			position: absolute;
 			color: white;
-			margin-top: 25px;
+			margin-top: 12px;
 			text-align: center;
+			display: flex;
+			flex-direction: column;
 
 			h1 {
 				font-size: 24px;
@@ -87,7 +95,7 @@
 		flex: 0.5;
 		z-index: 2;
 		margin: 75px;
-		width: 1115px;
+		width: 80%;
 		height: 388px;
 
 		.left {

@@ -16,6 +16,7 @@ export default function Sidebar({
 					textDecoration: "none",
 					color: "inherit",
 				}}
+				onClick={() => setMenuOpen(false)}
 			>
 				<div className="sidebar-top">
 					<span className="brand">
