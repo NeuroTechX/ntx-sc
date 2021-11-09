@@ -9,11 +9,6 @@ const About = () => {
 
 			<div className="main">
 				<div className="main-wrapper">
-					<div className="neuro">
-						<div className="imgContainer">
-							<img src={Logo} alt="" />
-						</div>
-					</div>
 					<div className="branch">
 						<div className="imgContainer">
 							<img

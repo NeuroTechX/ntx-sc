@@ -32,18 +32,6 @@ const Influencers = () => {
 								alt=""
 							/>
 						</div>
-						<div className="centerCard">
-							<img
-								src="https://maat.neurable.com/uploads/-/system/appearance/logo/1/LogoDark_StackCMYK.png"
-								alt=""
-							/>
-						</div>
-						<div className="centerCard">
-							<img
-								src="https://maat.neurable.com/uploads/-/system/appearance/logo/1/LogoDark_StackCMYK.png"
-								alt=""
-							/>
-						</div>
 					</div>
 				</div>
 			</div>
