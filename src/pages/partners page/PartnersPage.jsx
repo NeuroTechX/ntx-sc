@@ -1,7 +1,7 @@
 import Main from "./components/main partners/Main";
 import Landing from "./components/partnersLanding/PartnersLanding";
 import Partners from "./components/influencer/Influencers";
-import Supporters from "./components/supporters/Supporters";
+// import Supporters from "./components/previous supporters/";
 import PreviousSupporters from "./components/previous supporters/PreviousSupporters";
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
 			<Landing />
 			<Main />
 			<Partners />
-			<Supporters />
+			{/* <Supporters /> */}
 			<PreviousSupporters />
 		</div>
 	);

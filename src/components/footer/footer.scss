@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .footer {
 	position: relative;
 	width: 100vw;
@@ -20,7 +22,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: space-around;
-			flex: 0.5;
+			flex: 0.3;
 			flex-direction: row;
 			float: right;
 			margin: 50px;
@@ -29,9 +31,15 @@
 				color: inherit;
 			}
 			.icon {
-				width: 100px;
-				height: 100px;
+				width: 50px;
+				height: 50px;
 				cursor: pointer;
+				transition: all 1.5 ease;
+
+				&:hover {
+					color: $brandColor;
+					transform: scale(1.1);
+				}
 			}
 		}
 		.left {
