@@ -1,7 +1,7 @@
 @import "../../../../global.scss";
 
 .gs2 {
-	height: 100vh;
+	height: 175vh;
 	width: 100%;
 	background-color: #f6f6f6;
 	display: flex;
@@ -10,7 +10,7 @@
 	position: relative;
 	flex-direction: column;
 	.backgroundColumn {
-		height: 100vh;
+		height: 100%;
 		width: 50%;
 		background-color: rgba(221, 239, 241, 0.95);
 		z-index: 1;
@@ -21,16 +21,16 @@
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		flex: 0.5;
+		flex: 0.4;
 		z-index: 2;
 		background-color: #b1bebf;
-		margin-top: 75px;
+		margin-top: 100px;
+		margin-bottom: 75px;
 		width: 80%;
-		height: 400px;
 
 		.container {
 			width: 90%;
-			height: 80%;
+			height: 50%;
 			display: flex;
 			align-content: inherit;
 			justify-content: center;
@@ -47,11 +47,11 @@
 				flex-direction: column;
 
 				h1 {
-					font-size: 24px;
+					font-size: 26px;
 				}
 				h2 {
 					font-weight: 400;
-					font-size: 22px;
+					font-size: 24px;
 					padding: 25px;
 					width: 250px;
 				}
@@ -61,7 +61,7 @@
 
 	.rContainer {
 		width: 76%;
-		height: 80%;
+		height: 50%;
 		margin: 30px;
 		display: flex;
 		align-content: inherit;
