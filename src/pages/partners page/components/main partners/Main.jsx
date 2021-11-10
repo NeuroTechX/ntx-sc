@@ -9,14 +9,20 @@ const About = () => {
 
 			<div className="main">
 				<div className="main-wrapper">
-					<div className="branch">
-						<div className="imgContainer">
-							<img
-								src="https://d3n8a8pro7vhmx.cloudfront.net/branchout/sites/1/meta_images/original/branchout-logo.png?1422309089"
-								alt=""
-							/>
+					<a
+						href="https://shop.openbci.com/collections/frontpage"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<div className="branch">
+							<div className="imgContainer">
+								<img
+									src="https://d3n8a8pro7vhmx.cloudfront.net/branchout/sites/1/meta_images/original/branchout-logo.png?1422309089"
+									alt=""
+								/>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</>
