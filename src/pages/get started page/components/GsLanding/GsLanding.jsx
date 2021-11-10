@@ -24,9 +24,11 @@ export default function GsLanding() {
 					</div>
 					<div className="bottom">
 						<div className="btn-container">
-							<button className="btn">
-								FIRST STEPS
-							</button>
+							<a href="#getStarted">
+								<button className="btn">
+									FIRST STEPS
+								</button>
+							</a>
 						</div>
 					</div>
 				</div>

@@ -2,7 +2,7 @@ import "./gs2.scss";
 
 export default function Gs2() {
 	return (
-		<div className="gs2">
+		<div className="gs2" id="getStarted">
 			<div className="backgroundColumn"></div>
 			<div className="top">
 				<div className="container">

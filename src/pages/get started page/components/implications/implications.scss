@@ -1,14 +1,14 @@
 @import "../../../../global.scss";
 
 .implications {
-	height: 225vh;
+	height: 250vh;
 	display: flex;
 	justify-content: center;
 	background-color: #f6f6f6;
 	position: relative;
 
 	.backgroundColumn {
-		height: 190vh;
+		height: 85%;
 		width: 50%;
 		background-color: rgba(221, 239, 241, 0.95);
 		z-index: 1;
