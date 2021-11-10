@@ -1,6 +1,6 @@
 import "./main.scss";
 import PartnersBar from "./PartnersBar";
-import Logo from "../../assets/NTX-Logo-Black.png";
+// import Logo from "../../assets/NTX-Logo-Black.png";
 
 const About = () => {
 	return (
