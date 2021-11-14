@@ -103,6 +103,20 @@ export default function Sidebar({
 								Partners
 							</span>
 						</Link>
+						<Link
+							to="/faq"
+							style={{
+								textDecoration: "none",
+								color: "inherit",
+							}}
+						>
+							<span
+								className="list-item-text link"
+								onClick={() => setMenuOpen(false)}
+							>
+								FAQ
+							</span>
+						</Link>
 					</li>
 				</ul>
 			</div>

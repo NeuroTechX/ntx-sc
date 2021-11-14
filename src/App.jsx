@@ -12,6 +12,7 @@ import Clubs from "./pages/clubs/Clubs";
 import PartnersPage from "./pages/partners page/PartnersPage";
 import GetStarted from "./pages/get started page/GetStarted";
 import CompetitionInfo from "./pages/competitionInfo/CompetitionInfo";
+import FAQLanding from "./pages/FAQ/FAQLanding";
 import PageNavigationListener from "./utilities/PageNavigationListener";
 
 function App() {
@@ -44,6 +45,9 @@ function App() {
 						</Route>
 						<Route path="/competition">
 							<CompetitionInfo />
+						</Route>
+						<Route path="/faq">
+							<FAQLanding />
 						</Route>
 					</Switch>
 					<Footer />
