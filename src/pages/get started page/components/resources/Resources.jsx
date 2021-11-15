@@ -12,13 +12,10 @@ export default function Resources() {
 						<h1>EDU</h1>
 					</div>
 					<div className="infoBox">
-						<h1>NTX BRANDING/MARKETING/SWAG</h1>
+						<h1>NTX SWAG</h1>
 					</div>
 					<div className="infoBox">
 						<h1>NTX STORE</h1>
-					</div>
-					<div className="infoBox">
-						<h1>NEUROTECHX.com</h1>
 					</div>
 				</div>
 				<div className="cards">
@@ -42,13 +39,6 @@ export default function Resources() {
 							alt=""
 						/>
 						<h2>fdsa</h2>
-					</div>
-					<div className="card">
-						<img
-							src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80 "
-							alt=""
-						/>
-						<h2>fds</h2>
 					</div>
 				</div>
 				<button></button>

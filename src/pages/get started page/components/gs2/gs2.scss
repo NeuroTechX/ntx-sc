@@ -112,7 +112,7 @@
 			}
 		}
 		.right {
-			float: right;
+			display: flex;
 			background-color: $brandColor;
 			width: 80%;
 			height: 100%;
@@ -127,11 +127,11 @@
 
 				.text {
 					color: white;
-					margin-top: 30px;
+					margin-top: 15px;
 
 					h1 {
 						font-size: 2.3vw;
-						margin: 15px;
+						margin: 10px;
 					}
 					p {
 						margin-bottom: 195px;
@@ -141,11 +141,11 @@
 					ul {
 						margin-bottom: 20px;
 						font-size: 1.5vw;
-						margin: 15px;
+						margin: 10px;
 
 						li {
 							list-style: none;
-							margin-bottom: 15px;
+							margin-bottom: 10px;
 						}
 					}
 				}
