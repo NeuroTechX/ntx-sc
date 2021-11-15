@@ -9,7 +9,6 @@ import JoinInfo from "./components/JoinInfo/JoinInfo";
 import News from "./components/news/News";
 import PartnerBar from "./components/partner/PartnerBar";
 import Partners from "./components/partner/Partners";
-// import FAQ from "./components/FAQ/FAQ";
 import Dashboard from "./components/dashboard/Dashboard";
 
 function Home() {
@@ -26,7 +25,6 @@ function Home() {
 			<News />
 			<PartnerBar />
 			<Partners />
-			{/* <FAQ /> */}
 			<Dashboard />
 		</div>
 	);
