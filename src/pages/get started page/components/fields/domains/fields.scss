@@ -2,7 +2,7 @@
 
 .fields {
 	height: 200vh;
-	width: 100%;
+	width: 100vw;
 	background-color: #f6f6f6;
 	display: flex;
 	justify-content: center;
@@ -10,8 +10,8 @@
 
 	.banner {
 		position: absolute;
-		width: 400px;
-		height: 148px;
+		width: 40%;
+		height: 10%;
 		top: 50px;
 		left: 0;
 		z-index: 3;
@@ -23,7 +23,7 @@
 			color: white;
 			font-family: "Saira";
 			font-weight: bold;
-			font-size: 40px;
+			font-size: 4vw;
 		}
 	}
 
@@ -35,21 +35,21 @@
 		position: absolute;
 
 		.textBox {
-			padding-top: 100px;
-			margin-left: 475px;
+			padding-top: 10%;
+			margin-left: 70%;
 			width: 40%;
 			height: 100%;
 			font-family: Hind;
 			font-style: normal;
-			font-size: 21px;
+			font-size: 1.9vw;
 			line-height: 35px;
 			color: #000000;
 		}
 	}
 
 	.imgContainer {
-		width: 531px;
-		height: 949px;
+		width: 45%;
+		height: 60%;
 		z-index: 4;
 		position: absolute;
 		left: 100px;

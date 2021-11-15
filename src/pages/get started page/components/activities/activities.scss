@@ -2,7 +2,7 @@
 
 .activities {
 	height: 125vh;
-	width: 100%;
+	width: 100vw;
 	background-color: #f6f6f6;
 	display: flex;
 	justify-content: center;
@@ -36,14 +36,13 @@
 
 		.textBox {
 			padding-top: 35%;
-			padding-left: 3%;
+			padding-left: 5%;
 			width: 460px;
 			height: 900px;
 			font-family: Hind;
 			font-style: normal;
 			font-weight: normal;
 			font-size: 1.7vw;
-
 			line-height: 38px;
 
 			color: #000000;
