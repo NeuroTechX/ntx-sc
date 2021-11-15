@@ -1,43 +1,45 @@
 import "./faq.scss";
-import { Add } from "@mui/icons-material";
+import { Add, Remove } from "@mui/icons-material";
+import { useState } from "react";
+import { FAQData } from "./FAQData";
 
 const FAQ = () => {
+	const [clicked, setClicked] = useState(false);
+
+	const toggle = (index) => {
+		if (clicked === index) {
+			return setClicked(null);
+		}
+
+		setClicked(index);
+	};
+
 	return (
 		<div className="faq">
 			<div className="container">
-				<div className="questionBox">
-					<h2>
-						Do we have to call our student club
-						NeuroTech[something] like most of NeuroTechX
-						initiatives and chapters?
-					</h2>
-					<div className="seeMore">
-						<Add />
-					</div>
-				</div>
-				<h3 className="answer">
-					No. We actually discourage you to name your
-					student club with “NeuroTech” in it, as
-					cities Chapters are named NeuroTech[City]. Be
-					original!
-				</h3>
-				<div className="questionBox">
-					<h2>
-						Do we have to call our student club
-						NeuroTech[something] like most of NeuroTechX
-						initiatives and chapters?
-					</h2>
-					<div className="seeMore">
-						<span className="line1"></span>
-						<span className="line2"></span>
-					</div>
-				</div>
-				<h3 className="answer">
-					No. We actually discourage you to name your
-					student club with “NeuroTech” in it, as
-					cities Chapters are named NeuroTech[City]. Be
-					original!
-				</h3>
+				{FAQData.map((item, index) => {
+					return (
+						<>
+							<div
+								className="questionBox"
+								onClick={() => toggle(index)}
+								key={index}
+							>
+								<h2>{item.question}</h2>
+								<div className="seeMore">
+									{clicked === index ? (
+										<Remove />
+									) : (
+										<Add />
+									)}
+								</div>
+							</div>
+							{clicked === index ? (
+								<h3 className="answer ">{item.answer}</h3>
+							) : null}
+						</>
+					);
+				})}
 			</div>
 		</div>
 	);
