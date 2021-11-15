@@ -10,8 +10,8 @@
 
 	.banner {
 		position: absolute;
-		width: 900px;
-		height: 148px;
+		width: 60%;
+		height: 10%;
 		top: 50px;
 		left: 100px;
 		z-index: 3;
@@ -23,27 +23,27 @@
 			color: white;
 			font-family: "Saira";
 			font-weight: bold;
-			font-size: 40px;
+			font-size: 3.5vw;
 		}
 	}
 
 	.container {
-		height: 900px;
-		width: 75%;
+		height: 93%;
+		width: 69%;
 		background-color: rgba(221, 239, 241, 0.95);
 		z-index: 1;
 		position: absolute;
 
 		.textBox {
-			padding-top: 250px;
-			padding-left: 100px;
+			padding-top: 35%;
+			padding-left: 3%;
 			width: 460px;
 			height: 900px;
-
 			font-family: Hind;
 			font-style: normal;
 			font-weight: normal;
-			font-size: 20px;
+			font-size: 1.7vw;
+
 			line-height: 38px;
 
 			color: #000000;
@@ -51,8 +51,8 @@
 	}
 
 	.imgContainer {
-		width: 473.24px;
-		height: 900px;
+		width: 33%;
+		height: 93%;
 		z-index: 4;
 		position: absolute;
 		right: 0px;
