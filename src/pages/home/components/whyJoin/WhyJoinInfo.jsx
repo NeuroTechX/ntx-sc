@@ -5,32 +5,33 @@ const WhyJoinInfo = () => {
 		<div className="wji">
 			<div className="wji-wrapper">
 				<div className="wji-left">
-					<h1 className="wji-title">
-						WHAT WE’RE ALL ABOUT
-					</h1>
 					<p className="wji-text">
-						Neurotechnology has never been this
-						accessible before. We want to catalyze the
-						interest and involvement of skilled students
-						by providing them with a precise goal to
-						work towards and the resources to get there.
+						<ul>
+							<li> Access to resources. </li>
+							<li>Access to competitions.</li>
+							<li> Access to our partners. </li>
+							<li>
+								Access to internship & job opportunities.
+							</li>
+							<li>
+								Access to research labs. (for graduate
+								programs & RA)
+							</li>
+							<li>
+								Be part of the International
+								Neurotechnology Network.
+							</li>
+							<li> Be part of this amazing journey!</li>
+							<li>Help us shape the future. </li>
+							<li>Get visibility.</li>
+							<li>Both for you and your school. </li>
+							<li>Discounts with</li>
+							<li>
+								our partners (hardware, events, etc.)
+							</li>
+						</ul>
 					</p>
-					<p className="wji-text">
-						The NeuroTechX Student Club Competition
-						promotes interdisciplinary collaboration,
-						preparing the participants for careers and
-						excellence in science, technology,
-						engineering and mathematics (STEM) through
-						self-learning, knowledge sharing, and
-						practical experimentation.
-					</p>
-					<p className="wji-text">
-						We believe neurotechnology is key to better
-						understanding and to improving who we are.
-						We aim to inspire a whole new generation of
-						neuroengineers, who will be equipped to
-						drive the field forward.
-					</p>
+
 					<div className="wji-button-container">
 						<button className="wji-button">
 							WATCH OUR VIDEO TO LEARN MORE!

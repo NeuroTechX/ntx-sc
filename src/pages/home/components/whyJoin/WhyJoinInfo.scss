@@ -1,7 +1,7 @@
 @import "../../../../global.scss";
 
 .wji {
-	height: 100vh;
+	height: 115vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -15,9 +15,10 @@
 		top: 0;
 
 		.wji-left {
+			padding-top: 50px;
 			display: flex;
 			flex-direction: column;
-			justify-content: space-between;
+			justify-content: space-around;
 			flex: 1.2;
 			background-color: $backgroundColor;
 			h1 {
@@ -25,8 +26,8 @@
 				font-family: "Saira", sans-serif;
 				font-style: normal;
 				font-weight: bold;
-				font-size: 40px;
-				line-height: 63px;
+				font-size: 4vw;
+				line-height: 4vh;
 			}
 
 			p {
@@ -37,8 +38,8 @@
 				font-family: Hind;
 				font-style: normal;
 				font-weight: normal;
-				font-size: 20px;
-				line-height: 38px;
+				font-size: 2vw;
+				line-height: 5vh;
 				margin: 25px 0 0 50px;
 			}
 
@@ -49,7 +50,7 @@
 				margin-bottom: 25px;
 
 				.wji-button {
-					width: 437px;
+					width: 30vw;
 					height: 60px;
 					border-radius: 15px;
 					background-color: $buttonColor;

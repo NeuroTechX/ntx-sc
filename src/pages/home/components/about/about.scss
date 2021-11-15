@@ -1,7 +1,7 @@
 @import "../../../../global.scss";
 
 .about {
-	height: 100vh;
+	height: 115vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -18,12 +18,12 @@
 			flex: 1.2;
 			background-color: $backgroundColor;
 			h1 {
-				margin: 25px 0 0 50px;
+				margin: 50px 0 0 50px;
 				font-family: "Saira", sans-serif;
 				font-style: normal;
 				font-weight: bold;
-				font-size: 40px;
-				line-height: 63px;
+				font-size: 4vw;
+				line-height: 4vh;
 			}
 
 			p {
@@ -34,7 +34,9 @@
 				font-family: Hind;
 				font-style: normal;
 				font-weight: normal;
-				font-size: 20px;
+				font-size: 3vh;
+				font-size: 2vw;
+
 				line-height: 38px;
 				margin: 25px 0 0 50px;
 			}
