@@ -26,11 +26,11 @@
 		background-color: #b1bebf;
 		margin-top: 100px;
 		margin-bottom: 75px;
-		width: 80%;
+		width: 90%;
 
 		.container {
-			width: 90%;
-			height: 50%;
+			width: 100%;
+			height: 70%;
 			display: flex;
 			align-content: inherit;
 			justify-content: center;
@@ -38,20 +38,20 @@
 			font-family: "Hind";
 			font-weight: 700;
 			position: relative;
+
 			.textBox {
 				position: absolute;
 				color: white;
-				margin-top: 12px;
 				text-align: center;
 				display: flex;
 				flex-direction: column;
 
 				h1 {
-					font-size: 26px;
+					font-size: 2.4vw;
 				}
 				h2 {
 					font-weight: 400;
-					font-size: 24px;
+					font-size: 1.9vw;
 					padding: 25px;
 					width: 250px;
 				}
@@ -60,8 +60,9 @@
 	}
 
 	.rContainer {
-		width: 76%;
-		height: 50%;
+		width: 75%;
+		height: 70%;
+
 		margin: 30px;
 		display: flex;
 		align-content: inherit;
@@ -72,17 +73,16 @@
 		.textBox {
 			position: absolute;
 			color: white;
-			margin-top: 12px;
 			text-align: center;
 			display: flex;
 			flex-direction: column;
 
 			h1 {
-				font-size: 24px;
+				font-size: 2.4vw;
 			}
 			h2 {
 				font-weight: 400;
-				font-size: 22px;
+				font-size: 1.9vw;
 				margin: 25px;
 				width: 250px;
 			}
@@ -95,7 +95,7 @@
 		flex: 0.5;
 		z-index: 2;
 		margin: 75px;
-		width: 80%;
+		width: 90%;
 		height: 388px;
 
 		.left {
@@ -114,12 +114,12 @@
 		.right {
 			float: right;
 			background-color: $brandColor;
-			width: 725px;
+			width: 80%;
 			height: 100%;
 
 			.textBox {
-				width: 90%;
-				height: 90%;
+				width: 100%;
+				height: 100%;
 				display: flex;
 				align-items: center;
 				justify-content: space-around;
@@ -127,19 +127,21 @@
 
 				.text {
 					color: white;
-					font-size: 18px;
 					margin-top: 30px;
 
 					h1 {
-						font-size: 24px;
-						margin-bottom: 15px;
-						margin-top: 25px;
+						font-size: 2.3vw;
+						margin: 15px;
 					}
 					p {
-						margin-bottom: 20px;
+						margin-bottom: 195px;
+						margin: 10px;
+						font-size: 1.8vw;
 					}
 					ul {
 						margin-bottom: 20px;
+						font-size: 1.5vw;
+						margin: 15px;
 
 						li {
 							list-style: none;

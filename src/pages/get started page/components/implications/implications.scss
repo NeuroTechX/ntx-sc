@@ -16,7 +16,7 @@
 	}
 
 	.banner {
-		width: 1114px;
+		width: 90%;
 		height: 148px;
 		z-index: 3;
 		background: #31afbe;
@@ -27,18 +27,18 @@
 			color: white;
 			font-family: "Saira";
 			font-weight: bold;
-			font-size: 40px;
+			font-size: 3vw;
 		}
 	}
 	.left {
-		width: 543px;
-		height: 1435px;
+		display: flex;
+		width: 45%;
+		height: 80%;
 		z-index: 2;
 		top: 200px;
-		left: 10%;
+		left: 0;
 		position: absolute;
 		.imgContainer {
-			position: relative;
 			width: 100%;
 			height: 100%;
 
@@ -52,9 +52,10 @@
 	}
 
 	.right {
-		width: 410px;
-		height: 1435px;
-		right: 20%;
+		display: flex;
+		width: 40%;
+		height: 100%;
+		right: 10%;
 		top: 200px;
 		z-index: 2;
 		position: absolute;
@@ -67,8 +68,8 @@
 		p {
 			color: black;
 			font-family: "Hind";
-			font-size: 20px;
-			line-height: 30.42px;
+			font-size: 1.5vw;
+			line-height: 3vw;
 		}
 	}
 }

@@ -24,32 +24,38 @@
 		flex: 0.4;
 		z-index: 2;
 		background-color: #b1bebf;
-		margin-bottom: 150px;
-		margin-top: 75px;
-		width: 1115px;
-		height: 388px;
+		padding-top: 70px;
+		padding-bottom: 35px;
+		width: 90%;
+		height: 80%;
 
 		.container {
-			width: 90%;
-			height: 80%;
+			width: 100%;
+			height: 100%;
 			display: flex;
-			align-content: inherit;
+			align-content: center;
 			justify-content: center;
 			border-right: 3px solid white;
 			font-family: "Hind";
 			font-weight: 700;
+			position: relative;
+
 			.textBox {
+				position: absolute;
 				color: white;
-				margin-top: 25px;
 				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
 
 				h1 {
-					font-size: 26px;
+					font-size: 2.4vw;
 				}
 				h2 {
 					font-weight: 400;
-					font-size: 24px;
-					margin: 25px;
+					font-size: 1.9vw;
+					padding: 25px;
 					width: 250px;
 				}
 			}
@@ -58,25 +64,29 @@
 
 	.rContainer {
 		width: 76%;
-		height: 80%;
+		height: 100%;
 		margin: 30px;
 		display: flex;
-		align-content: inherit;
+		align-items: center;
 		justify-content: center;
 		font-family: "Hind";
 		font-weight: 700;
 		.textBox {
+			position: absolute;
 			color: white;
-			margin-top: 25px;
 			text-align: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
 
 			h1 {
-				font-size: 24px;
+				font-size: 2.4vw;
 			}
 			h2 {
 				font-weight: 400;
-				font-size: 22px;
-				margin: 25px;
+				font-size: 1.9vw;
+				padding: 25px;
 				width: 250px;
 			}
 		}
@@ -88,11 +98,12 @@
 		flex: 0.5;
 		z-index: 2;
 		margin: 75px;
-		width: 1115px;
+		width: 90%;
+
 		height: 388px;
 
 		.right {
-			width: 350px;
+			width: 40%;
 			height: 100%;
 			display: flex;
 			align-items: center;
@@ -106,12 +117,12 @@
 		}
 		.left {
 			background-color: $brandColor;
-			width: 725px;
+			width: 80%;
 			height: 100%;
 
 			.textBox {
-				width: 90%;
-				height: 90%;
+				width: 100%;
+				height: 100%;
 				display: flex;
 				align-items: center;
 				justify-content: space-around;
@@ -119,20 +130,21 @@
 
 				.text {
 					color: white;
-					font-size: 18px;
 					margin-top: 30px;
-					margin-left: 25px;
 
 					h1 {
-						font-size: 24px;
-						margin-bottom: 15px;
-						margin-top: 25px;
+						font-size: 2.3vw;
+						margin: 15px;
 					}
 					p {
-						margin-bottom: 20px;
+						margin-bottom: 195px;
+						margin: 10px;
+						font-size: 1.8vw;
 					}
 					ul {
 						margin-bottom: 20px;
+						font-size: 1.5vw;
+						margin: 15px;
 
 						li {
 							list-style: none;
