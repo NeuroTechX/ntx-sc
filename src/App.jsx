@@ -1,4 +1,5 @@
 import Navbar from "./components/navbar/Navbar";
+import OutsideClickHandler from "react-outside-click-handler";
 import { useEffect, useState } from "react";
 import {
 	BrowserRouter as Router,
@@ -18,25 +19,23 @@ import PageNavigationListener from "./utilities/PageNavigationListener";
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
 
-	useEffect(() => {
-		document.addEventListener("mousedown", () => {
-			setMenuOpen(false);
-		});
-	});
-
 	return (
 		<div className="app">
 			<>
 				<Router>
-					<PageNavigationListener />
-					<Navbar
-						menuOpen={menuOpen}
-						setMenuOpen={setMenuOpen}
-					/>
-					<Sidebar
-						menuOpen={menuOpen}
-						setMenuOpen={setMenuOpen}
-					/>
+					<OutsideClickHandler
+						onOutsideClick={() => setMenuOpen(false)}
+					>
+						<PageNavigationListener />
+						<Navbar
+							menuOpen={menuOpen}
+							setMenuOpen={setMenuOpen}
+						/>
+						<Sidebar
+							menuOpen={menuOpen}
+							setMenuOpen={setMenuOpen}
+						/>
+					</OutsideClickHandler>
 					<Switch>
 						<Route exact path="/">
 							<Home />
