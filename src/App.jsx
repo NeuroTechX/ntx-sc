@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar/Navbar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
 	BrowserRouter as Router,
 	Switch,
@@ -17,6 +17,13 @@ import PageNavigationListener from "./utilities/PageNavigationListener";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
+
+	useEffect(() => {
+		document.addEventListener("mousedown", () => {
+			setMenuOpen(false);
+		});
+	});
+
 	return (
 		<div className="app">
 			<>
