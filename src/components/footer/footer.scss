@@ -48,10 +48,10 @@
 			justify-content: center;
 			float: left;
 			flex: 0.5;
-			margin: 50px;
 			img {
-				width: 100px;
-				height: 100px;
+				width: 75px;
+				height: 75px;
+				object-fit: contain;
 			}
 		}
 	}
