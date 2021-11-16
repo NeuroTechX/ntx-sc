@@ -3,7 +3,7 @@ import { alumniClubs } from "../data";
 
 const New = () => {
 	return (
-		<div className="newClub">
+		<div className="alumni">
 			<div className="container">
 				<div className="cards">
 					{alumniClubs.map((data) => (

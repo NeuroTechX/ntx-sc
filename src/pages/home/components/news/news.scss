@@ -26,9 +26,8 @@
 		position: relative;
 
 		.welcome {
-			height: 300px;
-			width: 650px;
-			padding: 25px 25px;
+			height: 80%;
+			width: 80%;
 			border-radius: 15px;
 			background: rgb(211, 211, 211);
 			background: radial-gradient(
@@ -49,61 +48,43 @@
 			position: absolute;
 
 			.top {
+				display: flex;
+				flex-direction: row;
+
 				h1 {
 					font-family: "Saira";
-					font-size: 50px;
-					font-style: normal;
-					font-weight: bold;
-					font-size: 50px;
-					font-weight: 400;
+					font-size: 4vw;
 				}
 			}
 
 			.center {
-				font-family: "Hind", sans-serif;
 				display: flex;
 				flex-direction: column;
-				font-weight: normal;
+				align-items: center;
+				justify-content: center;
+				border: 1px solid black;
+				font-family: "Hind", sans-serif;
+				width: 90%;
+				height: 70%;
+				margin-bottom: 5%;
+				overflow-y: scroll;
 
 				h2 {
-					font-size: 20px;
-					margin: 30px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					flex: 2;
 				}
 
 				h3 {
-					font-size: 20px;
-					margin: 30px;
+					flex: 8;
+					margin: 5%;
 				}
 			}
 
 			.bottom {
 				font-family: inherit;
 				.btn-container {
-					height: 50px;
-					width: 650px;
-					display: flex;
-					flex-direction: row;
-					align-items: center;
-					justify-content: center;
-					overflow: hidden;
-
-					.btn {
-						margin: 20px;
-						padding: 7px;
-						font-size: 24px;
-						font-family: Hind;
-						color: rgb(255, 255, 255);
-						background-color: $buttonColor;
-						outline: none;
-						border-style: none;
-						border-radius: 15px;
-						cursor: pointer;
-						transition: all 0.5s ease;
-
-						&:hover {
-							background-color: $buttonHover;
-						}
-					}
 				}
 			}
 		}

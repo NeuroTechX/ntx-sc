@@ -20,15 +20,39 @@ export default function News() {
 					// }}
 				>
 					<div className="top">
-						<h1>NEWS</h1>
+						<h1>News</h1>
 					</div>
 					<div className="center">
 						<h2>
-							Updated news here. Might be able to add a
-							carousel function right in this text box
-							and people can search through old news
+							Lorem ipsum dolor sit amet consectetur
+							adipisicing elit.
 						</h2>
-						<h3>news news and more news :). </h3>
+						<h3>
+							Lorem ipsum dolor sit amet consectetur,
+							adipisicing elit. Asperiores pariatur earum
+							temporibus reprehenderit aspernatur tempora
+							est, recusandae iure quo sunt fugit
+							excepturi, veritatis itaque, nostrum quis
+							maxime voluptas porro rem. Lorem ipsum
+							dolor sit amet consectetur, adipisicing
+							elit. Asperiores pariatur earum temporibus
+							reprehenderit aspernatur tempora est,
+							recusandae iure quo sunt fugit excepturi,
+							veritatis itaque, nostrum quis maxime
+							voluptas porro rem. Lorem ipsum dolor sit
+							amet consectetur, adipisicing elit.
+							Asperiores pariatur earum temporibus
+							reprehenderit aspernatur tempora est,
+							recusandae iure quo sunt fugit excepturi,
+							veritatis itaque, nostrum quis maxime
+							voluptas porro rem. Lorem ipsum dolor sit
+							amet consectetur, adipisicing elit.
+							Asperiores pariatur earum temporibus
+							reprehenderit aspernatur tempora est,
+							recusandae iure quo sunt fugit excepturi,
+							veritatis itaque, nostrum quis maxime
+							voluptas porro rem.
+						</h3>
 					</div>
 				</div>
 			</div>
