@@ -15,20 +15,11 @@
 		top: 0;
 
 		.wji-left {
-			padding-top: 50px;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-around;
 			flex: 1.2;
 			background-color: $backgroundColor;
-			h1 {
-				margin: 25px 0 0 50px;
-				font-family: "Saira", sans-serif;
-				font-style: normal;
-				font-weight: bold;
-				font-size: 4vw;
-				line-height: 4vh;
-			}
 
 			p {
 				width: 80%;
@@ -36,11 +27,9 @@
 				justify-content: center;
 				align-items: center;
 				font-family: Hind;
-				font-style: normal;
-				font-weight: normal;
 				font-size: 2vw;
 				line-height: 5vh;
-				margin: 25px 0 0 50px;
+				margin: 2% 0 0 10%;
 			}
 
 			.wji-button-container {
