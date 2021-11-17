@@ -19,8 +19,8 @@
 		.infoContainer {
 			position: absolute;
 			margin-top: 550px;
-			width: 1400px;
-			height: 200px;
+			width: 80vw;
+			height: 20%;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -32,8 +32,8 @@
 				justify-content: center;
 				align-items: center;
 				height: 160px;
-				width: 190px;
-				margin: 47px;
+				width: 25%;
+				margin: 3%;
 				background-color: $brandColor;
 				color: white;
 				cursor: pointer;
@@ -43,7 +43,7 @@
 					position: absolute;
 					font-family: Hind;
 					font-weight: 500;
-					font-size: 17px;
+					font-size: 1.3vw;
 					display: flex;
 					align-items: center;
 					text-align: center;
@@ -64,13 +64,13 @@
 			flex-direction: row;
 			justify-content: center;
 			height: 670px;
-			width: 1298px;
+			width: 80vw;
 			overflow: hidden;
 		}
 		.card {
-			height: 574px;
-			width: 240px;
-			margin: 20px;
+			height: 100%;
+			width: 30%;
+			margin: 2%;
 			border-radius: 200px;
 			margin-top: 200px;
 			img {
