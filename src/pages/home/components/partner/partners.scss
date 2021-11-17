@@ -3,7 +3,7 @@
 .partners {
 	background-color: white;
 	.container {
-		height: 175vh;
+		height: flex-grow;
 		width: 100%;
 		position: relative;
 		display: flex;
@@ -55,10 +55,9 @@
 			flex: 0.4;
 			display: flex;
 			align-items: center;
-			justify-content: space-around;
+			justify-content: space-between;
 			flex-wrap: wrap;
-			margin-left: 25vw;
-			margin-right: 25vw;
+			margin: 5% 20%;
 			.centerCard {
 				display: flex;
 				justify-content: center;
@@ -68,8 +67,9 @@
 				background: #ffffff;
 				box-shadow: 25px 25px 50px #d9d9d9,
 					-25px -25px 50px #ffffff;
-				width: 20vw;
-				height: 20vh;
+				width: 24vw;
+				height: 24vh;
+				margin: 12%;
 				transition: all 0.5s ease-in-out;
 
 				img {
