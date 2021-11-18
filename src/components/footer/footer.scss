@@ -6,7 +6,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 150px;
+	height: 100px;
 
 	.footerContainer {
 		height: 100%;
@@ -22,17 +22,16 @@
 			display: flex;
 			align-items: center;
 			justify-content: space-around;
-			flex: 0.3;
+			flex: 0.35;
 			flex-direction: row;
 			float: right;
-			margin: 50px;
 			a {
 				text-decoration: none;
 				color: inherit;
 			}
 			.icon {
-				width: 50px;
-				height: 50px;
+				width: 40px;
+				height: 40px;
 				cursor: pointer;
 				transition: all 1.5 ease;
 
@@ -46,8 +45,7 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			float: left;
-			flex: 0.5;
+			flex: 0.55;
 			img {
 				width: 75px;
 				height: 75px;

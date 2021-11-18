@@ -1,14 +1,14 @@
 @import "../../../../global.scss";
 
 .implications {
-	height: 250vh;
+	height: 255vh;
 	display: flex;
 	justify-content: center;
 	background-color: #f6f6f6;
 	position: relative;
 
 	.backgroundColumn {
-		height: 85%;
+		height: 98%;
 		width: 50%;
 		background-color: rgba(221, 239, 241, 0.95);
 		z-index: 1;
@@ -68,8 +68,8 @@
 		p {
 			color: black;
 			font-family: "Hind";
-			font-size: 1.5vw;
-			line-height: 3vw;
+			font-size: 1.7vw;
+			line-height: 4.8vh;
 		}
 	}
 }

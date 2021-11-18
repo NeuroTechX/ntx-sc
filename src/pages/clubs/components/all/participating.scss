@@ -1,7 +1,6 @@
 @import "../../../../global.scss";
 
 .participatingInfo {
-	height: flex-grow;
 	width: 100%;
 	position: relative;
 	display: flex;
@@ -52,7 +51,7 @@
 				.infoBox {
 					bottom: 0;
 					width: 100%;
-					height: 40%;
+					height: 35%;
 					background: $buttonColor;
 					position: absolute;
 					color: white;
@@ -64,20 +63,23 @@
 						align-items: center;
 						justify-content: center;
 						flex-direction: column;
-						margin-top: 25%;
+						margin-top: 10%;
 						font-family: "Hind";
 						text-align: center;
 						font-weight: 600;
 						color: white;
 						h1 {
-							font-size: 2vw;
+							font-size: 1.7vw;
 						}
 						h2 {
 							font-size: 1.5vw;
 						}
 					}
+				}
+				&:hover {
 					cursor: pointer;
-					&:hover {
+					border: 1px solid $brandColor;
+					.infoBox {
 						background-color: $brandColor;
 					}
 				}

@@ -14,6 +14,8 @@ export default function Fields() {
 					neurotechnology applications.
 					<br />
 					<br />
+					<br />
+					<br />
 					<ul>
 						<li>Neurotechnology</li>
 						<li>Virtual Reality</li>

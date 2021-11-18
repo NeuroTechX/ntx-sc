@@ -1,7 +1,7 @@
 @import "../../../../global.scss";
 
 .gs1 {
-	height: 125vh;
+	height: 175vh;
 	width: 100%;
 	background-color: #f6f6f6;
 	display: flex;
@@ -9,6 +9,7 @@
 	justify-content: center;
 	position: relative;
 	flex-direction: column;
+
 	.backgroundColumn {
 		height: 100%;
 		width: 50%;
@@ -21,17 +22,15 @@
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		flex: 0.4;
+		flex: 0.3;
 		z-index: 2;
 		background-color: #b1bebf;
-		padding-top: 70px;
-		padding-bottom: 35px;
 		width: 90%;
 		height: 80%;
 
 		.container {
 			width: 100%;
-			height: 100%;
+			height: 80%;
 			display: flex;
 			align-content: center;
 			justify-content: center;
@@ -41,7 +40,36 @@
 			position: relative;
 
 			.textBox {
-				position: absolute;
+				color: white;
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+
+				h1 {
+					font-size: 2.4vw;
+				}
+				h2 {
+					font-weight: 400;
+					// font-size: 1.9vw;
+					margin: 5%;
+					width: 250px;
+				}
+			}
+		}
+
+		.rContainer {
+			width: 100%;
+			height: 80%;
+			display: flex;
+			align-content: center;
+			justify-content: center;
+			font-family: "Hind";
+			font-weight: 700;
+			position: relative;
+
+			.textBox {
 				color: white;
 				text-align: center;
 				display: flex;
@@ -55,43 +83,12 @@
 				h2 {
 					font-weight: 400;
 					font-size: 1.9vw;
-					padding: 25px;
+					margin: 5%;
 					width: 250px;
 				}
 			}
 		}
 	}
-
-	.rContainer {
-		width: 76%;
-		height: 100%;
-		margin: 30px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-family: "Hind";
-		font-weight: 700;
-		.textBox {
-			position: absolute;
-			color: white;
-			text-align: center;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex-direction: column;
-
-			h1 {
-				font-size: 2.4vw;
-			}
-			h2 {
-				font-weight: 400;
-				font-size: 1.9vw;
-				padding: 25px;
-				width: 250px;
-			}
-		}
-	}
-
 	.top {
 		display: flex;
 		flex-direction: row;
@@ -116,6 +113,7 @@
 			}
 		}
 		.left {
+			display: flex;
 			background-color: $brandColor;
 			width: 80%;
 			height: 100%;
@@ -130,11 +128,11 @@
 
 				.text {
 					color: white;
-					margin-top: 30px;
+					margin-top: 15px;
 
 					h1 {
 						font-size: 2.3vw;
-						margin: 15px;
+						margin: 10px;
 					}
 					p {
 						margin-bottom: 195px;
@@ -144,11 +142,11 @@
 					ul {
 						margin-bottom: 20px;
 						font-size: 1.5vw;
-						margin: 15px;
+						margin: 10px;
 
 						li {
 							list-style: none;
-							margin-bottom: 15px;
+							margin-bottom: 10px;
 						}
 					}
 				}

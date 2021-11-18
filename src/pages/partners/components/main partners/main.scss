@@ -1,7 +1,6 @@
 @import "../../../../global.scss";
 
 .main {
-	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -25,10 +24,11 @@
 				-5px -5px 10px #ffffff;
 			box-shadow: 5px 5px 10px #d9d9d9,
 				-5px -5px 10px #ffffff;
-			width: 800px;
-			height: 500px;
+			width: 60vw;
+			height: 70vh;
 			border-radius: 38px;
 			transition: all 0.5s ease;
+			margin: 10% 0 10% 0;
 
 			.imgContainer {
 				width: 90%;

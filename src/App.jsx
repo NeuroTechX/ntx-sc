@@ -10,7 +10,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Clubs from "./pages/clubs/Clubs";
-import PartnersPage from "./pages/partners page/PartnersPage";
+import PartnersPage from "./pages/partners/PartnersPage";
 import GetStarted from "./pages/get started page/GetStarted";
 import CompetitionInfo from "./pages/competitionInfo/CompetitionInfo";
 import FAQLanding from "./pages/FAQ/FAQLanding";
