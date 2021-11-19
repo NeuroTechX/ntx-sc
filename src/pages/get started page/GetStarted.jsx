@@ -5,6 +5,8 @@ import Implications from "./components/implications/Implications";
 import Activities from "./components/activities/Activities";
 import Fields from "./components/fields/domains/Fields";
 import Resources from "./components/resources/Resources";
+import Devices from "./components/devices/Devices";
+import DevicesBar from "./components/devices/DevicesBar";
 
 function GetStarted() {
 	return (
@@ -12,6 +14,8 @@ function GetStarted() {
 			<GtLanding />
 			<Gs2 />
 			<Gs1 />
+			<DevicesBar />
+			<Devices />
 			<Implications />
 			<Activities />
 			<Fields />

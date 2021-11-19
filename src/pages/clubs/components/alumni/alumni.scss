@@ -76,13 +76,6 @@
 						}
 					}
 				}
-				&:hover {
-					cursor: pointer;
-					border: 1px solid $brandColor;
-					.infoBox {
-						background-color: $brandColor;
-					}
-				}
 			}
 		}
 	}
