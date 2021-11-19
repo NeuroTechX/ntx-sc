@@ -1,61 +1,64 @@
 import "./news.scss";
+import Arrow from "../../assets/arrow.png";
+import { NewsData } from "./newsData";
+import { useState } from "react";
 
 export default function News() {
+	const [currentSlide, setCurrentSlide] =
+		useState(0);
+	const handleClick = (way) => {
+		way === "left"
+			? setCurrentSlide(
+					currentSlide > 0 ? currentSlide - 1 : 2
+			  )
+			: setCurrentSlide(
+					currentSlide < NewsData.length - 1
+						? currentSlide + 1
+						: 0
+			  );
+	};
 	return (
-		<div
-			className="news"
-			// initial={{ opacity: 0 }}
-			// animate={{ opacity: 1 }}
-			// transition={{ duration: 1, delay: 0.5 }}
-		>
-			<div className="wrapper">
-				<div
-					className="welcome"
-					// initial={{ y: "100vw" }}
-					// animate={{ y: 0 }}
-					// transition={{
-					// 	type: "spring",
-					// 	duration: 2,
-					// 	delay: 1,
-					// }}
-				>
-					<div className="top">
-						<h1>News</h1>
+		<div className="news">
+			<div
+				className="slider"
+				style={{
+					transform: `translateX(-${
+						currentSlide * 100
+					}vw)`,
+				}}
+			>
+				{NewsData.map((data) => (
+					<div className="container">
+						<div className="item">
+							<div className="left">
+								<div className="leftContainer">
+									<div className="newsContainer">
+										<h1>{data.title}</h1>
+									</div>
+									<h2>{data.subTitle}</h2>
+									<p>{data.body}</p>
+									<span>Read More</span>
+								</div>
+							</div>
+							<div className="right">
+								<img src={data.img} alt="" />
+							</div>
+						</div>
 					</div>
-					<div className="center">
-						<h2>
-							Lorem ipsum dolor sit amet consectetur
-							adipisicing elit.
-						</h2>
-						<h3>
-							Lorem ipsum dolor sit amet consectetur,
-							adipisicing elit. Asperiores pariatur earum
-							temporibus reprehenderit aspernatur tempora
-							est, recusandae iure quo sunt fugit
-							excepturi, veritatis itaque, nostrum quis
-							maxime voluptas porro rem. Lorem ipsum
-							dolor sit amet consectetur, adipisicing
-							elit. Asperiores pariatur earum temporibus
-							reprehenderit aspernatur tempora est,
-							recusandae iure quo sunt fugit excepturi,
-							veritatis itaque, nostrum quis maxime
-							voluptas porro rem. Lorem ipsum dolor sit
-							amet consectetur, adipisicing elit.
-							Asperiores pariatur earum temporibus
-							reprehenderit aspernatur tempora est,
-							recusandae iure quo sunt fugit excepturi,
-							veritatis itaque, nostrum quis maxime
-							voluptas porro rem. Lorem ipsum dolor sit
-							amet consectetur, adipisicing elit.
-							Asperiores pariatur earum temporibus
-							reprehenderit aspernatur tempora est,
-							recusandae iure quo sunt fugit excepturi,
-							veritatis itaque, nostrum quis maxime
-							voluptas porro rem.
-						</h3>
-					</div>
-				</div>
+				))}
 			</div>
+			<img
+				src={Arrow}
+				className="arrow left"
+				alt=""
+				onClick={() => handleClick("left")}
+			/>
+			<img
+				src={Arrow}
+				className="arrow right"
+				alt=""
+				onClick={() => handleClick("right")}
+			/>
 		</div>
 	);
 }
