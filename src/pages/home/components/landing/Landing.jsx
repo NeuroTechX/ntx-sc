@@ -30,15 +30,15 @@ export default function Landing() {
 					</div>
 					<div className="bottom">
 						<div className="btn-container">
-							<Link
-								to="/started"
+							<a
+								href="#about"
 								style={{
 									textDecoration: "none",
 									color: "inherit",
 								}}
 							>
 								<button className="btn">ABOUT</button>
-							</Link>
+							</a>
 							<Link
 								to="/competition"
 								style={{

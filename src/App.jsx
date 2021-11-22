@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar/Navbar";
 import OutsideClickHandler from "react-outside-click-handler";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
 	BrowserRouter as Router,
 	Switch,

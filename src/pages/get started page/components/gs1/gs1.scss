@@ -49,10 +49,12 @@
 
 				h1 {
 					font-size: 2.4vw;
+					position: absolute;
+					top: 15px;
 				}
 				h2 {
 					font-weight: 400;
-					// font-size: 1.9vw;
+					font-size: 2.3vw;
 					margin: 5%;
 					width: 250px;
 				}
@@ -65,6 +67,7 @@
 			display: flex;
 			align-content: center;
 			justify-content: center;
+			border-right: 3px solid white;
 			font-family: "Hind";
 			font-weight: 700;
 			position: relative;
@@ -76,14 +79,17 @@
 				align-items: center;
 				justify-content: center;
 				flex-direction: column;
+				position: relative;
 
 				h1 {
 					font-size: 2.4vw;
+					position: absolute;
+					top: 5px;
 				}
 				h2 {
 					font-weight: 400;
-					font-size: 1.9vw;
-					margin: 5%;
+					font-size: 2.3vw;
+					padding-top: 15%;
 					width: 250px;
 				}
 			}
