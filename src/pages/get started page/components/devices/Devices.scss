@@ -48,14 +48,13 @@
 					text-align: center;
 					padding: 10px;
 				}
-			}
 
-			&:hover {
-				background-color: $backgroundColor;
-				color: black;
+				&:hover {
+					background-color: $backgroundColor;
+					color: black;
+				}
 			}
 		}
-
 		.cards {
 			position: absolute;
 			display: flex;
