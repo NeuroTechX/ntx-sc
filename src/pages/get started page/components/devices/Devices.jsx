@@ -2,7 +2,7 @@ import "./Devices.scss";
 
 const Devices = () => {
 	return (
-		<div className="joinInfo">
+		<div className="devices">
 			<div className="container">
 				<div className="infoContainer">
 					<a
