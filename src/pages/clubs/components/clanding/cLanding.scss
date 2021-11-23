@@ -1,8 +1,8 @@
 @import "../../../../global.scss";
 
 .cLanding {
-	height: 100vh;
-	width: 100vw;
+	// height: 100vh;
+	// width: 100vw;
 	position: relative;
 	overflow: hidden;
 	background: linear-gradient(
@@ -17,8 +17,8 @@
 	background-position: center;
 
 	.wrapper {
-		height: 100%;
-		width: 100%;
+		height: 100vh;
+		width: 100vw;
 		overflow: hidden;
 		position: relative;
 		display: flex;
@@ -27,8 +27,9 @@
 		position: relative;
 
 		.welcome {
-			height: 300px;
-			width: 650px;
+			height: 40vh;
+			min-height: 160px;
+			width: 47%;
 			padding: 25px 25px;
 			border-radius: 15px;
 			background: rgb(211, 211, 211);
@@ -46,25 +47,23 @@
 			flex-direction: column;
 			align-items: center;
 			justify-content: space-between;
-			bottom: 75px;
+			bottom: 50px;
 			position: absolute;
 
 			.center {
+				margin-top: 12%;
 				font-family: "Saira", sans-serif;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
 				justify-content: center;
 				font-weight: 700;
-				margin: auto;
 				h2 {
-					font-size: 52px;
+					font-size: 3vw;
 				}
 
 				h3 {
-					font-family: "Hind", sans-serif;
-
-					font-size: 64px;
+					font-size: 3vw;
 				}
 			}
 		}

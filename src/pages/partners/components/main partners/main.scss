@@ -27,7 +27,6 @@
 			width: 60vw;
 			height: 70vh;
 			border-radius: 38px;
-			transition: all 0.5s ease;
 			margin: 10% 0 10% 0;
 
 			.imgContainer {
@@ -54,6 +53,7 @@
 				box-shadow: 35px 35px 70px #d9d9d9,
 					-35px -35px 70px #ffffff;
 				cursor: pointer;
+				transition: all 0.5s ease;
 			}
 		}
 	}

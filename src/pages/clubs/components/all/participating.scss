@@ -69,16 +69,16 @@
 						font-weight: 600;
 						color: white;
 						h1 {
-							font-size: 1.7vw;
+							font-size: clamp(1.5rem, 1.3vw, 2.3rem);
 						}
 						h2 {
-							font-size: 1.5vw;
+							font-size: clamp(1rem, 1.4vw, 1.3rem);
+							font-weight: 200;
 						}
 					}
 				}
 				&:hover {
 					cursor: pointer;
-					border: 1px solid $brandColor;
 					.infoBox {
 						background-color: $brandColor;
 					}

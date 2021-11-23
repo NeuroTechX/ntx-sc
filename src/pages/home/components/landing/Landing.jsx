@@ -25,7 +25,7 @@ export default function Landing() {
 						<h1>WELCOME TO</h1>
 					</div>
 					<div className="center">
-						<h2>NEUROTECHX</h2>
+						<h2>NTX</h2>
 						<h3>STUDENT CLUBS</h3>
 					</div>
 					<div className="bottom">

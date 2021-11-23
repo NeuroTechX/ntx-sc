@@ -1,3 +1,5 @@
+import FBLogo from "../../assets/FRL_Research_Black_RGB.png";
+
 export const partnerData = [
 	{
 		name: "OpenBci",
@@ -31,8 +33,7 @@ export const partnerData = [
 	{
 		name: "FacebookCTRL-Lab",
 		id: "1",
-		logo:
-			"https://assets.medtechinnovator.org/wp-content/uploads/2018/07/24162858/ctrl-labs.png",
+		logo: FBLogo,
 		link: "https://ctrllab.com/",
 	},
 	{

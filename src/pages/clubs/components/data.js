@@ -107,9 +107,8 @@ export const studentClubs = [
 	},
 	{
 		id: 15,
-		name:
-			"Neuroscience Research Group at York University",
-		school: "",
+		name: "Neuroscience Research Group",
+		school: "York University",
 		logo:
 			"https://neurotechx.github.io/studentclubs/images/SC-Logos/NRG-York.png",
 		link: "https://www.facebook.com/NRGyorkU",
