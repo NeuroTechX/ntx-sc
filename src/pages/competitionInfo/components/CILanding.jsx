@@ -1,6 +1,30 @@
+import { useState } from "react";
 import "./ciLanding.scss";
+import CompModal from "./competitionModal/CompModal";
+import PrevModal from "./previuosModal/PrevModal";
+import ComingModal from "./comingModal/ComingModal";
 
 export default function Landing() {
+	const [compModal, setCompModal] =
+		useState(false);
+
+	const openModal = () => {
+		setCompModal((prev) => !prev);
+	};
+
+	const [prevModal, setPrevModal] =
+		useState(false);
+
+	const openPrevModal = () => {
+		setPrevModal((prev) => !prev);
+	};
+
+	const [comingModal, setComingModal] =
+		useState(false);
+
+	const openComingModal = () => {
+		setComingModal((prev) => !prev);
+	};
 	return (
 		<div
 			className="ciLanding"
@@ -20,26 +44,50 @@ export default function Landing() {
 					// }}
 				>
 					<div className="banner">
-						<h2>NEUROTECHX STUDENT CLUBS</h2>
+						<h2>NTX STUDENT CLUBS</h2>
 						<h3>COMPETITION 2021</h3>
 					</div>
 					<div className="bottom">
 						<div className="btn-container">
-							<button className="btn">
+							<button
+								className="btn"
+								onClick={openModal}
+							>
 								ONLINE COMPETITION
 							</button>
-							<button className="btn">
+							<button
+								className="btn"
+								onClick={openPrevModal}
+							>
 								PREVIOUS EDITIONS
 							</button>
-							<button className="btn">
+							<button
+								className="btn"
+								onClick={openComingModal}
+							>
 								OVERALL LEADERBOARD
 							</button>
-							<button className="btn">
+							<button
+								className="btn"
+								onClick={openComingModal}
+							>
 								TOP 5 FAVOURITE PROJECTS
 							</button>
 						</div>
 					</div>
 				</div>
+				<CompModal
+					compModal={compModal}
+					setCompModal={setCompModal}
+				/>
+				<PrevModal
+					prevModal={prevModal}
+					setPrevModal={setPrevModal}
+				/>
+				<ComingModal
+					comingModal={comingModal}
+					setComingModal={setComingModal}
+				/>
 			</div>
 		</div>
 	);
