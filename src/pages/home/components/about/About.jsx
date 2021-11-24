@@ -6,28 +6,47 @@ import { useAnimation } from "framer-motion";
 
 const About = () => {
 	const { ref, inView } = useInView();
-	const animation = useAnimation();
+	const animationL = useAnimation();
+	const animationR = useAnimation();
 
 	useEffect(() => {
 		if (inView) {
-			animation.start({
+			animationL.start({
 				x: 0,
+				opacity: 1,
 				transition: {
-					type: "spring",
-					duration: 0.3,
+					duration: 0.5,
 				},
 			});
 		}
-		if (!inView) {
-			animation.start({ x: "-100vw" });
+		// if (!inView) {
+		// 	animationL.start({ x: "-50vw", opacity: 0 });
+		// }
+	}, [inView, animationL]);
+
+	useEffect(() => {
+		if (inView) {
+			animationR.start({
+				x: 0,
+				opacity: 1,
+
+				transition: {
+					duration: 0.5,
+				},
+			});
 		}
-	}, [inView]);
+		// if (!inView) {
+		// 	animationR.start({ x: "100vw", opacity: 0 });
+		// }
+	}, [inView, animationR]);
+
 	return (
 		<div className="about" id="about">
 			<div className="about-wrapper" ref={ref}>
 				<motion.div
 					className="about-left"
-					animate={animation}
+					initial={{ opacity: 0, x: "-100vw" }}
+					animate={animationL}
 				>
 					<h1 className="about-title">
 						WHAT WE’RE ALL ABOUT
@@ -61,13 +80,17 @@ const About = () => {
 						</button>
 					</div> */}
 				</motion.div>
-				<div className="about-right">
+				<motion.div
+					className="about-right"
+					initial={{ opacity: 0, x: "100vw" }}
+					animate={animationR}
+				>
 					<img
 						src="https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
 						alt=""
 						className="about-img"
 					/>
-				</div>
+				</motion.div>
 			</div>
 		</div>
 	);

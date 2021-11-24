@@ -5,7 +5,6 @@ import React, {
 } from "react";
 import { Close } from "@material-ui/icons";
 import "./comingModal.scss";
-import Poster from "../assets/NTXSC-Main.png";
 
 const ComingModal = ({
 	comingModal,
