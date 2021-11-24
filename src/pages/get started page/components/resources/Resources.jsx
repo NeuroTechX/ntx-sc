@@ -8,15 +8,30 @@ export default function Resources() {
 			</div>
 			<div className="container">
 				<div className="infoContainer">
-					<div className="infoBox">
+					<a
+						href="https://neurotechedu.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="infoBox"
+					>
 						<h1>EDU</h1>
-					</div>
-					<div className="infoBox">
+					</a>
+					<a
+						href="https://teespring.com/shop/neurotechx?pid=369&cid=6513"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="infoBox"
+					>
 						<h1>NTX SWAG</h1>
-					</div>
-					<div className="infoBox">
+					</a>
+					<a
+						href="https://neurotechx-hardware-hub.myshopify.com/"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="infoBox"
+					>
 						<h1>NTX STORE</h1>
-					</div>
+					</a>
 				</div>
 				<div className="cards">
 					<div className="card">

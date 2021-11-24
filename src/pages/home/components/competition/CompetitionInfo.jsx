@@ -1,11 +1,12 @@
 import "./competitionInfo.scss";
 import Poster from "./assets/NTXSC-Main.png";
+import { Link } from "react-router-dom";
 
 const Competition = () => {
 	return (
 		<div className="competition-i">
 			<div className="competition-wrapper">
-				<div className="column">
+				<Link to="/competition" className="column">
 					<img src={Poster} alt="" />
 					{/* <div className="c-top">
 						<h1>COMPETITION 2021-2022</h1>
@@ -19,7 +20,7 @@ const Competition = () => {
 							alt=""
 						/>
 					</div> */}
-				</div>
+				</Link>
 			</div>
 		</div>
 	);

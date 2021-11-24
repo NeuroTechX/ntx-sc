@@ -2,8 +2,8 @@ import "../infoBar.scss";
 
 const InfluencerBar = () => {
 	return (
-		<div className="partnerBar">
-			<div className="partnerText">INFLUENCERS</div>
+		<div className="infoBar">
+			<div className="infoText">INFLUENCERS</div>
 		</div>
 	);
 };

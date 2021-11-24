@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./JoinInfo.scss";
 
 const JoinInfo = () => {
@@ -5,17 +6,17 @@ const JoinInfo = () => {
 		<div className="joinInfo">
 			<div className="container">
 				<div className="infoContainer">
-					<div className="infoBox">
+					<Link to="/clubs" className="infoBox">
 						<h1>
 							I AM A STUDENT INTERESTED IN STARTING A
 							CLUB
 						</h1>
-					</div>
-					<div className="infoBox">
+					</Link>
+					<Link to="/partners" className="infoBox">
 						<h1>
 							I AM A COMPANY INTERESTED IN PARTNERING
 						</h1>
-					</div>
+					</Link>
 					<div className="infoBox">
 						<h1>
 							I AM A STUDENT WITH AN NTX AFFILIATED CLUB

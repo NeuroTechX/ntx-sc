@@ -31,8 +31,9 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				height: 140px;
-				width: 20%;
+				height: 20vh;
+				min-height: 100px;
+				width: 25%;
 				margin: 3%;
 				background-color: $brandColor;
 				color: white;
