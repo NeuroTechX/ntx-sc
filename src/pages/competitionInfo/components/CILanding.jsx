@@ -3,6 +3,7 @@ import "./ciLanding.scss";
 import CompModal from "./competitionModal/CompModal";
 import PrevModal from "./previuosModal/PrevModal";
 import ComingModal from "./comingModal/ComingModal";
+import { motion } from "framer-motion";
 
 export default function Landing() {
 	const [compModal, setCompModal] =
@@ -26,22 +27,23 @@ export default function Landing() {
 		setComingModal((prev) => !prev);
 	};
 	return (
-		<div
+		<motion.div
 			className="ciLanding"
-			// initial={{ opacity: 0 }}
-			// animate={{ opacity: 1 }}
-			// transition={{ duration: 1, delay: 0.5 }}
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			transition={{ duration: 1, delay: 0.5 }}
 		>
 			<div className="wrapper">
-				<div
+				<motion.div
 					className="welcome"
-					// initial={{ y: "100vw" }}
-					// animate={{ y: 0 }}
-					// transition={{
-					// 	type: "spring",
-					// 	duration: 2,
-					// 	delay: 1,
-					// }}
+					initial={{ y: "100vw" }}
+					animate={{ y: 0 }}
+					transition={{
+						type: "spring",
+						duration: 2,
+						delay: 0.3,
+					}}
+					id="home"
 				>
 					<div className="banner">
 						<h2>NTX STUDENT CLUBS</h2>
@@ -75,7 +77,7 @@ export default function Landing() {
 							</button>
 						</div>
 					</div>
-				</div>
+				</motion.div>
 				<CompModal
 					compModal={compModal}
 					setCompModal={setCompModal}
@@ -89,6 +91,6 @@ export default function Landing() {
 					setComingModal={setComingModal}
 				/>
 			</div>
-		</div>
+		</motion.div>
 	);
 }

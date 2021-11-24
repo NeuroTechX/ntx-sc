@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 export default function Landing() {
 	return (
-		<div
+		<motion.div
 			className="landing"
-			// initial={{ opacity: 0 }}
-			// animate={{ opacity: 1 }}
-			// transition={{ duration: 1, delay: 0.5 }}
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			transition={{ duration: 1, delay: 0.5 }}
 		>
 			<div className="wrapper">
 				<motion.div
@@ -18,7 +18,7 @@ export default function Landing() {
 					transition={{
 						type: "spring",
 						duration: 2,
-						delay: 1,
+						delay: 0.3,
 					}}
 					id="home"
 				>
@@ -67,6 +67,6 @@ export default function Landing() {
 					</div>
 				</motion.div>
 			</div>
-		</div>
+		</motion.div>
 	);
 }
