@@ -1,13 +1,17 @@
 @import "../../../../global.scss";
 
 .influencers {
-	background-color: $backgroundColor;
 	.container {
 		width: 100%;
 		position: relative;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		background-image: linear-gradient(
+			to bottom,
+			$backgroundColor,
+			rgba(255, 255, 255, 0)
+		);
 
 		.center {
 			height: 50%;
