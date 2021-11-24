@@ -1,0 +1,67 @@
+@import "../../../../global.scss";
+
+.supporter {
+	.container {
+		width: 100%;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-image: linear-gradient(
+			to bottom,
+			$backgroundColor,
+			rgba(255, 255, 255, 0)
+		);
+
+		.center {
+			height: 50%;
+			max-width: 60%;
+
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			padding: 5% 0 5% 0;
+
+			a {
+				.centerCard {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					border-radius: 43px;
+					border: 1px solid white;
+					background: linear-gradient(
+						145deg,
+						#ffffff,
+						#e6e6e6
+					);
+					box-shadow: 5px 5px 10px #d9d9d9,
+						-5px -5px 10px #ffffff;
+					width: 300px;
+					height: 150px;
+					transition: all 0.5s ease-in-out;
+					cursor: pointer;
+					margin: 10%;
+
+					img {
+						width: 80%;
+						height: 80%;
+						object-fit: contain;
+					}
+
+					&:hover {
+						border-radius: 43px;
+						border: 1px solid $brandColor;
+						background: linear-gradient(
+							145deg,
+							#e6e6e6,
+							#ffffff
+						);
+						box-shadow: 25px 25px 50px #d9d9d9,
+							-25px -25px 50px #ffffff;
+					}
+				}
+			}
+		}
+	}
+}
