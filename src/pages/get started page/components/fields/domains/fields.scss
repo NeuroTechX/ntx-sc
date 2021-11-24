@@ -1,7 +1,7 @@
 @import "../../../../../global.scss";
 
 .fields {
-	height: 205vh;
+	height: 210vh;
 	width: 100vw;
 	background-color: #f6f6f6;
 	display: flex;
@@ -30,8 +30,14 @@
 
 	.container {
 		height: 100%;
-		width: 65%;
-		background-color: rgba(221, 239, 241, 0.95);
+		width: 69%;
+		background: rgb(221, 239, 241);
+		background: linear-gradient(
+			90deg,
+			rgba(221, 239, 241, 1) 0%,
+			rgba(219, 219, 219, 0) 100%,
+			rgba(177, 190, 191, 0) 100%
+		);
 		z-index: 1;
 		position: absolute;
 

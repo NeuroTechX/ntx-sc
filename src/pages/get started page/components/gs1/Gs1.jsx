@@ -34,12 +34,12 @@ export default function Gs1() {
 			<div className="bottom">
 				<div className="container">
 					<div className="textBox">
-						<h1>6. Seek fabrication space*</h1>
+						<h1>6. Fabrication space</h1>
 						<h2>Many cities have FabLab</h2>
 					</div>
 				</div>
 
-				<div className="rContainer">
+				<div className="container">
 					<div className="textBox">
 						<h1>7. Organize your own event(s)</h1>
 						<h2>

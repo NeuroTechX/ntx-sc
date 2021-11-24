@@ -15,6 +15,7 @@ import GetStarted from "./pages/get started page/GetStarted";
 import CompetitionInfo from "./pages/competitionInfo/CompetitionInfo";
 import FAQLanding from "./pages/FAQ/FAQLanding";
 import PageNavigationListener from "./utilities/PageNavigationListener";
+import ComingSoon from "./pages/comingSoon/ComingSoon";
 
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -54,6 +55,9 @@ function App() {
 						</Route>
 						<Route path="/faq">
 							<FAQLanding />
+						</Route>
+						<Route path="/soon">
+							<ComingSoon />
 						</Route>
 					</Switch>
 					<Footer />

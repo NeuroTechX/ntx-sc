@@ -1,0 +1,106 @@
+@import "../../global.scss";
+
+.comingSoon {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.3),
+			rgba(255, 255, 255, 0.1)
+		),
+		url(https://images.pexels.com/photos/117602/pexels-photo-117602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+			center;
+	min-width: 100%;
+	min-width: 100%;
+	background-size: cover;
+	background-position: center;
+
+	.wrapper {
+		height: 100vh;
+		width: 100vw;
+		overflow: hidden;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+
+		.welcome {
+			height: 40vh;
+			min-height: 300px;
+			width: 47%;
+			min-width: 300px;
+			padding: 25px 25px;
+			border-radius: 15px;
+			background: rgb(211, 211, 211);
+			background: radial-gradient(
+				circle,
+				rgba(211, 211, 211, 1) 0%,
+				rgba(199, 207, 208, 1) 40%,
+				rgba(212, 201, 201, 0.8239670868347339) 60%,
+				rgba(219, 219, 219, 0.6194852941176471) 93%
+			);
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
+			position: absolute;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			bottom: 75px;
+			position: absolute;
+
+			.top {
+				font-family: Hind;
+				font-size: clamp(0.9rem, 2vw, 4rem);
+				font-weight: 400;
+			}
+
+			.center {
+				font-family: "Saira", sans-serif;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				font-weight: 700;
+				h2 {
+					font-size: clamp(1.2rem, 4vw, 4rem);
+				}
+
+				h3 {
+					font-size: clamp(1.2rem, 5vw, 4rem);
+				}
+			}
+
+			.btn-container {
+				height: 50px;
+				width: 55vw;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				overflow: hidden;
+
+				.btn {
+					margin: 20px;
+					padding: 7px;
+					font-size: clamp(0.9rem, 1.5vw, 2rem);
+
+					font-family: Hind;
+					color: rgb(255, 255, 255);
+					background-color: $buttonColor;
+					outline: none;
+					border-style: none;
+					cursor: pointer;
+					border-radius: 15px;
+
+					&:hover {
+						background-color: $buttonHover;
+						transition: all 0.5s ease;
+					}
+				}
+			}
+		}
+	}
+}

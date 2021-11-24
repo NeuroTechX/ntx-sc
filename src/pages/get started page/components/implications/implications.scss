@@ -9,8 +9,14 @@
 
 	.backgroundColumn {
 		height: 98%;
-		width: 50%;
-		background-color: rgba(221, 239, 241, 0.95);
+		width: 80%;
+		background: rgb(221, 239, 241);
+		background: linear-gradient(
+			90deg,
+			rgba(221, 239, 241, 1) 0%,
+			rgba(219, 219, 219, 0) 100%,
+			rgba(177, 190, 191, 0) 100%
+		);
 		z-index: 1;
 		position: absolute;
 	}
@@ -65,6 +71,8 @@
 		height: 100%;
 		display: flex;
 		justify-content: center;
+		// background-color: rgba(221, 239, 241, 0.95);
+		padding-top: 15%;
 		p {
 			color: black;
 			font-family: "Hind";

@@ -2,7 +2,7 @@ import "./gs2.scss";
 
 export default function Gs2() {
 	return (
-		<div className="gs2" id="getStarted">
+		<div className="gs2">
 			<div className="backgroundColumn"></div>
 			<div className="top">
 				<div className="container">
@@ -24,7 +24,7 @@ export default function Gs2() {
 						</h2>
 					</div>
 				</div>
-				<div className="rContainer">
+				<div className="container">
 					<div className="textBox">
 						<h1>3. Seek university approval</h1>
 						<h2>
@@ -45,8 +45,8 @@ export default function Gs2() {
 					<div className="textBox">
 						<div className="text">
 							<h1>
-								4. Start website (required for sponsorship
-								& hardware)
+								4. Start a website (required for
+								sponsorship & hardware)
 							</h1>
 							<p>
 								Your student club website should contain

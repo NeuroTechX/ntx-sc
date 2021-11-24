@@ -30,7 +30,14 @@
 	.container {
 		height: 93%;
 		width: 69%;
-		background-color: rgba(221, 239, 241, 0.95);
+		background: rgb(221, 239, 241);
+		background: rgb(219, 219, 219);
+		background: linear-gradient(
+			90deg,
+			rgba(219, 219, 219, 0) 0%,
+			rgba(221, 239, 241, 1) 100%,
+			rgba(177, 190, 191, 0) 100%
+		);
 		z-index: 1;
 		position: absolute;
 

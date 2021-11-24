@@ -20,7 +20,7 @@ const Devices = () => {
 						rel="noopener noreferrer"
 						className="infoBox"
 					>
-						<h1></h1>
+						<h1>EMOTIV EPOC+</h1>
 					</a>
 					<a
 						href="https://shop.openbci.com/collections/frontpage/products/ganglion-board?variant=13461804483"
@@ -30,9 +30,6 @@ const Devices = () => {
 					>
 						<h1>Ganglion Board (4-channels)</h1>
 					</a>
-					<div className="infoBox">
-						<h1>Unicorn Brain Interface</h1>
-					</div>
 				</div>
 				<div className="cards">
 					<div className="card">
@@ -55,18 +52,11 @@ const Devices = () => {
 
 					<div className="card">
 						<img
-							src="https://www.unicorn-bi.com/wp-content/uploads/2020/02/unicorn-hybrid-black-electrode-connectors-03.jpg"
-							alt=""
-						/>
-					</div>
-					<div className="card">
-						<img
-							src="https://www.unicorn-bi.com/wp-content/uploads/2020/02/unicorn-hybrid-black-electrode-connectors-03.jpg"
+							src="https://cdn.shopify.com/s/files/1/0613/9353/products/DSC02775_1024x1024.jpg?v=1614761290"
 							alt=""
 						/>
 					</div>
 				</div>
-				<button></button>
 			</div>
 		</div>
 	);
