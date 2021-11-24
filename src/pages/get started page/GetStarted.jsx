@@ -7,6 +7,7 @@ import Fields from "./components/fields/domains/Fields";
 import Resources from "./components/resources/Resources";
 import Devices from "./components/devices/Devices";
 import DevicesBar from "./components/devices/DevicesBar";
+import CalltoAction from "./components/cta/CalltoAction";
 
 function GetStarted() {
 	return (
@@ -19,6 +20,7 @@ function GetStarted() {
 			<Implications />
 			<Activities />
 			<Fields />
+			<CalltoAction />
 			<Resources />
 		</div>
 	);

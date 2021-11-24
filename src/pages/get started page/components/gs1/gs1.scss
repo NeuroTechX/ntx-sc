@@ -13,7 +13,7 @@
 	.backgroundColumn {
 		height: 100%;
 		width: 50%;
-		background-color: rgba(221, 239, 241, 0.95);
+
 		z-index: 1;
 		position: absolute;
 	}
@@ -70,11 +70,10 @@
 	.top {
 		display: flex;
 		flex-direction: row;
-		flex: 0.5;
+		flex: 0.4;
 		z-index: 2;
 		margin: 75px;
 		width: 90%;
-		height: 250px;
 
 		.right {
 			width: 350px;
