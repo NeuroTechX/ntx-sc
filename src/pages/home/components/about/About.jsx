@@ -1,10 +1,34 @@
 import "./about.scss";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { useAnimation } from "framer-motion";
 
 const About = () => {
+	const { ref, inView } = useInView();
+	const animation = useAnimation();
+
+	useEffect(() => {
+		if (inView) {
+			animation.start({
+				x: 0,
+				transition: {
+					type: "spring",
+					duration: 0.3,
+				},
+			});
+		}
+		if (!inView) {
+			animation.start({ x: "-100vw" });
+		}
+	}, [inView]);
 	return (
 		<div className="about" id="about">
-			<div className="about-wrapper">
-				<div className="about-left">
+			<div className="about-wrapper" ref={ref}>
+				<motion.div
+					className="about-left"
+					animate={animation}
+				>
 					<h1 className="about-title">
 						WHAT WE’RE ALL ABOUT
 					</h1>
@@ -36,7 +60,7 @@ const About = () => {
 							WATCH OUR VIDEO TO LEARN MORE!
 						</button>
 					</div> */}
-				</div>
+				</motion.div>
 				<div className="about-right">
 					<img
 						src="https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
