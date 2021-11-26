@@ -10,23 +10,6 @@ const Dashboard = () => {
 				<div className="container">
 					<div className="cards">
 						<Link
-							to="/soon"
-							style={{
-								textDecoration: "none",
-								color: "inherit",
-							}}
-							className="card"
-						>
-							<img
-								src="https://images.unsplash.com/photo-1503428593586-e225b39bddfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
-								alt=""
-							/>
-							<div className="textBox">
-								<div className="text">EVENTS</div>
-							</div>
-						</Link>
-
-						<Link
 							to="/partners"
 							style={{
 								textDecoration: "none",
@@ -42,25 +25,9 @@ const Dashboard = () => {
 								<div className="text">PARTNERS</div>
 							</div>
 						</Link>
-						<Link
-							to="/clubs"
-							style={{
-								textDecoration: "none",
-								color: "inherit",
-							}}
-							className="card"
-						>
-							<img
-								src="https://images.unsplash.com/photo-1634813052299-35818e3fb131?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
-								alt=""
-							/>
-							<div className="textBox">
-								<div className="text">CLUBS</div>
-							</div>
-						</Link>
 
 						<Link
-							to="/competition"
+							to="/soon"
 							style={{
 								textDecoration: "none",
 								color: "inherit",
@@ -68,11 +35,11 @@ const Dashboard = () => {
 							className="card"
 						>
 							<img
-								src="https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+								src="https://images.unsplash.com/photo-1503428593586-e225b39bddfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
 								alt=""
 							/>
 							<div className="textBox">
-								<div className="text">COMPETITION</div>
+								<div className="text">EVENTS</div>
 							</div>
 						</Link>
 
@@ -92,6 +59,24 @@ const Dashboard = () => {
 								<div className="text">FAQS</div>
 							</div>
 						</Link>
+
+						<Link
+							to="/clubs"
+							style={{
+								textDecoration: "none",
+								color: "inherit",
+							}}
+							className="card"
+						>
+							<img
+								src="https://images.unsplash.com/photo-1634813052299-35818e3fb131?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+								alt=""
+							/>
+							<div className="textBox">
+								<div className="text">CLUBS</div>
+							</div>
+						</Link>
+
 						<Link
 							to="/start"
 							style={{
@@ -106,6 +91,23 @@ const Dashboard = () => {
 							/>
 							<div className="textBox">
 								<div className="text">GET STARTED</div>
+							</div>
+						</Link>
+
+						<Link
+							to="/competition"
+							style={{
+								textDecoration: "none",
+								color: "inherit",
+							}}
+							className="card"
+						>
+							<img
+								src="https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+								alt=""
+							/>
+							<div className="textBox">
+								<div className="text">COMPETITION</div>
 							</div>
 						</Link>
 					</div>

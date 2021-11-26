@@ -29,7 +29,7 @@ const DashboardBar = () => {
 				initial={{ opacity: 0 }}
 				animate={animationL}
 			>
-				Dashboard
+				DASHBOARD
 			</motion.div>
 		</div>
 	);

@@ -51,12 +51,12 @@ export default function Landing() {
 					</div>
 					<div className="bottom">
 						<div className="btn-container">
-							<button
+							{/* <button
 								className="btn"
 								onClick={openModal}
 							>
 								ONLINE COMPETITION
-							</button>
+							</button> */}
 							<button
 								className="btn"
 								onClick={openPrevModal}
