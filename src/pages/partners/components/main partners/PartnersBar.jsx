@@ -4,7 +4,7 @@ const PartnersBar = () => {
 	return (
 		<div className="infoBar">
 			<div className="infoText">
-				2021-2022 MAIN PARTNERS
+				2021-2022 MAIN PARTNER
 			</div>
 		</div>
 	);

@@ -3,7 +3,9 @@ import "../infoBar.scss";
 const InfluencerBar = () => {
 	return (
 		<div className="infoBar">
-			<div className="infoText">INFLUENCERS</div>
+			<div className="infoText">
+				2021-2022 INFLUENCERS
+			</div>
 		</div>
 	);
 };

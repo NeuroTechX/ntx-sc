@@ -18,16 +18,20 @@ const JoinInfo = () => {
 						</h1>
 					</Link>
 					<div className="infoBox">
-						<h1>
-							I AM A STUDENT WITH AN NTX AFFILIATED CLUB
-							LOOKING FOR RESOURCES
-						</h1>
+						<Link to="/soon" className="infoBox">
+							<h1>
+								I AM A STUDENT WITH AN NTX AFFILIATED CLUB
+								LOOKING FOR RESOURCES
+							</h1>
+						</Link>
 					</div>
 					<div className="infoBox">
-						<h1>
-							I’M CURIOUS ABOUT THE PROJECTS STUDENTS ARE
-							WORKING ON
-						</h1>
+						<Link to="/soon" className="infoBox">
+							<h1>
+								I’M CURIOUS ABOUT THE PROJECTS STUDENTS
+								ARE WORKING ON
+							</h1>
+						</Link>
 					</div>
 				</div>
 				<div className="cards">

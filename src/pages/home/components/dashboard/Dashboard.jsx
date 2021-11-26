@@ -1,9 +1,11 @@
 import "./dashboard.scss";
 import { Link } from "react-router-dom";
+import DashboardBar from "./DashboardBar";
 
 const Dashboard = () => {
 	return (
 		<>
+			<DashboardBar />
 			<div className="dashboard">
 				<div className="container">
 					<div className="cards">
@@ -41,7 +43,7 @@ const Dashboard = () => {
 							</div>
 						</Link>
 						<Link
-							to="/competition"
+							to="/clubs"
 							style={{
 								textDecoration: "none",
 								color: "inherit",

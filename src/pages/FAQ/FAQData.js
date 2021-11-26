@@ -13,7 +13,7 @@ export const FAQData = [
 	},
 	{
 		question:
-			"We are not an 'official' student club recognized by our University can we still be part of NeuroTechX Student Club Initiative and Competitions?",
+			"We are not an 'official' student club recognized by our University can we still be part of NTXSC Initiative and Competitions?",
 		answer:
 			"Yes! All you need is a written confirmation from your university that we can use the university name and logo when referring to your group.",
 	},

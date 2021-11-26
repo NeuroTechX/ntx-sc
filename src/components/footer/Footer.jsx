@@ -1,5 +1,6 @@
 import "./footer.scss";
 import logo from "./icons/Logo.png";
+import { Link } from "react-router-dom";
 
 import {
 	Twitter,
@@ -13,16 +14,16 @@ const Footer = () => {
 		<div className="footer">
 			<div className="footerContainer">
 				<div className="left">
-					<a
-						href="https://neurotechx.com/"
-						target="blank"
-					>
+					<Link to="/">
 						<img
 							src={logo}
 							alt="Logo"
 							className="icon"
 						/>
-					</a>
+					</Link>
+					<h1>
+						The NeurotechX student club initiative
+					</h1>
 				</div>
 				<div className="right">
 					<a
