@@ -8,8 +8,8 @@
 	position: relative;
 
 	.wji-wrapper {
-		height: 95%;
-		width: 92%;
+		height: 93%;
+		width: 85%;
 		display: flex;
 		position: absolute;
 		top: 0;
@@ -21,15 +21,16 @@
 			flex: 1.2;
 			background-color: $backgroundColor;
 
-			p {
+			.wji-text {
 				width: 80%;
 				display: flex;
-				justify-content: center;
+				justify-content: space-around;
+
 				align-items: center;
-				font-family: Hind;
-				font-size: 2vw;
-				line-height: 5vh;
-				margin: 2% 0 0 10%;
+				font-family: "Hind";
+				font-size: 1.6vw;
+				line-height: 5.5vh;
+				margin: 4% 0 0 10%;
 			}
 
 			.wji-button-container {
@@ -37,21 +38,22 @@
 				align-items: center;
 				justify-content: center;
 				margin-bottom: 25px;
+				a {
+					.wji-button {
+						width: 30vw;
+						height: 60px;
+						border-radius: 15px;
+						background-color: $buttonColor;
+						border: none;
+						font-size: 20px;
+						font-weight: 600;
+						transition: all 0.5s ease;
+						cursor: pointer;
 
-				.wji-button {
-					width: 30vw;
-					height: 60px;
-					border-radius: 15px;
-					background-color: $buttonColor;
-					border: none;
-					font-size: 20px;
-					font-weight: 600;
-					transition: all 0.5s ease;
-					cursor: pointer;
-
-					&:hover {
-						background-color: $buttonHover;
-						color: white;
+						&:hover {
+							background-color: $buttonHover;
+							color: white;
+						}
 					}
 				}
 			}

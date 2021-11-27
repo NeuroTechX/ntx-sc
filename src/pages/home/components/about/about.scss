@@ -1,15 +1,15 @@
 @import "../../../../global.scss";
 
 .about {
-	height: 115vh;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	position: relative;
 
 	.about-wrapper {
-		height: 95%;
-		width: 92%;
+		height: 93%;
+		width: 85%;
 		display: flex;
 		position: absolute;
 		bottom: 0;
@@ -18,12 +18,12 @@
 			flex: 1.2;
 			background-color: $backgroundColor;
 			h1 {
-				margin: 50px 0 0 50px;
+				margin: 8% 10%;
 				font-family: "Saira", sans-serif;
 				font-style: normal;
 				font-weight: bold;
-				font-size: 4vw;
-				line-height: 3vh;
+				font-size: 3.1vw;
+				line-height: 2.7vh;
 			}
 
 			p {
@@ -31,10 +31,10 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				font-family: Hind;
-				font-size: 2vw;
-				line-height: 5vh;
-				margin: 25px 0 0 50px;
+				font-family: "Hind";
+				font-size: 1.6vw;
+				line-height: 4.6vh;
+				margin: 3% 0 0 10%;
 			}
 		}
 

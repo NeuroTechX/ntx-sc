@@ -44,7 +44,7 @@ const WhyJoinInfo = () => {
 		<div className="wji">
 			<div className="wji-wrapper">
 				<div className="wji-left" ref={ref}>
-					<motion.p
+					<motion.div
 						className="wji-text"
 						initial={{ opacity: 0, x: "-100vw" }}
 						animate={animationL}
@@ -73,12 +73,18 @@ const WhyJoinInfo = () => {
 								our partners (hardware, events, etc.)
 							</li>
 						</ul>
-					</motion.p>
+					</motion.div>
 
 					<div className="wji-button-container">
-						<button className="wji-button">
-							WATCH OUR VIDEO TO LEARN MORE!
-						</button>
+						<a
+							href="https://youtu.be/pX7jzKJHXcQ"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<button className="wji-button">
+								WATCH OUR VIDEO TO LEARN MORE!
+							</button>
+						</a>
 					</div>
 				</div>
 				<div className="wji-right" ref={ref}>
