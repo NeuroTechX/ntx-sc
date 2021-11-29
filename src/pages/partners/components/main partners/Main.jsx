@@ -10,7 +10,7 @@ const About = () => {
 			<div className="main">
 				<div className="main-wrapper">
 					<a
-						href="https://shop.openbci.com/collections/frontpage"
+						href="https://www.branchoutfoundation.com/"
 						target="_blank"
 						rel="noopener noreferrer"
 					>

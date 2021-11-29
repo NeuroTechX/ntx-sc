@@ -13,7 +13,7 @@ export default function Gs1() {
 								5. Start by reproducing experiments to
 								build competences
 							</h1>
-							<p>Here is a list of resources:</p>
+							<h2>Here is a list of resources:</h2>
 
 							<ul>
 								<li>Curriculum</li>

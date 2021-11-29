@@ -65,7 +65,7 @@
 						justify-content: center;
 						font-family: Hind;
 						font-weight: 600;
-						font-size: 1.5vw;
+						font-size: clamp(0.5rem, 1.3vw, 2rem);
 					}
 				}
 				&:hover {

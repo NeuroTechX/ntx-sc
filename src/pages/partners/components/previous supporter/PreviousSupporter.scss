@@ -8,14 +8,14 @@
 		justify-content: center;
 		align-items: center;
 		background-image: linear-gradient(
-			to bottom,
+			to top,
 			$backgroundColor,
 			rgba(255, 255, 255, 0)
 		);
 
 		.center {
-			height: 30%;
-			max-width: 40%;
+			height: 50%;
+			max-width: 45%;
 
 			display: flex;
 			align-items: center;
@@ -26,7 +26,6 @@
 			a {
 				font-size: clamp(1rem, 2vw, 2rem);
 				.centerCard {
-					font-family: "Hind";
 					display: flex;
 					justify-content: center;
 					align-items: center;
@@ -39,10 +38,15 @@
 					);
 					box-shadow: 5px 5px 10px #d9d9d9,
 						-5px -5px 10px #ffffff;
-					width: 200px;
-					height: 100px;
-					transition: all 0.5s ease-in-out;
-					margin: 10%;
+					width: min(215px, 13vw);
+					height: min(115px, 11vh);
+					cursor: pointer;
+					margin-top: 20%;
+
+					.name {
+						font-size: clamp(0.9rem, 1.1vw, 2.5rem);
+						font-family: "Hind";
+					}
 				}
 			}
 		}

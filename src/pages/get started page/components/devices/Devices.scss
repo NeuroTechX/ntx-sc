@@ -10,7 +10,7 @@
 
 	.container {
 		position: relative;
-		margin-bottom: 300px;
+		margin-bottom: 5%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -30,9 +30,9 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				height: 140px;
-				width: 20%;
-				margin: 7%;
+				height: 15vh;
+				width: 15%;
+				margin: 11%;
 				background-color: $brandColor;
 				color: white;
 				cursor: pointer;
@@ -42,7 +42,7 @@
 					position: absolute;
 					font-family: Hind;
 					font-weight: 500;
-					font-size: 1.3vw;
+					font-size: clamp(1rem, 1.3vw, 3rem);
 					display: flex;
 					align-items: center;
 					text-align: center;
@@ -75,13 +75,13 @@
 			justify-content: center;
 			position: relative;
 			img {
-				width: 100%;
-				height: 100%;
+				width: 70%;
+				height: 70%;
 				object-fit: cover;
 				border-radius: 50px;
 				object-fit: scale-down;
 				position: absolute;
-				bottom: 25%;
+				bottom: 45%;
 			}
 		}
 	}

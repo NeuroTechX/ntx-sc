@@ -1,11 +1,12 @@
 @import "../../../../global.scss";
 
-.cta {
+.partnerCta {
 	height: 75vh;
 	width: 100%;
 	background-image: linear-gradient(
-		to top,
-		rgba(255, 255, 255, 0) $backgroundColor
+		to bottom,
+		$backgroundColor,
+		rgba(255, 255, 255, 0)
 	);
 	display: flex;
 	align-items: center;
@@ -22,12 +23,12 @@
 		height: 388px;
 
 		.left {
-			width: 350px;
+			width: 20%;
 			height: 100%;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			margin-right: 50px;
+			margin-right: 5%;
 			img {
 				height: 100%;
 				width: 100%;
@@ -36,8 +37,8 @@
 		}
 		.right {
 			display: flex;
-
-			width: 82%;
+			background-color: $brandColor;
+			width: 80%;
 			height: 100%;
 
 			.textBox {
@@ -62,16 +63,6 @@
 						margin-bottom: 195px;
 						margin: 10px;
 						font-size: 1.8vw;
-					}
-					ul {
-						margin-bottom: 20px;
-						font-size: 1.5vw;
-						margin: 10px;
-
-						li {
-							list-style: none;
-							margin-bottom: 10px;
-						}
 					}
 				}
 			}

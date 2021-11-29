@@ -2,7 +2,7 @@ import "./partnerCTA.scss";
 
 export default function PartnerCallToAction() {
 	return (
-		<div className="cta">
+		<div className="partnerCta">
 			<div className="bottom">
 				<div className="left">
 					<img
@@ -15,7 +15,7 @@ export default function PartnerCallToAction() {
 						<div className="text">
 							<h1>Support this initiative.</h1>
 							<p>Email us:</p>
-							<p>studentclubs@neurotechx.com</p>
+							<p>studentclubs [at] neurotechx.com</p>
 						</div>
 					</div>
 				</div>

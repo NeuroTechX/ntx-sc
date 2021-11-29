@@ -48,10 +48,10 @@ export default function Gs2() {
 								4. Start a website (required for
 								sponsorship & hardware)
 							</h1>
-							<p>
+							<h2>
 								Your student club website should contain
 								at least the following information:
-							</p>
+							</h2>
 
 							<ul>
 								<li>University</li>

@@ -23,10 +23,9 @@
 		flex: 0.4;
 		z-index: 2;
 		background-color: #b1bebf;
-		margin-top: 80px;
-		margin-bottom: 60px;
 		width: 90%;
 		height: 25%;
+		margin-top: 5%;
 
 		.container {
 			width: 100%;
@@ -51,13 +50,13 @@
 				h1 {
 					position: absolute;
 					top: 10%;
-					font-size: 2.3vw;
+					font-size: clamp(1rem, 1.8vw, 2rem);
 					line-height: 1vh;
 				}
 				h2 {
 					margin-top: 10%;
 					font-weight: 400;
-					font-size: 1.7vw;
+					font-size: clamp(1rem, 1.7vw, 2rem);
 					padding: 5%;
 					line-height: 4vh;
 				}
@@ -73,17 +72,17 @@
 		flex-direction: row;
 		flex: 0.5;
 		z-index: 2;
-		margin: 75px;
+		margin: 5%;
 		width: 90%;
-		height: 388px;
+		height: 80%;
 
 		.left {
-			width: 350px;
+			width: 30%;
 			height: 100%;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			margin-right: 50px;
+			margin-right: 5%;
 			img {
 				height: 100%;
 				width: 100%;
@@ -93,7 +92,7 @@
 		.right {
 			display: flex;
 			background-color: $brandColor;
-			width: 82%;
+			width: 65%;
 			height: 100%;
 
 			.textBox {
@@ -106,27 +105,27 @@
 
 				.text {
 					color: white;
-					margin-top: 15px;
+					margin: 2%;
 
 					h1 {
-						font-size: 2.3vw;
+						font-size: clamp(1rem, 2vw, 3rem);
 						font-weight: 600;
 						margin: 10px;
 					}
-					p {
+					h2 {
 						font-weight: 500;
 						margin-bottom: 195px;
 						margin: 10px;
-						font-size: 1.8vw;
+						font-size: clamp(1rem, 1.7vw, 2rem);
 					}
 					ul {
 						margin-bottom: 20px;
-						font-size: 1.5vw;
-						margin: 10px;
+						font-size: clamp(1rem, 1.5vw, 2rem);
+						margin: 1%;
 
 						li {
 							list-style: none;
-							margin-bottom: 10px;
+							margin-bottom: 1%;
 						}
 					}
 				}

@@ -11,10 +11,6 @@
 		align-items: center;
 		justify-content: center;
 
-		h1 {
-			font-family: "Saira";
-			margin: 20px;
-		}
 		.questionBox {
 			display: flex;
 			align-items: center;
@@ -26,8 +22,8 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			width: 80%;
-			height: 200px;
+			width: 70vw;
+			height: 15vh;
 			padding-top: 1vh;
 			padding-bottom: 1vh;
 			cursor: pointer;
@@ -39,7 +35,7 @@
 				font-family: "Hind";
 				width: 80%;
 				height: 80%;
-				font-size: 2.1vw;
+				font-size: clamp(0.5rem, 1.5vw, 3rem);
 			}
 			.seeMore {
 				height: 19px;
@@ -59,18 +55,17 @@
 			}
 		}
 		.answer {
-			transition: all 0.5 ease;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			background-color: white;
 			padding-top: 20px;
 			padding-bottom: 20px;
-			padding: 20px;
-			width: 77%;
-			height: 20vh;
+			width: 70vw;
+			height: 15vh;
 			font-family: "Hind";
-			font-size: 1.8vw;
+			font-size: clamp(0.5rem, 1.5vw, 3rem);
+			text-align: center;
 			border: 1px solid $brandColor;
 			border-bottom: none;
 			border-top: none;

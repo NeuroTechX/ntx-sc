@@ -34,7 +34,7 @@ export const partnerData = [
 		name: "FacebookCTRL-Lab",
 		id: "1",
 		logo: FBLogo,
-		link: "https://ctrllab.com/",
+		link: "https://tech.fb.com/ar-vr/",
 	},
 	{
 		name: "getc",
