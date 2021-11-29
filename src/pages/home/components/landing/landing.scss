@@ -56,6 +56,9 @@
 				font-family: Hind;
 				font-size: clamp(0.9rem, 2vw, 4rem);
 				font-weight: 400;
+				@include ipad {
+					font-size: clamp(0.9rem, 4vw, 4rem);
+				}
 			}
 
 			.center {
@@ -67,10 +70,16 @@
 				font-weight: 700;
 				h2 {
 					font-size: clamp(1.2rem, 4vw, 4rem);
+					@include ipad {
+						font-size: clamp(0.9rem, 8vw, 4rem);
+					}
 				}
 
 				h3 {
 					font-size: clamp(1.2rem, 5vw, 4rem);
+					@include ipad {
+						font-size: clamp(0.9rem, 10vw, 4rem);
+					}
 				}
 			}
 
@@ -84,11 +93,18 @@
 					align-items: center;
 					justify-content: center;
 					overflow: hidden;
+					@include ipad {
+						height: 100px;
+						width: 60vh;
+					}
 
 					.btn {
 						margin: 20px;
 						padding: 7px;
 						font-size: clamp(0.9rem, 1.5vw, 2rem);
+						@include ipad {
+							font-size: clamp(0.9rem, 3vw, 4rem);
+						}
 
 						font-family: Hind;
 						color: rgb(255, 255, 255);

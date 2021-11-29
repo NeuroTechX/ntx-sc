@@ -4,3 +4,11 @@ $buttonColor: #b1bebf;
 $buttonHover: #1fbfbf;
 $black: #404747;
 $brandColor: #31afbe;
+
+$width: 768px;
+
+@mixin ipad {
+	@media (max-width: #{$width}) {
+		@content;
+	}
+}

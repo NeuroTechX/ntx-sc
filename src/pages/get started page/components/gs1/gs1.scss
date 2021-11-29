@@ -8,6 +8,9 @@
 	align-items: center;
 	position: relative;
 	flex-direction: column;
+	@include ipad {
+		height: 115vh;
+	}
 
 	.backgroundColumn {
 		height: 100%;
@@ -26,6 +29,9 @@
 		background-color: #b1bebf;
 		width: 90%;
 		margin-top: 5%;
+		@include ipad {
+			flex: 0.3;
+		}
 
 		.container {
 			width: 100%;
@@ -52,6 +58,11 @@
 					top: 10%;
 					font-size: clamp(1rem, 1.8vw, 2rem);
 					line-height: 1vh;
+					@include ipad {
+						top: 1%;
+						font-size: clamp(1rem, 2.9vw, 2rem);
+						line-height: 2vh;
+					}
 				}
 				h2 {
 					margin-top: 10%;
@@ -59,6 +70,9 @@
 					font-size: clamp(1rem, 1.6vw, 2rem);
 					padding: 5%;
 					line-height: 4vh;
+					@include ipad {
+						font-size: clamp(1rem, 2.7vw, 3rem);
+					}
 				}
 			}
 			&:last-child {
@@ -110,17 +124,26 @@
 						font-size: clamp(1rem, 2vw, 3rem);
 						font-weight: 600;
 						margin: 10px;
+						@include ipad {
+							font-size: clamp(1rem, 4vw, 3rem);
+						}
 					}
 					h2 {
 						font-weight: 500;
 						margin-bottom: 195px;
 						margin: 10px;
 						font-size: clamp(1rem, 1.7vw, 2rem);
+						@include ipad {
+							font-size: clamp(1rem, 4vw, 3rem);
+						}
 					}
 					ul {
 						margin-bottom: 20px;
 						font-size: clamp(1rem, 1.5vw, 2rem);
 						margin: 1%;
+						@include ipad {
+							font-size: clamp(1rem, 3vw, 3rem);
+						}
 
 						li {
 							list-style: none;

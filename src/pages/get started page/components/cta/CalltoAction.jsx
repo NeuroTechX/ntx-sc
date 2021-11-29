@@ -17,7 +17,8 @@ export default function CalltoAction() {
 							<h1>Ready to start a club!?</h1>
 							<p>Let’s do it!</p>
 							<p>
-								Email us: studentclubs at neurotechx.com
+								Email us:
+								<br /> studentclubs [at] neurotechx.com
 							</p>
 						</div>
 					</div>

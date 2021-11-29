@@ -8,6 +8,9 @@
 	align-items: center;
 	position: relative;
 	flex-direction: column;
+	@include ipad {
+		height: 150vh;
+	}
 
 	.backgroundColumn {
 		height: 100%;
@@ -56,6 +59,11 @@
 		z-index: 2;
 		margin: 75px;
 		width: 90%;
+		@include ipad {
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
 
 		.right {
 			width: 40%;
@@ -64,10 +72,18 @@
 			align-items: center;
 			justify-content: center;
 			margin-left: 5%;
+			@include ipad {
+				margin-left: 0;
+				width: 60%;
+			}
+
 			img {
 				height: 100%;
 				width: 100%;
 				object-fit: scale-down;
+				@include ipad {
+					margin-top: 25%;
+				}
 			}
 		}
 		.left {
@@ -75,6 +91,9 @@
 			background-color: $brandColor;
 			width: 65%;
 			height: 100%;
+			@include ipad {
+				width: 75%;
+			}
 
 			.textBox {
 				width: 100%;
@@ -92,20 +111,33 @@
 						font-size: clamp(1rem, 2vw, 3rem);
 						font-weight: 600;
 						margin: 10px;
+						@include ipad {
+							font-size: clamp(1rem, 4vw, 3rem);
+							margin: 0;
+						}
 					}
 					h2 {
 						font-weight: 500;
 						margin-bottom: 195px;
 						margin: 10px;
 						font-size: clamp(1rem, 1.7vw, 2rem);
+						@include ipad {
+							font-size: clamp(1rem, 4vw, 3rem);
+							margin: 0;
+						}
 					}
 					ul {
 						margin-bottom: 20px;
 						font-size: clamp(1rem, 1.5vw, 2rem);
 						margin: 1%;
+						padding: 1%;
+						@include ipad {
+							font-size: clamp(1rem, 3vw, 3rem);
+							margin: 0;
+							padding: 5%;
+						}
 
 						li {
-							list-style: none;
 							margin-bottom: 1%;
 						}
 					}

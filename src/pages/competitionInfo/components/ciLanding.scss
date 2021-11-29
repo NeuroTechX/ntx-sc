@@ -49,6 +49,9 @@
 			justify-content: space-between;
 			bottom: 75px;
 			position: absolute;
+			@include ipad {
+				width: 60%;
+			}
 
 			.banner {
 				font-family: "Saira", sans-serif;
@@ -58,11 +61,17 @@
 				justify-content: center;
 				font-weight: 700;
 				h2 {
-					font-size: 3vw;
+					font-size: clamp(1rem, 3vw, 2rem);
+					@include ipad {
+						font-size: clamp(1rem, 7vw, 2rem);
+					}
 				}
 
 				h3 {
-					font-size: 3vw;
+					font-size: clamp(1rem, 3vw, 2rem);
+					@include ipad {
+						font-size: clamp(1.5rem, 6vw, 2.3rem);
+					}
 				}
 			}
 
@@ -81,11 +90,15 @@
 					flex-wrap: wrap;
 					align-items: center;
 					justify-content: center;
+					@include ipad {
+						height: 20vh;
+						width: 55vw;
+					}
 
 					.btn {
 						margin: 1%;
-						width: 20vw;
-						height: 30%;
+						width: 30vw;
+						height: 20%;
 						font-size: clamp(0.5rem, 1.2vw, 1.2rem);
 						font-family: Hind;
 						color: rgb(255, 255, 255);
@@ -94,6 +107,12 @@
 						border-style: none;
 						border-radius: 15px;
 						cursor: pointer;
+						@include ipad {
+							margin: 2%;
+							width: 20vw;
+							height: 30%;
+							font-size: clamp(0.5rem, 3.9vw, 1.2rem);
+						}
 
 						&:hover {
 							background-color: $buttonHover;

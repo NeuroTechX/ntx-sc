@@ -28,6 +28,10 @@
 			height: 60vh;
 			border-radius: 38px;
 			margin: 10% 0 10% 0;
+			@include ipad {
+				width: 80vw;
+				height: 50vh;
+			}
 
 			.imgContainer {
 				width: 90%;

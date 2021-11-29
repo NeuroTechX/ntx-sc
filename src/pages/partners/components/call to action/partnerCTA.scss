@@ -54,15 +54,24 @@
 					margin-top: 15px;
 
 					h1 {
-						font-size: 2.3vw;
+						font-size: clamp(1rem, 2.3vw, 2rem);
 						font-weight: 600;
 						margin: 10px;
+						@include ipad {
+							font-size: clamp(1rem, 4vw, 2rem);
+							margin: 1%;
+						}
 					}
 					p {
 						font-weight: 500;
 						margin-bottom: 195px;
 						margin: 10px;
-						font-size: 1.8vw;
+						font-size: clamp(1rem, 1.8vw, 2rem);
+
+						@include ipad {
+							font-size: clamp(1rem, 3vw, 2rem);
+							margin: 1%;
+						}
 					}
 				}
 			}
