@@ -7,6 +7,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background: linear-gradient(
+		#f5f5f5,
+		rgba(171, 230, 230, 0.9)
+	);
 
 	.container {
 		width: 100%;

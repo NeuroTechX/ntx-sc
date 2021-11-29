@@ -1,0 +1,134 @@
+@import "../../../../global.scss";
+
+.ciMain {
+	height: 125vh;
+	width: 100%;
+	background-color: #f6f6f6;
+	display: flex;
+	align-items: center;
+	position: relative;
+	flex-direction: column;
+
+	.backgroundColumn {
+		height: 100%;
+		width: 70%;
+		background-color: rgba(221, 239, 241, 0.95);
+		z-index: 1;
+		position: absolute;
+	}
+	.bottom {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		flex: 0.3;
+		z-index: 2;
+		background-color: #b1bebf;
+		width: 90%;
+		margin-top: 5%;
+
+		.container {
+			width: 100%;
+			height: 70%;
+			display: flex;
+			align-content: inherit;
+			justify-content: center;
+			border-right: 3px solid white;
+			font-family: "Hind";
+			font-weight: 700;
+			position: relative;
+
+			.textBox {
+				color: white;
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				flex-direction: column;
+				position: relative;
+
+				h1 {
+					position: absolute;
+					top: 10%;
+					font-size: clamp(1rem, 1.8vw, 2rem);
+					line-height: 1vh;
+				}
+				h2 {
+					margin-top: 10%;
+					font-weight: 400;
+					font-size: clamp(1rem, 1.6vw, 2rem);
+					padding: 5%;
+					line-height: 4vh;
+				}
+			}
+			&:last-child {
+				border-right: none;
+			}
+		}
+	}
+
+	.top {
+		display: flex;
+		flex-direction: row;
+		flex: 0.5;
+		z-index: 2;
+		margin: 75px;
+		width: 90%;
+
+		.right {
+			width: 30%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-left: 5%;
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+		.left {
+			display: flex;
+			background-color: $brandColor;
+			width: 65%;
+			height: 100%;
+
+			.textBox {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				font-family: "Hind";
+
+				.text {
+					color: white;
+					margin: 2%;
+
+					h1 {
+						font-size: clamp(1rem, 2vw, 3rem);
+						font-weight: 600;
+						margin: 10px;
+					}
+					h2 {
+						font-weight: 500;
+						margin-bottom: 195px;
+						margin: 10px;
+						font-size: clamp(1rem, 1.7vw, 2rem);
+					}
+					ul {
+						margin-bottom: 20px;
+						font-size: clamp(1rem, 1.5vw, 2rem);
+						margin: 1%;
+
+						li {
+							list-style: none;
+							margin-bottom: 1%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
