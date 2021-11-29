@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/NeuroTechXStudentClubs/static/css/main.0489a152.chunk.css",
+    "main.js": "/NeuroTechXStudentClubs/static/js/main.64fb056e.chunk.js",
+    "main.js.map": "/NeuroTechXStudentClubs/static/js/main.64fb056e.chunk.js.map",
+    "runtime-main.js": "/NeuroTechXStudentClubs/static/js/runtime-main.e196376f.js",
+    "runtime-main.js.map": "/NeuroTechXStudentClubs/static/js/runtime-main.e196376f.js.map",
+    "static/js/2.307b0d2b.chunk.js": "/NeuroTechXStudentClubs/static/js/2.307b0d2b.chunk.js",
+    "static/js/2.307b0d2b.chunk.js.map": "/NeuroTechXStudentClubs/static/js/2.307b0d2b.chunk.js.map",
+    "index.html": "/NeuroTechXStudentClubs/index.html",
+    "static/css/main.0489a152.chunk.css.map": "/NeuroTechXStudentClubs/static/css/main.0489a152.chunk.css.map",
+    "static/js/2.307b0d2b.chunk.js.LICENSE.txt": "/NeuroTechXStudentClubs/static/js/2.307b0d2b.chunk.js.LICENSE.txt",
+    "static/media/FRL_Research_Black_RGB.68eb2625.png": "/NeuroTechXStudentClubs/static/media/FRL_Research_Black_RGB.68eb2625.png",
+    "static/media/Logo.79dbcf38.png": "/NeuroTechXStudentClubs/static/media/Logo.79dbcf38.png",
+    "static/media/NTXSC-Main.cf7a16e9.png": "/NeuroTechXStudentClubs/static/media/NTXSC-Main.cf7a16e9.png",
+    "static/media/light blue.b07fa457.png": "/NeuroTechXStudentClubs/static/media/light blue.b07fa457.png",
+    "static/media/splash.cf7a16e9.png": "/NeuroTechXStudentClubs/static/media/splash.cf7a16e9.png",
+    "static/media/sponsors.f4fc5f50.png": "/NeuroTechXStudentClubs/static/media/sponsors.f4fc5f50.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e196376f.js",
+    "static/js/2.307b0d2b.chunk.js",
+    "static/css/main.0489a152.chunk.css",
+    "static/js/main.64fb056e.chunk.js"
+  ]
+}
