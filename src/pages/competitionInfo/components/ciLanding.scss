@@ -60,6 +60,7 @@
 				align-items: center;
 				justify-content: center;
 				font-weight: 700;
+				text-align: center;
 				h2 {
 					font-size: clamp(1rem, 3vw, 2rem);
 					@include ipad {
@@ -112,6 +113,12 @@
 							width: 20vw;
 							height: 30%;
 							font-size: clamp(0.5rem, 3.9vw, 1.2rem);
+						}
+						@include mobile {
+							margin: 2%;
+							width: 40vw;
+							height: 30%;
+							font-size: clamp(0.5rem, 3.5vw, 1.2rem);
 						}
 
 						&:hover {

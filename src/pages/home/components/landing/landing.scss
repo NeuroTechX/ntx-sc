@@ -50,7 +50,7 @@
 			position: absolute;
 			@include mobile {
 				width: 80vw;
-				height: 30vh;
+				min-height: 10vw;
 			}
 
 			.top {

@@ -11,6 +11,10 @@
 	@include ipad {
 		height: 115vh;
 	}
+	@include mobile {
+		height: 77vh;
+	}
+
 	.backgroundColumn {
 		height: 100%;
 		width: 50%;
@@ -30,6 +34,10 @@
 		margin-top: 5%;
 		@include ipad {
 			flex: 0.5;
+		}
+		@include mobile {
+			flex: 0.4;
+			width: 98%;
 		}
 		.container {
 			width: 100%;
@@ -61,6 +69,11 @@
 						font-size: clamp(1rem, 3.2vw, 2rem);
 						line-height: 2.5vh;
 					}
+					@include mobile {
+						top: 0;
+						font-size: clamp(1rem, 3vw, 2rem);
+						line-height: 2.7vh;
+					}
 				}
 				h2 {
 					margin-top: 10%;
@@ -71,6 +84,9 @@
 					@include ipad {
 						font-size: clamp(1rem, 2.9vw, 3rem);
 						line-height: 3vh;
+					}
+					@include mobile {
+						margin-top: 60%;
 					}
 				}
 			}
@@ -99,6 +115,11 @@
 			align-items: center;
 			justify-content: center;
 			margin-right: 5%;
+			@include mobile {
+				width: 0;
+				height: 0;
+				margin-right: 0;
+			}
 			img {
 				height: 100%;
 				width: 100%;
@@ -110,6 +131,11 @@
 			background-color: $brandColor;
 			width: 65%;
 			height: 100%;
+			@include mobile {
+				align-items: center;
+				justify-content: center;
+				width: 98vw;
+			}
 
 			.textBox {
 				width: 100%;
@@ -126,7 +152,7 @@
 					h1 {
 						font-size: clamp(1rem, 2vw, 3rem);
 						font-weight: 600;
-						margin: 10px;
+						margin: 1%;
 						@include ipad {
 							font-size: clamp(1rem, 4vw, 3rem);
 						}
@@ -134,7 +160,7 @@
 					h2 {
 						font-weight: 500;
 						margin-bottom: 195px;
-						margin: 10px;
+						margin: 1%;
 						font-size: clamp(1rem, 1.7vw, 2rem);
 						@include ipad {
 							font-size: clamp(1rem, 3vw, 3rem);

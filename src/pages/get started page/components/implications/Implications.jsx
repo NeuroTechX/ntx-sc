@@ -4,7 +4,7 @@ export default function Implications() {
 	return (
 		<div className="implications">
 			<div className="banner">
-				<h1>NEUROTECHX IMPLICATION/RELATIONSHIP</h1>
+				<h1>NTX IMPLICATION/RELATIONSHIP</h1>
 			</div>
 			<div className="backgroundColumn"></div>
 			<div className="left">

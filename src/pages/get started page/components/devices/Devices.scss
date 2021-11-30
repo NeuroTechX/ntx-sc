@@ -10,6 +10,9 @@
 	@include ipad {
 		height: 80vh;
 	}
+	@include mobile {
+		height: 60vh;
+	}
 
 	.container {
 		position: relative;
@@ -31,6 +34,9 @@
 			@include ipad {
 				margin-top: 250px;
 			}
+			@include mobile {
+				margin-top: 50px;
+			}
 			.infoBox {
 				position: relative;
 				display: flex;
@@ -45,6 +51,11 @@
 				transition: all 0.9s ease;
 				@include ipad {
 					height: 20vh;
+					width: 30%;
+					margin: 3%;
+				}
+				@include mobile {
+					height: 13vh;
 					width: 30%;
 					margin: 3%;
 				}
@@ -79,6 +90,10 @@
 			overflow: hidden;
 			@include ipad {
 				height: 600px;
+				width: 90vw;
+			}
+			@include mobile {
+				height: 400px;
 				width: 90vw;
 			}
 		}

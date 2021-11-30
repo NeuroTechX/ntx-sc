@@ -11,6 +11,9 @@
 	@include ipad {
 		height: 100vh;
 	}
+	@include mobile {
+		height: 130vh;
+	}
 
 	.backgroundColumn {
 		height: 100%;
@@ -18,7 +21,11 @@
 		background-color: rgba(221, 239, 241, 0.95);
 		z-index: 1;
 		position: absolute;
+		@include ipad {
+			width: 100vw;
+		}
 	}
+
 	.bottom {
 		display: flex;
 		flex-direction: row;

@@ -27,8 +27,10 @@
 		position: relative;
 
 		.welcome {
-			height: 300px;
-			width: 650px;
+			height: 40vh;
+			min-height: 350px;
+			min-width: 300px;
+			max-width: 700px;
 			padding: 25px 25px;
 			border-radius: 15px;
 			background: rgb(211, 211, 211);
@@ -41,13 +43,16 @@
 			);
 			backdrop-filter: blur(10px);
 			-webkit-backdrop-filter: blur(10px);
-			position: absolute;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
 			bottom: 75px;
 			position: absolute;
+			@include mobile {
+				width: 80vw;
+				min-height: 15vw;
+			}
 
 			.top {
 				display: flex;

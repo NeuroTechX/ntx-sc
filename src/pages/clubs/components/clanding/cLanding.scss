@@ -48,6 +48,10 @@
 			justify-content: center;
 			bottom: 75px;
 			position: absolute;
+			@include mobile {
+				width: 80vw;
+				min-height: 10vw;
+			}
 
 			.center {
 				display: flex;
@@ -60,6 +64,9 @@
 				font-weight: 500;
 				@include ipad {
 					font-size: clamp(0.9rem, 5vw, 4rem);
+				}
+				@include mobile {
+					font-size: clamp(0.9rem, 7vw, 4rem);
 				}
 			}
 		}

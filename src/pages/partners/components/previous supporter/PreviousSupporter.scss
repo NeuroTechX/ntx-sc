@@ -16,7 +16,6 @@
 		.center {
 			height: 50%;
 			max-width: 45%;
-
 			display: flex;
 			align-items: center;
 			justify-content: space-around;
@@ -42,10 +41,17 @@
 					height: min(115px, 11vh);
 					cursor: pointer;
 					margin-top: 20%;
+					@include mobile {
+						width: 90px;
+						height: 50px;
+					}
 
 					.name {
 						font-size: clamp(0.9rem, 1.1vw, 2.5rem);
 						font-family: "Hind";
+						@include mobile {
+							font-size: clamp(0.8rem, 0.7vw, 1.5rem);
+						}
 					}
 				}
 			}

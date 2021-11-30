@@ -14,6 +14,7 @@ const Influencers = () => {
 								href={data.link}
 								target="_blank"
 								rel="noopener noreferrer"
+								key={id}
 							>
 								<div className="centerCard">
 									<img src={data.logo} alt="" />

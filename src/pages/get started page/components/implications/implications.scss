@@ -9,6 +9,9 @@
 	@include ipad {
 		height: 235vh;
 	}
+	@include mobile {
+		height: 255vh;
+	}
 
 	.backgroundColumn {
 		height: 98%;
@@ -32,11 +35,18 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		@include mobile {
+			height: 5%;
+			width: 100%;
+		}
 		h1 {
 			color: white;
 			font-family: "Saira";
 			font-weight: bold;
-			font-size: 3vw;
+			font-size: clamp(1rem, 3vw, 2rem);
+			@include mobile {
+				font-size: clamp(1rem, 3.5vw, 2rem);
+			}
 		}
 	}
 	.left {
@@ -68,6 +78,9 @@
 		top: 200px;
 		z-index: 2;
 		position: absolute;
+		@include mobile {
+			top: 175px;
+		}
 	}
 	.textBox {
 		width: 100%;
@@ -83,6 +96,10 @@
 			line-height: 4.8vh;
 			@include ipad {
 				font-size: clamp(0.9rem, 3.5vw, 4rem);
+				line-height: 2.6vh;
+			}
+			@include mobile {
+				font-size: clamp(0.9rem, 3.7vw, 4rem);
 				line-height: 2.6vh;
 			}
 		}
