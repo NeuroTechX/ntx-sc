@@ -5,7 +5,7 @@ import React, {
 } from "react";
 import { Close } from "@material-ui/icons";
 import "./prev.scss";
-import Poster from "../assets/NTXSC-Main.png";
+import Poster from "../../assets/splash.png";
 
 const PrevModal = ({
 	prevModal,

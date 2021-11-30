@@ -8,6 +8,10 @@
 	align-items: center;
 	position: relative;
 	flex-direction: column;
+	@include ipad {
+		height: 50vh;
+		padding: 10% 0 5% 0;
+	}
 	.backgroundColumn {
 		height: 100%;
 		width: 50%;
@@ -21,6 +25,9 @@
 		);
 		z-index: 1;
 		position: absolute;
+		@include ipad {
+			height: 80%;
+		}
 	}
 
 	.bottom {
@@ -67,21 +74,17 @@
 						font-size: 2.3vw;
 						font-weight: 600;
 						margin: 10px;
+						@include ipad {
+							font-size: clamp(0.9rem, 4vw, 4rem);
+						}
 					}
 					p {
 						font-weight: 500;
 						margin-bottom: 195px;
 						margin: 10px;
 						font-size: 1.8vw;
-					}
-					ul {
-						margin-bottom: 20px;
-						font-size: 1.5vw;
-						margin: 10px;
-
-						li {
-							list-style: none;
-							margin-bottom: 10px;
+						@include ipad {
+							font-size: clamp(0.9rem, 2.9vw, 4rem);
 						}
 					}
 				}

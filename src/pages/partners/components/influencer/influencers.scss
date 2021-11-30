@@ -21,6 +21,9 @@
 			flex-wrap: wrap;
 			padding: 5% 0 10% 0;
 			justify-content: space-around;
+			@include ipad {
+				max-width: 100%;
+			}
 
 			a {
 				.centerCard {
@@ -40,6 +43,14 @@
 					height: min(200px, 18vh);
 					cursor: pointer;
 					margin-top: 20%;
+					@include ipad {
+						width: 40vw;
+						height: 20vh;
+					}
+					@include mobile {
+						width: 35vw;
+						height: 15vh;
+					}
 
 					img {
 						width: 80%;

@@ -2,7 +2,10 @@
 
 .news {
 	height: 100vh;
-	background-color: $brandColor;
+	background: linear-gradient(
+		rgba(171, 230, 230, 0.9),
+		#f5f5f5
+	);
 	display: flex;
 	align-items: center;
 	justify-content: center;

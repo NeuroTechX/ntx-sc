@@ -8,6 +8,9 @@
 	justify-content: center;
 	position: relative;
 	padding-bottom: 100px;
+	@include ipad {
+		height: 180vh;
+	}
 
 	.banner {
 		position: absolute;
@@ -20,11 +23,19 @@
 		padding-left: 200px;
 		display: flex;
 		align-items: center;
+		@include ipad {
+			top: 17px;
+			width: 60%;
+			height: 8%;
+		}
 		h1 {
 			color: white;
 			font-family: "Saira";
 			font-weight: bold;
 			font-size: 4vw;
+			@include ipad {
+				font-size: clamp(1rem, 8vw, 2rem);
+			}
 		}
 	}
 
@@ -49,11 +60,20 @@
 			justify-content: space-around;
 			font-family: Hind;
 			font-style: normal;
-			font-size: 1.9vw;
+			font-size: clamp(1rem, 1.9vw, 2rem);
 			line-height: 4.8vh;
 			color: #000000;
+			@include ipad {
+				font-size: clamp(1rem, 3.2vw, 2rem);
+				line-height: 3.5vh;
+				margin-left: 60%;
+			}
 			ul {
 				line-height: 5vh;
+				@include ipad {
+					font-size: clamp(1rem, 3.4vw, 2rem);
+					line-height: 3.4vh;
+				}
 			}
 		}
 	}
@@ -65,6 +85,9 @@
 		position: absolute;
 		left: 5%;
 		top: 20%;
+		@include ipad {
+			top: 25%;
+		}
 
 		img {
 			width: 100%;

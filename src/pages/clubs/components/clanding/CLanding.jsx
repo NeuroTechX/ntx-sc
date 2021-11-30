@@ -22,7 +22,7 @@ export default function Landing() {
 					id="home"
 				>
 					<div className="center">
-						<h2>NEUROTECHX</h2>
+						<h2>NTX</h2>
 						<h3>STUDENT CLUBS</h3>
 					</div>
 				</motion.div>

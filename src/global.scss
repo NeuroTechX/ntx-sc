@@ -4,3 +4,18 @@ $buttonColor: #b1bebf;
 $buttonHover: #1fbfbf;
 $black: #404747;
 $brandColor: #31afbe;
+
+$ipadWidth: 768px;
+$mobileWidth: 414px;
+
+@mixin ipad {
+	@media (max-width: #{$ipadWidth}) {
+		@content;
+	}
+}
+
+@mixin mobile {
+	@media (max-width: #{$mobileWidth}) {
+		@content;
+	}
+}

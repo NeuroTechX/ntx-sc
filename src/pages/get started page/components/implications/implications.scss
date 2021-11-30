@@ -6,6 +6,9 @@
 	justify-content: center;
 	background-color: #f6f6f6;
 	position: relative;
+	@include ipad {
+		height: 235vh;
+	}
 
 	.backgroundColumn {
 		height: 98%;
@@ -71,13 +74,17 @@
 		height: 100%;
 		display: flex;
 		justify-content: center;
-		// background-color: rgba(221, 239, 241, 0.95);
+
 		padding-top: 15%;
 		p {
 			color: black;
 			font-family: "Hind";
 			font-size: 1.7vw;
 			line-height: 4.8vh;
+			@include ipad {
+				font-size: clamp(0.9rem, 3.5vw, 4rem);
+				line-height: 2.6vh;
+			}
 		}
 	}
 }

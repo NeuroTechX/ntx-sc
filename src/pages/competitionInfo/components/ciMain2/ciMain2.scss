@@ -1,6 +1,6 @@
 @import "../../../../global.scss";
 
-.gs1 {
+.ciMain2 {
 	height: 125vh;
 	width: 100%;
 	background-color: #f6f6f6;
@@ -9,12 +9,12 @@
 	position: relative;
 	flex-direction: column;
 	@include ipad {
-		height: 115vh;
+		height: 150vh;
 	}
 
 	.backgroundColumn {
 		height: 100%;
-		width: 50%;
+		width: 70%;
 		background-color: rgba(221, 239, 241, 0.95);
 		z-index: 1;
 		position: absolute;
@@ -27,11 +27,8 @@
 		flex: 0.3;
 		z-index: 2;
 		background-color: #b1bebf;
-		width: 90%;
+		width: 50%;
 		margin-top: 5%;
-		@include ipad {
-			flex: 0.3;
-		}
 
 		.container {
 			width: 100%;
@@ -39,7 +36,6 @@
 			display: flex;
 			align-content: inherit;
 			justify-content: center;
-			border-right: 3px solid white;
 			font-family: "Hind";
 			font-weight: 700;
 			position: relative;
@@ -52,31 +48,6 @@
 				justify-content: space-around;
 				flex-direction: column;
 				position: relative;
-
-				h1 {
-					position: absolute;
-					top: 10%;
-					font-size: clamp(1rem, 1.8vw, 2rem);
-					line-height: 1vh;
-					@include ipad {
-						top: 1%;
-						font-size: clamp(1rem, 2.9vw, 2rem);
-						line-height: 2vh;
-					}
-				}
-				h2 {
-					margin-top: 10%;
-					font-weight: 400;
-					font-size: clamp(1rem, 1.6vw, 2rem);
-					padding: 5%;
-					line-height: 4vh;
-					@include ipad {
-						font-size: clamp(1rem, 2.7vw, 3rem);
-					}
-				}
-			}
-			&:last-child {
-				border-right: none;
 			}
 		}
 	}
@@ -84,22 +55,35 @@
 	.top {
 		display: flex;
 		flex-direction: row;
-		flex: 0.5;
+		flex: 0.6;
 		z-index: 2;
 		margin: 75px;
 		width: 90%;
+		@include ipad {
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
 
 		.right {
-			width: 30%;
+			width: 40%;
 			height: 100%;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			margin-left: 5%;
+			@include ipad {
+				margin-left: 0;
+				width: 60%;
+			}
+
 			img {
 				height: 100%;
 				width: 100%;
-				object-fit: cover;
+				object-fit: scale-down;
+				@include ipad {
+					margin-top: 25%;
+				}
 			}
 		}
 		.left {
@@ -107,6 +91,9 @@
 			background-color: $brandColor;
 			width: 65%;
 			height: 100%;
+			@include ipad {
+				width: 75%;
+			}
 
 			.textBox {
 				width: 100%;
@@ -126,6 +113,7 @@
 						margin: 10px;
 						@include ipad {
 							font-size: clamp(1rem, 4vw, 3rem);
+							margin: 0;
 						}
 					}
 					h2 {
@@ -135,18 +123,21 @@
 						font-size: clamp(1rem, 1.7vw, 2rem);
 						@include ipad {
 							font-size: clamp(1rem, 4vw, 3rem);
+							margin: 0;
 						}
 					}
 					ul {
 						margin-bottom: 20px;
 						font-size: clamp(1rem, 1.5vw, 2rem);
 						margin: 1%;
+						padding: 1%;
 						@include ipad {
 							font-size: clamp(1rem, 3vw, 3rem);
+							margin: 0;
+							padding: 5%;
 						}
 
 						li {
-							list-style: none;
 							margin-bottom: 1%;
 						}
 					}

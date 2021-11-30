@@ -1,17 +1,20 @@
 @import "../../../../global.scss";
 
 .activities {
-	height: 125vh;
+	height: 115vh;
 	width: 100vw;
 	background-color: #f6f6f6;
 	display: flex;
 	justify-content: center;
 	position: relative;
+	@include ipad {
+		height: 85vh;
+	}
 
 	.banner {
 		position: absolute;
 		width: 60%;
-		height: 10%;
+		height: 15%;
 		top: 50px;
 		left: 100px;
 		z-index: 3;
@@ -19,6 +22,10 @@
 		padding-left: 200px;
 		display: flex;
 		align-items: center;
+		@include ipad {
+			width: 50%;
+			top: 25px;
+		}
 		h1 {
 			color: white;
 			font-family: "Saira";
@@ -42,17 +49,20 @@
 		position: absolute;
 
 		.textBox {
-			padding-top: 25%;
+			padding-top: 23%;
 			padding-left: 4.3%;
 			padding-right: 5%;
 			width: 75%;
 			height: 900px;
 			font-family: Hind;
-			font-style: normal;
-			font-weight: normal;
 			font-size: 1.8vw;
 			line-height: 38px;
 			color: #000000;
+			@include ipad {
+				padding-top: 40%;
+				font-size: clamp(0.9rem, 3.5vw, 4rem);
+				line-height: 3vh;
+			}
 		}
 	}
 

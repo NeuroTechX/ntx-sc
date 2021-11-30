@@ -36,6 +36,9 @@
 				width: 80%;
 				height: 80%;
 				font-size: clamp(0.5rem, 1.5vw, 3rem);
+				@include ipad {
+					font-size: clamp(0.9rem, 3vw, 4rem);
+				}
 			}
 			.seeMore {
 				height: 19px;
@@ -69,6 +72,9 @@
 			border: 1px solid $brandColor;
 			border-bottom: none;
 			border-top: none;
+			@include ipad {
+				font-size: clamp(0.9rem, 3vw, 4rem);
+			}
 		}
 	}
 }

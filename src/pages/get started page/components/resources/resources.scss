@@ -16,6 +16,10 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		@include ipad {
+			height: 15vh;
+			width: 80%;
+		}
 		h1 {
 			color: white;
 			font-family: "Saira";
@@ -42,6 +46,10 @@
 			align-items: center;
 			justify-content: center;
 			z-index: 1;
+			@include ipad {
+				margin-top: 450px;
+				width: 100%;
+			}
 
 			.infoBox {
 				position: relative;
@@ -55,16 +63,23 @@
 				color: white;
 				cursor: pointer;
 				transition: all 0.9s ease;
+				@include ipad {
+					width: 25%;
+					margin: 5%;
+				}
 
 				h1 {
 					position: absolute;
 					font-family: Hind;
 					font-weight: 500;
-					font-size: 2vw;
+					font-size: clamp(1rem, 2vw, 2rem);
 					display: flex;
 					align-items: center;
 					text-align: center;
 					padding: 10%;
+					@include ipad {
+						font-size: clamp(1rem, 3vw, 2rem);
+					}
 				}
 
 				&:hover {
@@ -82,6 +97,10 @@
 			height: 570px;
 			width: 80%;
 			overflow: hidden;
+			@include ipad {
+				width: 100%;
+				height: 370px;
+			}
 		}
 		.card {
 			height: 574px;
@@ -89,6 +108,12 @@
 			margin: 20px;
 			border-radius: 200px;
 			margin-top: 200px;
+			@include ipad {
+				margin: 5%;
+				height: 100%;
+				width: 20%;
+				margin-top: 100px;
+			}
 			img {
 				width: 100%;
 				height: 100%;

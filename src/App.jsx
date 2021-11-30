@@ -1,18 +1,18 @@
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./main components/navbar/Navbar";
 import OutsideClickHandler from "react-outside-click-handler";
+import Sidebar from "./main components/sidebar/Sidebar";
+import Footer from "./main components/footer/Footer";
 import { useState } from "react";
 import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
 } from "react-router-dom";
-import Sidebar from "./components/sidebar/Sidebar";
-import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Clubs from "./pages/clubs/Clubs";
 import PartnersPage from "./pages/partners/PartnersPage";
 import GetStarted from "./pages/get started page/GetStarted";
-import CompetitionInfo from "./pages/competitionInfo/CompetitionInfo";
+import CompetitionPage from "./pages/competitionInfo/CompetitionPage";
 import FAQLanding from "./pages/FAQ/FAQLanding";
 import PageNavigationListener from "./utilities/PageNavigationListener";
 import ComingSoon from "./pages/comingSoon/ComingSoon";
@@ -38,7 +38,7 @@ function App() {
 						/>
 					</OutsideClickHandler>
 					<Switch>
-						<Route exact path="/">
+						<Route path="/neurotechxstudentclubs">
 							<Home />
 						</Route>
 						<Route path="/clubs">
@@ -51,7 +51,7 @@ function App() {
 							<GetStarted />
 						</Route>
 						<Route path="/competition">
-							<CompetitionInfo />
+							<CompetitionPage />
 						</Route>
 						<Route path="/faq">
 							<FAQLanding />
