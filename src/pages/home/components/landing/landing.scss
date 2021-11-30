@@ -48,6 +48,10 @@
 			// justify-content: center;
 			bottom: 75px;
 			position: absolute;
+			@include mobile {
+				width: 80vw;
+				height: 30vh;
+			}
 
 			.top {
 				display: flex;
@@ -97,15 +101,14 @@
 						height: 100px;
 						width: 60vh;
 					}
+					@include mobile {
+						height: 200px;
+					}
 
 					.btn {
 						margin: 20px;
 						padding: 7px;
 						font-size: clamp(0.9rem, 1.5vw, 2rem);
-						@include ipad {
-							font-size: clamp(0.9rem, 3vw, 4rem);
-						}
-
 						font-family: Hind;
 						color: rgb(255, 255, 255);
 						background-color: $buttonColor;
@@ -117,6 +120,14 @@
 						&:hover {
 							background-color: $buttonHover;
 							transition: all 0.5s ease;
+						}
+						@include ipad {
+							font-size: clamp(0.9rem, 3vw, 4rem);
+						}
+						@include mobile {
+							font-size: clamp(0.9rem, 4vw, 4rem);
+							padding: 11px;
+							margin: 6px;
 						}
 					}
 				}

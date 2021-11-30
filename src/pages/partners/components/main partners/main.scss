@@ -32,6 +32,10 @@
 				width: 80vw;
 				height: 50vh;
 			}
+			@include mobile {
+				width: 90vw;
+				height: 60vh;
+			}
 
 			.imgContainer {
 				width: 90%;

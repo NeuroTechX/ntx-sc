@@ -33,7 +33,7 @@ export default function Sidebar({
 				<ul className="list">
 					<li className="list-item">
 						<Link
-							to="/"
+							to="/NeuroTechXStudentClubs/"
 							style={{
 								textDecoration: "none",
 								color: "inherit",

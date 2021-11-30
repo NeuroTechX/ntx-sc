@@ -14,7 +14,7 @@ const Footer = () => {
 		<div className="footer">
 			<div className="footerContainer">
 				<div className="left">
-					<Link to="/">
+					<Link to="/NeuroTechXStudentClubs/">
 						<img
 							src={logo}
 							alt="Logo"

@@ -6,7 +6,7 @@ import WhyJoinBar from "./components/whyJoin/WhyJoinBar";
 import WhyJoinInfo from "./components/whyJoin/WhyJoinInfo";
 import HowJoinBar from "./components/JoinInfo/HowJoinBar";
 import JoinInfo from "./components/JoinInfo/JoinInfo";
-import News from "./components/news/News";
+// import News from "./components/news/News";
 import Partners from "./components/partner/Partners";
 import Dashboard from "./components/dashboard/Dashboard";
 
@@ -21,7 +21,7 @@ function Home() {
 			<CompetitionInfo />
 			<HowJoinBar />
 			<JoinInfo />
-			<News />
+			{/* <News /> */}
 			<Partners />
 			<Dashboard />
 		</div>

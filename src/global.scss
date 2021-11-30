@@ -5,10 +5,17 @@ $buttonHover: #1fbfbf;
 $black: #404747;
 $brandColor: #31afbe;
 
-$width: 768px;
+$ipadWidth: 768px;
+$mobileWidth: 414px;
 
 @mixin ipad {
-	@media (max-width: #{$width}) {
+	@media (max-width: #{$ipadWidth}) {
+		@content;
+	}
+}
+
+@mixin mobile {
+	@media (max-width: #{$mobileWidth}) {
 		@content;
 	}
 }

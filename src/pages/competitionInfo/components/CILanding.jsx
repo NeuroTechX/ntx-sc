@@ -9,9 +9,9 @@ export default function Landing() {
 	const [compModal, setCompModal] =
 		useState(false);
 
-	const openModal = () => {
-		setCompModal((prev) => !prev);
-	};
+	// const openModal = () => {
+	// 	setCompModal((prev) => !prev);
+	// };
 
 	const [prevModal, setPrevModal] =
 		useState(false);

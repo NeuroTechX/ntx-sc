@@ -19,6 +19,10 @@
 		display: flex;
 		position: absolute;
 		bottom: 0;
+		@include mobile {
+			height: 95%;
+			width: 95%;
+		}
 
 		.about-left {
 			flex: 1.2;
@@ -30,6 +34,10 @@
 				font-weight: bold;
 				font-size: clamp(0.7rem, 3.1vw, 4rem);
 				line-height: 2.7vh;
+				@include mobile {
+					font-size: clamp(0.7rem, 5vw, 4rem);
+					margin: 4% 6%;
+				}
 			}
 
 			p {
@@ -45,11 +53,19 @@
 					font-size: clamp(1rem, 3vw, 2rem);
 					line-height: 3vh;
 				}
+				@include mobile {
+					margin: 10% 0 0 10%;
+
+					line-height: 3.3vh;
+				}
 			}
 		}
 
 		.about-right {
 			flex: 0.8;
+			@include mobile {
+				flex: 0.6;
+			}
 			.about-img {
 				width: 100%;
 				height: 100%;
