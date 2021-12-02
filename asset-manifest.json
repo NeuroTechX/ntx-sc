@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/neurotechxstudentclubs/static/css/main.0da1d007.chunk.css",
-    "main.js": "/neurotechxstudentclubs/static/js/main.5fb5c8b5.chunk.js",
-    "main.js.map": "/neurotechxstudentclubs/static/js/main.5fb5c8b5.chunk.js.map",
+    "main.css": "/neurotechxstudentclubs/static/css/main.ba341329.chunk.css",
+    "main.js": "/neurotechxstudentclubs/static/js/main.c0eed862.chunk.js",
+    "main.js.map": "/neurotechxstudentclubs/static/js/main.c0eed862.chunk.js.map",
     "runtime-main.js": "/neurotechxstudentclubs/static/js/runtime-main.950646ca.js",
     "runtime-main.js.map": "/neurotechxstudentclubs/static/js/runtime-main.950646ca.js.map",
     "static/js/2.8dd9553d.chunk.js": "/neurotechxstudentclubs/static/js/2.8dd9553d.chunk.js",
     "static/js/2.8dd9553d.chunk.js.map": "/neurotechxstudentclubs/static/js/2.8dd9553d.chunk.js.map",
     "index.html": "/neurotechxstudentclubs/index.html",
-    "static/css/main.0da1d007.chunk.css.map": "/neurotechxstudentclubs/static/css/main.0da1d007.chunk.css.map",
+    "static/css/main.ba341329.chunk.css.map": "/neurotechxstudentclubs/static/css/main.ba341329.chunk.css.map",
     "static/js/2.8dd9553d.chunk.js.LICENSE.txt": "/neurotechxstudentclubs/static/js/2.8dd9553d.chunk.js.LICENSE.txt",
     "static/media/FRL_Research_Black_RGB.68eb2625.png": "/neurotechxstudentclubs/static/media/FRL_Research_Black_RGB.68eb2625.png",
     "static/media/Logo.79dbcf38.png": "/neurotechxstudentclubs/static/media/Logo.79dbcf38.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.950646ca.js",
     "static/js/2.8dd9553d.chunk.js",
-    "static/css/main.0da1d007.chunk.css",
-    "static/js/main.5fb5c8b5.chunk.js"
+    "static/css/main.ba341329.chunk.css",
+    "static/js/main.c0eed862.chunk.js"
   ]
 }
