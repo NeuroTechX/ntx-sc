@@ -22,7 +22,20 @@ const Footer = () => {
 						/>
 					</Link>
 					<h1>
-						The NeurotechX student club initiative
+						The{" "}
+						<a
+							href="https://neurotechx.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+							style={{
+								cursor: "pointer",
+								textDecoration: "none",
+								color: "#31afbe",
+							}}
+						>
+							NeuroTechX{" "}
+						</a>
+						student club initiative
 					</h1>
 				</div>
 				<div className="right">
