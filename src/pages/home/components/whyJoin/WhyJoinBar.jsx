@@ -1,4 +1,4 @@
-import "./whyJoinBar.scss";
+import "../../../../global.scss";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -23,9 +23,9 @@ const WhyJoinBar = () => {
 		// }
 	}, [inView, animationL]);
 	return (
-		<div className="WhyJoinBar" ref={ref}>
+		<div className="dividerBar" ref={ref}>
 			<motion.div
-				className="WhyJoinText"
+				className="barText"
 				initial={{ opacity: 0 }}
 				animate={animationL}
 			>

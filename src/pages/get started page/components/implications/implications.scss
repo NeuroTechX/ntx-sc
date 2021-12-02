@@ -44,8 +44,11 @@
 			font-family: "Saira";
 			font-weight: bold;
 			font-size: clamp(1rem, 3vw, 2rem);
+			@include ipad {
+				font-size: clamp(2rem, 3vw, 3rem);
+			}
 			@include mobile {
-				font-size: clamp(1rem, 3.5vw, 2rem);
+				font-size: clamp(1.5rem, 3vw, 3rem);
 			}
 		}
 	}

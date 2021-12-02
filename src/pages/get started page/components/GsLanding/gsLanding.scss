@@ -29,8 +29,7 @@
 		.welcome {
 			height: 40vh;
 			min-height: 350px;
-			min-width: 300px;
-			max-width: 700px;
+			width: 40vw;
 			padding: 25px 25px;
 			border-radius: 15px;
 			background: rgb(211, 211, 211);
@@ -49,9 +48,13 @@
 			justify-content: center;
 			bottom: 75px;
 			position: absolute;
+			@include ipad {
+				width: 80vw;
+				min-height: 10vw;
+			}
 			@include mobile {
 				width: 80vw;
-				min-height: 15vw;
+				min-height: 10vw;
 			}
 
 			.top {
@@ -60,8 +63,14 @@
 				justify-content: center;
 				padding-top: 20px;
 				font-family: Hind;
-				font-size: 24px;
+				font-size: clamp(0.9rem, 2vw, 4rem);
 				font-weight: 500;
+				@include ipad {
+					font-size: clamp(0.9rem, 4vw, 4rem);
+				}
+				@include mobile {
+					font-size: clamp(1.2rem, 5vw, 4rem);
+				}
 			}
 		}
 	}
