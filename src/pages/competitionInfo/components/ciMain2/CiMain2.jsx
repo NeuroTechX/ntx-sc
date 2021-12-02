@@ -54,7 +54,25 @@ const ciMain2 = () => {
 			<div className="bottom">
 				<div className="container">
 					<div className="textBox">
-						<h2>More details soon!</h2>
+						<h2>
+							More details soon!
+							<br />
+							In the meantime, have a look at some
+							high-level information about the
+							<a
+								href="https://docs.google.com/document/d/1vvV8xXl9qIk3tamZLFtp6ODZFCGc4foXpERsVglyGiE/edit#"
+								target="_blank"
+								rel="noopener noreferrer"
+								style={{
+									cursor: "pointer",
+									textDecoration: "none",
+									color: "#31afbe",
+								}}
+							>
+								{" "}
+								competition:{" "}
+							</a>
+						</h2>
 					</div>
 				</div>
 			</div>

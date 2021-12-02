@@ -28,8 +28,8 @@
 
 		.welcome {
 			height: 40vh;
-			min-height: 160px;
-			width: 47%;
+			min-height: 350px;
+			width: 40vw;
 			padding: 25px 25px;
 			border-radius: 15px;
 			background: rgb(211, 211, 211);
@@ -86,7 +86,7 @@
 					position: absolute;
 					bottom: 5px;
 					height: 23vh;
-					width: 50vw;
+					width: 40vw;
 					display: flex;
 					flex-wrap: wrap;
 					align-items: center;
@@ -98,9 +98,9 @@
 
 					.btn {
 						margin: 1%;
-						width: 30vw;
+						width: 13vw;
 						height: 20%;
-						font-size: clamp(0.5rem, 1.2vw, 1.2rem);
+						font-size: clamp(0.5rem, 1vw, 1.2rem);
 						font-family: Hind;
 						color: rgb(255, 255, 255);
 						background-color: $buttonColor;

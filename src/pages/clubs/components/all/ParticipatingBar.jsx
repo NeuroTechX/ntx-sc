@@ -29,7 +29,7 @@ const HowJoinBar = () => {
 				initial={{ opacity: 0 }}
 				animate={animationL}
 			>
-				ALL CLUBS
+				ALL CLUBS (28)
 			</motion.div>
 		</div>
 	);
