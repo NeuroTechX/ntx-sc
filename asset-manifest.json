@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/neurotechxstudentclubs/static/css/main.ba341329.chunk.css",
-    "main.js": "/neurotechxstudentclubs/static/js/main.c0eed862.chunk.js",
-    "main.js.map": "/neurotechxstudentclubs/static/js/main.c0eed862.chunk.js.map",
-    "runtime-main.js": "/neurotechxstudentclubs/static/js/runtime-main.950646ca.js",
-    "runtime-main.js.map": "/neurotechxstudentclubs/static/js/runtime-main.950646ca.js.map",
-    "static/js/2.8dd9553d.chunk.js": "/neurotechxstudentclubs/static/js/2.8dd9553d.chunk.js",
-    "static/js/2.8dd9553d.chunk.js.map": "/neurotechxstudentclubs/static/js/2.8dd9553d.chunk.js.map",
-    "index.html": "/neurotechxstudentclubs/index.html",
-    "static/css/main.ba341329.chunk.css.map": "/neurotechxstudentclubs/static/css/main.ba341329.chunk.css.map",
-    "static/js/2.8dd9553d.chunk.js.LICENSE.txt": "/neurotechxstudentclubs/static/js/2.8dd9553d.chunk.js.LICENSE.txt",
-    "static/media/FRL_Research_Black_RGB.68eb2625.png": "/neurotechxstudentclubs/static/media/FRL_Research_Black_RGB.68eb2625.png",
-    "static/media/Logo.79dbcf38.png": "/neurotechxstudentclubs/static/media/Logo.79dbcf38.png",
-    "static/media/NTXSC-Main.cf7a16e9.png": "/neurotechxstudentclubs/static/media/NTXSC-Main.cf7a16e9.png",
-    "static/media/light blue.b07fa457.png": "/neurotechxstudentclubs/static/media/light blue.b07fa457.png",
-    "static/media/splash.cf7a16e9.png": "/neurotechxstudentclubs/static/media/splash.cf7a16e9.png",
-    "static/media/sponsors.f4fc5f50.png": "/neurotechxstudentclubs/static/media/sponsors.f4fc5f50.png"
+    "main.css": "/ntx-sc/static/css/main.ba341329.chunk.css",
+    "main.js": "/ntx-sc/static/js/main.02906246.chunk.js",
+    "main.js.map": "/ntx-sc/static/js/main.02906246.chunk.js.map",
+    "runtime-main.js": "/ntx-sc/static/js/runtime-main.2f7e4822.js",
+    "runtime-main.js.map": "/ntx-sc/static/js/runtime-main.2f7e4822.js.map",
+    "static/js/2.8dd9553d.chunk.js": "/ntx-sc/static/js/2.8dd9553d.chunk.js",
+    "static/js/2.8dd9553d.chunk.js.map": "/ntx-sc/static/js/2.8dd9553d.chunk.js.map",
+    "index.html": "/ntx-sc/index.html",
+    "static/css/main.ba341329.chunk.css.map": "/ntx-sc/static/css/main.ba341329.chunk.css.map",
+    "static/js/2.8dd9553d.chunk.js.LICENSE.txt": "/ntx-sc/static/js/2.8dd9553d.chunk.js.LICENSE.txt",
+    "static/media/FRL_Research_Black_RGB.68eb2625.png": "/ntx-sc/static/media/FRL_Research_Black_RGB.68eb2625.png",
+    "static/media/Logo.79dbcf38.png": "/ntx-sc/static/media/Logo.79dbcf38.png",
+    "static/media/NTXSC-Main.cf7a16e9.png": "/ntx-sc/static/media/NTXSC-Main.cf7a16e9.png",
+    "static/media/light blue.b07fa457.png": "/ntx-sc/static/media/light blue.b07fa457.png",
+    "static/media/splash.cf7a16e9.png": "/ntx-sc/static/media/splash.cf7a16e9.png",
+    "static/media/sponsors.f4fc5f50.png": "/ntx-sc/static/media/sponsors.f4fc5f50.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.950646ca.js",
+    "static/js/runtime-main.2f7e4822.js",
     "static/js/2.8dd9553d.chunk.js",
     "static/css/main.ba341329.chunk.css",
-    "static/js/main.c0eed862.chunk.js"
+    "static/js/main.02906246.chunk.js"
   ]
 }
