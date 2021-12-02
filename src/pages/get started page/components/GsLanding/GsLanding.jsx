@@ -22,7 +22,7 @@ export default function GsLanding() {
 					id="home"
 				>
 					<div className="top">
-						<h1>GET STARTED</h1>
+						<h2>GET STARTED</h2>
 					</div>
 				</motion.div>
 			</div>

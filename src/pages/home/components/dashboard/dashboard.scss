@@ -31,6 +31,9 @@
 			align-items: center;
 			justify-content: center;
 			flex-wrap: wrap;
+			@include mobile {
+				height: 50vh;
+			}
 
 			.card {
 				background-color: $buttonColor;

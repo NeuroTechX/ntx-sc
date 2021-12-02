@@ -51,6 +51,10 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			@include mobile {
+				width: 80vw;
+				min-height: 10vw;
+			}
 
 			.top {
 				padding-top: 20px;

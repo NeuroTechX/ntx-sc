@@ -83,6 +83,7 @@
 						cursor: pointer;
 						@include mobile {
 							font-size: clamp(0.7rem, 3.5vw, 4rem);
+							width: 35vw;
 						}
 
 						&:hover {

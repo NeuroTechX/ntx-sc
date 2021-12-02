@@ -29,6 +29,9 @@
 			@include ipad {
 				padding-right: 5%;
 			}
+			@include mobile {
+				flex: 0.5;
+			}
 			a {
 				text-decoration: none;
 				color: inherit;
@@ -53,6 +56,10 @@
 			@include ipad {
 				padding-left: 2%;
 			}
+			@include mobile {
+				flex: 0.5;
+			}
+
 			img {
 				width: 75px;
 				height: 55px;
@@ -64,6 +71,9 @@
 				@include ipad {
 					font-size: clamp(0.5rem, 2.8vw, 2rem);
 					margin-left: 10%;
+				}
+				@include mobile {
+					display: none;
 				}
 			}
 		}

@@ -38,7 +38,6 @@
 		margin: 75px;
 		width: 90%;
 		height: 388px;
-
 		.left {
 			width: 350px;
 			height: 100%;
@@ -46,6 +45,11 @@
 			align-items: center;
 			justify-content: center;
 			margin-right: 50px;
+			@include mobile {
+				margin-right: 20px;
+				width: 150px;
+			}
+
 			img {
 				height: 100%;
 				width: 100%;
@@ -77,6 +81,9 @@
 						@include ipad {
 							font-size: clamp(0.9rem, 4vw, 4rem);
 						}
+						@include mobile {
+							font-size: clamp(0.9rem, 6vw, 4rem);
+						}
 					}
 					p {
 						font-weight: 500;
@@ -85,6 +92,9 @@
 						font-size: 1.8vw;
 						@include ipad {
 							font-size: clamp(0.9rem, 2.9vw, 4rem);
+						}
+						@include mobile {
+							font-size: clamp(0.9rem, 4vw, 4rem);
 						}
 					}
 				}

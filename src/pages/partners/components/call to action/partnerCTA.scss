@@ -12,6 +12,9 @@
 	align-items: center;
 	position: relative;
 	flex-direction: column;
+	@include mobile {
+		height: 40vh;
+	}
 
 	.bottom {
 		display: flex;
@@ -21,7 +24,11 @@
 		margin: 75px;
 		width: 90%;
 		height: 388px;
-
+		@include mobile {
+			flex: 0.4;
+			// margin: 25%;
+			height: 350px;
+		}
 		.left {
 			width: 20%;
 			height: 100%;

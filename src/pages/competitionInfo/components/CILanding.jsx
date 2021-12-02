@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./ciLanding.scss";
 import CompModal from "./competitionModal/CompModal";
-import PrevModal from "./previuosModal/PrevModal";
+// import PrevModal from "./previuosModal/PrevModal";
 import ComingModal from "./comingModal/ComingModal";
 import { motion } from "framer-motion";
 
@@ -13,12 +13,12 @@ export default function Landing() {
 	// 	setCompModal((prev) => !prev);
 	// };
 
-	const [prevModal, setPrevModal] =
-		useState(false);
+	// const [prevModal, setPrevModal] =
+	// 	useState(false);
 
-	const openPrevModal = () => {
-		setPrevModal((prev) => !prev);
-	};
+	// const openPrevModal = () => {
+	// 	setPrevModal((prev) => !prev);
+	// };
 
 	const [comingModal, setComingModal] =
 		useState(false);
@@ -59,7 +59,8 @@ export default function Landing() {
 							</button> */}
 							<button
 								className="btn"
-								onClick={openPrevModal}
+								// onClick={openPrevModal}
+								onClick={openComingModal}
 							>
 								PREVIOUS EDITIONS
 							</button>
@@ -82,10 +83,10 @@ export default function Landing() {
 					compModal={compModal}
 					setCompModal={setCompModal}
 				/>
-				<PrevModal
+				{/* <PrevModal
 					prevModal={prevModal}
 					setPrevModal={setPrevModal}
-				/>
+				/> */}
 				<ComingModal
 					comingModal={comingModal}
 					setComingModal={setComingModal}

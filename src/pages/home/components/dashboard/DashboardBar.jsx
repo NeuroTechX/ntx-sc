@@ -1,10 +1,10 @@
-import "./dashboardBar.scss";
+import "../../../../global.scss";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
 
-const DashboardBar = () => {
+const WhyJoinBar = () => {
 	const { ref, inView } = useInView();
 	const animationL = useAnimation();
 
@@ -23,9 +23,9 @@ const DashboardBar = () => {
 		// }
 	}, [inView, animationL]);
 	return (
-		<div className="dashboardBar" ref={ref}>
+		<div className="dividerBar" ref={ref}>
 			<motion.div
-				className="WhyJoinText"
+				className="barText"
 				initial={{ opacity: 0 }}
 				animate={animationL}
 			>
@@ -35,4 +35,4 @@ const DashboardBar = () => {
 	);
 };
 
-export default DashboardBar;
+export default WhyJoinBar;

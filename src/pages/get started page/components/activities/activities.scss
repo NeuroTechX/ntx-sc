@@ -26,11 +26,20 @@
 			width: 50%;
 			top: 25px;
 		}
+		@include mobile {
+			width: 250px;
+			top: 5px;
+			left: 50px;
+			padding-left: 15%;
+		}
 		h1 {
 			color: white;
 			font-family: "Saira";
 			font-weight: bold;
-			font-size: 3.5vw;
+			font-size: clamp(1rem, 3.5vw, 2rem);
+			@include mobile {
+				font-size: clamp(1rem, 5.5vw, 2rem);
+			}
 		}
 	}
 
@@ -62,6 +71,12 @@
 				padding-top: 40%;
 				font-size: clamp(0.9rem, 3.5vw, 4rem);
 				line-height: 3vh;
+			}
+			@include mobile {
+				padding-top: 45%;
+				font-size: clamp(0.9rem, 4vw, 4rem);
+				line-height: 3vh;
+				padding-left: 1.3%;
 			}
 		}
 	}

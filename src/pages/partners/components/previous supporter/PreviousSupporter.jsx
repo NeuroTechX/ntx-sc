@@ -15,6 +15,7 @@ const PreviousSupporter = () => {
 									textDecoration: "none",
 									color: "inherit",
 								}}
+								key={id}
 								href={data.link}
 								target="_blank"
 								rel="noopener noreferrer"

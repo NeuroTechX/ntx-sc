@@ -6,12 +6,13 @@ const New = () => {
 		<div className="newClub">
 			<div className="container">
 				<div className="cards">
-					{newClubs.map((data) => (
+					{newClubs.map((data, id) => (
 						<div className="card">
 							<a
 								href={data.link}
 								target="_blank"
 								rel="noopener noreferrer"
+								key={id}
 							>
 								<div className="infoBox">
 									<div className="textBox">
