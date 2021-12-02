@@ -11,7 +11,7 @@ export default function Sidebar({
 			className={"sidebar " + (menuOpen && "active")}
 		>
 			<Link
-				to="/neurotechxstudentclubs"
+				to="/ntx-sc"
 				style={{
 					textDecoration: "none",
 					color: "inherit",

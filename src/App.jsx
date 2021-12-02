@@ -38,7 +38,7 @@ function App() {
 						/>
 					</OutsideClickHandler>
 					<Switch>
-						<Route path="/neurotechxstudentclubs">
+						<Route path="/ntx-sc">
 							<Home />
 						</Route>
 						<Route path="/clubs">

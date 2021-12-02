@@ -2,7 +2,7 @@
 	"name": "neurotechxstudentclubs",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://ehwanu.github.io/neurotechxstudentclubs",
+	"homepage": "https://NeuroTechX.github.io/ntx-sc",
 	"dependencies": {
 		"@emotion/react": "^11.5.0",
 		"@emotion/styled": "^11.3.0",
