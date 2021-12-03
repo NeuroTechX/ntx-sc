@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ntx-sc/static/css/main.ba341329.chunk.css",
-    "main.js": "/ntx-sc/static/js/main.dd6b53ea.chunk.js",
-    "main.js.map": "/ntx-sc/static/js/main.dd6b53ea.chunk.js.map",
+    "main.js": "/ntx-sc/static/js/main.d48b6eca.chunk.js",
+    "main.js.map": "/ntx-sc/static/js/main.d48b6eca.chunk.js.map",
     "runtime-main.js": "/ntx-sc/static/js/runtime-main.2f7e4822.js",
     "runtime-main.js.map": "/ntx-sc/static/js/runtime-main.2f7e4822.js.map",
-    "static/js/2.8dd9553d.chunk.js": "/ntx-sc/static/js/2.8dd9553d.chunk.js",
-    "static/js/2.8dd9553d.chunk.js.map": "/ntx-sc/static/js/2.8dd9553d.chunk.js.map",
+    "static/js/2.5f972c36.chunk.js": "/ntx-sc/static/js/2.5f972c36.chunk.js",
+    "static/js/2.5f972c36.chunk.js.map": "/ntx-sc/static/js/2.5f972c36.chunk.js.map",
     "index.html": "/ntx-sc/index.html",
     "static/css/main.ba341329.chunk.css.map": "/ntx-sc/static/css/main.ba341329.chunk.css.map",
-    "static/js/2.8dd9553d.chunk.js.LICENSE.txt": "/ntx-sc/static/js/2.8dd9553d.chunk.js.LICENSE.txt",
+    "static/js/2.5f972c36.chunk.js.LICENSE.txt": "/ntx-sc/static/js/2.5f972c36.chunk.js.LICENSE.txt",
     "static/media/FRL_Research_Black_RGB.68eb2625.png": "/ntx-sc/static/media/FRL_Research_Black_RGB.68eb2625.png",
     "static/media/Logo.79dbcf38.png": "/ntx-sc/static/media/Logo.79dbcf38.png",
     "static/media/NTXSC-Main.cf7a16e9.png": "/ntx-sc/static/media/NTXSC-Main.cf7a16e9.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2f7e4822.js",
-    "static/js/2.8dd9553d.chunk.js",
+    "static/js/2.5f972c36.chunk.js",
     "static/css/main.ba341329.chunk.css",
-    "static/js/main.dd6b53ea.chunk.js"
+    "static/js/main.d48b6eca.chunk.js"
   ]
 }
