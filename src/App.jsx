@@ -4,7 +4,7 @@ import Sidebar from "./main components/sidebar/Sidebar";
 import Footer from "./main components/footer/Footer";
 import { useState } from "react";
 import {
-	BrowserRouter as Router,
+	HashRouter as Router,
 	Switch,
 	Route,
 } from "react-router-dom";
@@ -38,7 +38,7 @@ function App() {
 						/>
 					</OutsideClickHandler>
 					<Switch>
-						<Route path="/ntx-sc">
+						<Route exact path="/">
 							<Home />
 						</Route>
 						<Route path="/clubs">

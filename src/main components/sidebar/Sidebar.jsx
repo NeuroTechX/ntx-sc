@@ -33,7 +33,7 @@ export default function Sidebar({
 				<ul className="list">
 					<li className="list-item">
 						<Link
-							to="/ntx-sc"
+							to="/"
 							style={{
 								textDecoration: "none",
 								color: "inherit",
