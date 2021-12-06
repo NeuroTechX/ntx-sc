@@ -9,7 +9,7 @@ const Participating = () => {
 			<div className="container">
 				<input
 					type="text"
-					placeholder="find your club..."
+					placeholder="Search by name, school, or country..."
 					className="search"
 					onChange={(event) => {
 						setSearchTerm(event.target.value);
@@ -17,6 +17,7 @@ const Participating = () => {
 				/>
 				<div className="cards">
 					{studentClubs
+						// eslint-disable-next-line
 						.filter((val) => {
 							if (searchTerm === "") {
 								return val;
@@ -28,6 +29,12 @@ const Participating = () => {
 								return val;
 							} else if (
 								val.school
+									.toLowerCase()
+									.includes(searchTerm.toLowerCase())
+							) {
+								return val;
+							} else if (
+								val.country
 									.toLowerCase()
 									.includes(searchTerm.toLowerCase())
 							) {
