@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ntx-sc/static/css/main.30898d44.chunk.css",
-    "main.js": "/ntx-sc/static/js/main.f15fa885.chunk.js",
-    "main.js.map": "/ntx-sc/static/js/main.f15fa885.chunk.js.map",
+    "main.css": "/ntx-sc/static/css/main.3b5270df.chunk.css",
+    "main.js": "/ntx-sc/static/js/main.81018f96.chunk.js",
+    "main.js.map": "/ntx-sc/static/js/main.81018f96.chunk.js.map",
     "runtime-main.js": "/ntx-sc/static/js/runtime-main.2f7e4822.js",
     "runtime-main.js.map": "/ntx-sc/static/js/runtime-main.2f7e4822.js.map",
-    "static/js/2.ba56819f.chunk.js": "/ntx-sc/static/js/2.ba56819f.chunk.js",
-    "static/js/2.ba56819f.chunk.js.map": "/ntx-sc/static/js/2.ba56819f.chunk.js.map",
+    "static/js/2.f42cc4a3.chunk.js": "/ntx-sc/static/js/2.f42cc4a3.chunk.js",
+    "static/js/2.f42cc4a3.chunk.js.map": "/ntx-sc/static/js/2.f42cc4a3.chunk.js.map",
     "index.html": "/ntx-sc/index.html",
-    "static/css/main.30898d44.chunk.css.map": "/ntx-sc/static/css/main.30898d44.chunk.css.map",
-    "static/js/2.ba56819f.chunk.js.LICENSE.txt": "/ntx-sc/static/js/2.ba56819f.chunk.js.LICENSE.txt",
+    "static/css/main.3b5270df.chunk.css.map": "/ntx-sc/static/css/main.3b5270df.chunk.css.map",
+    "static/js/2.f42cc4a3.chunk.js.LICENSE.txt": "/ntx-sc/static/js/2.f42cc4a3.chunk.js.LICENSE.txt",
     "static/media/AxonBPGC.ddeec26d.png": "/ntx-sc/static/media/AxonBPGC.ddeec26d.png",
     "static/media/BrainStormBGU.1196860b.png": "/ntx-sc/static/media/BrainStormBGU.1196860b.png",
     "static/media/Brainware.df34589a.png": "/ntx-sc/static/media/Brainware.df34589a.png",
@@ -47,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2f7e4822.js",
-    "static/js/2.ba56819f.chunk.js",
-    "static/css/main.30898d44.chunk.css",
-    "static/js/main.f15fa885.chunk.js"
+    "static/js/2.f42cc4a3.chunk.js",
+    "static/css/main.3b5270df.chunk.css",
+    "static/js/main.81018f96.chunk.js"
   ]
 }
