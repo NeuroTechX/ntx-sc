@@ -55,6 +55,9 @@
 				width: 80vw;
 				min-height: 10vw;
 			}
+			@include mobileSmall {
+				width: 79vw;
+			}
 
 			.top {
 				display: flex;

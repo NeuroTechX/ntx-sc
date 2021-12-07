@@ -7,6 +7,7 @@ $brandColor: #31afbe;
 
 $ipadWidth: 768px;
 $mobileWidth: 414px;
+$mobileSmall: 320px;
 
 @mixin ipad {
 	@media (max-width: #{$ipadWidth}) {
@@ -16,6 +17,12 @@ $mobileWidth: 414px;
 
 @mixin mobile {
 	@media (max-width: #{$mobileWidth}) {
+		@content;
+	}
+}
+
+@mixin mobileSmall {
+	@media (max-width: #{$mobileSmall}) {
 		@content;
 	}
 }
@@ -44,6 +51,10 @@ $mobileWidth: 414px;
 		@include mobile {
 			font-size: clamp(2rem, 4vw, 4rem);
 		}
+		@include mobileSmall {
+			font-size: clamp(1.2rem, 4vw, 3rem);
+			margin: 1%;
+		}
 	}
 }
 
@@ -57,7 +68,7 @@ $mobileWidth: 414px;
 	@include ipad {
 		height: 15vw;
 	}
-	@include ipad {
+	@include mobile {
 		height: 20vw;
 	}
 
@@ -71,6 +82,10 @@ $mobileWidth: 414px;
 		}
 		@include mobile {
 			font-size: clamp(2rem, 3vw, 3rem);
+		}
+		@include mobileSmall {
+			font-size: clamp(1.2rem, 4vw, 3rem);
+			margin: 1%;
 		}
 	}
 }

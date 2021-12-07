@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .sidebar {
 	width: 300px;
 	height: 100vh;
@@ -15,6 +17,9 @@
 	z-index: 999;
 	background-color: transparent;
 	font-family: "Hind";
+	@include mobileSmall {
+		overflow: hidden;
+	}
 
 	.sidebar-top {
 		padding: 70% 20px 25px;
@@ -23,6 +28,10 @@
 		justify-content: space-around;
 		border-bottom: 1px solid white;
 		font-weight: 900;
+		margin-bottom: 100px;
+		@include mobileSmall {
+			padding: 5% 10px 15px;
+		}
 
 		.brand {
 			cursor: pointer;
@@ -30,6 +39,8 @@
 			align-items: center;
 			justify-content: left;
 			font-size: 28px;
+			@include mobileSmall {
+			}
 
 			.icon {
 				width: 50px;
@@ -58,6 +69,10 @@
 				justify-content: center;
 				flex-direction: column;
 				margin-bottom: 100px;
+				@include mobileSmall {
+					font-size: 13px;
+					margin-bottom: 0;
+				}
 
 				.list-item-text {
 					font-size: 22px;

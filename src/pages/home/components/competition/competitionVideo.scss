@@ -7,6 +7,9 @@
 		rgba(171, 230, 230, 0.9),
 		#f5f5f5
 	);
+	@include mobileSmall {
+		height: 80vh;
+	}
 
 	.competition-wrapper {
 		width: 100%;
@@ -15,6 +18,9 @@
 		align-items: center;
 		justify-content: center;
 		position: relative;
+		@include mobileSmall {
+			height: 80vh;
+		}
 
 		.archway {
 			position: relative;

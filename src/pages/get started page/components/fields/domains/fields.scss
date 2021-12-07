@@ -14,6 +14,9 @@
 	@include mobile {
 		height: 200vh;
 	}
+	@include mobileSmall {
+		height: 125vh;
+	}
 
 	.banner {
 		position: absolute;
@@ -82,6 +85,14 @@
 					font-size: clamp(1rem, 3.4vw, 2rem);
 					line-height: 3.4vh;
 				}
+				@include mobileSmall {
+					line-height: 4vh;
+				}
+			}
+			@include mobileSmall {
+				padding-top: 45%;
+				margin-left: 0;
+				width: 100%;
 			}
 		}
 	}
@@ -95,6 +106,9 @@
 		top: 20%;
 		@include ipad {
 			top: 25%;
+		}
+		@include mobileSmall {
+			display: none;
 		}
 
 		img {

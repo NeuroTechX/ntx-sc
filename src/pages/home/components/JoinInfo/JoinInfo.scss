@@ -1,8 +1,8 @@
 @import "../../../../global.scss";
 
 .joinInfo {
-	height: 100vh;
-	width: 100vw;
+	height: auto;
+	width: auto;
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -17,6 +17,9 @@
 	@include mobile {
 		height: 40vh;
 	}
+	@include mobileSmall {
+		height: 60vh;
+	}
 
 	.container {
 		width: 100%;
@@ -30,6 +33,10 @@
 		@include mobile {
 			margin-bottom: 0px;
 		}
+		@include mobileSmall {
+			width: 80%;
+		}
+
 		.infoContainer {
 			position: absolute;
 			margin-top: 45%;
@@ -81,6 +88,10 @@
 					@include mobile {
 						font-size: clamp(0.6rem, 0.7vw, 2rem);
 						padding: 0;
+					}
+					@include mobileSmall {
+						font-size: clamp(0.6rem, 0.7vw, 2rem);
+						padding: 1%;
 					}
 				}
 

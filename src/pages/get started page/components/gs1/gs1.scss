@@ -15,6 +15,9 @@
 	@include mobile {
 		height: 70vh;
 	}
+	@include mobileSmall {
+		height: 100vh;
+	}
 
 	.backgroundColumn {
 		height: 100%;
@@ -76,6 +79,11 @@
 						font-size: clamp(1rem, 3vw, 2rem);
 						line-height: 2.7vh;
 					}
+					@include mobileSmall {
+						top: 0;
+						font-size: clamp(0.8rem, 2.5vw, 1.5rem);
+						line-height: 2.7vh;
+					}
 				}
 				h2 {
 					margin-top: 1%;
@@ -87,6 +95,10 @@
 					}
 					@include mobile {
 						margin-top: 40%;
+					}
+					@include mobileSmall {
+						font-size: clamp(0.9rem, 2.3vw, 2rem);
+						margin: 30%;
 					}
 				}
 			}
