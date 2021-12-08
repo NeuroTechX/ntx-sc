@@ -1,3 +1,4 @@
+import Book from "./Book";
 import "./resources.scss";
 
 export default function Resources() {
@@ -58,6 +59,7 @@ export default function Resources() {
 				</div>
 				<button></button>
 			</div>
+			<Book />
 		</div>
 	);
 }

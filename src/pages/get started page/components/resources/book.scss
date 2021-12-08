@@ -1,0 +1,40 @@
+.book {
+	.bookContainer {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+
+		.topText {
+			font-family: "Hind";
+			font-size: clamp(1rem, 2vw, 3rem);
+			margin-bottom: 5%;
+		}
+		.imgContainer {
+			width: 50vw;
+			height: 50vw;
+			margin-bottom: 5%;
+			a {
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: scale-down;
+				}
+			}
+		}
+		.amazonLink {
+			margin-bottom: 1%;
+			width: 30vw;
+			height: 30vw;
+			a {
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: scale-down;
+				}
+			}
+		}
+	}
+}
