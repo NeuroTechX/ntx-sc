@@ -13,10 +13,22 @@ const Branding = () => {
 					</h2>
 					<div className="logoContainer">
 						<div className="logo1">
-							<img src={BlackLogo} alt="" />
+							<a
+								href="https://neurotechx.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img src={BlackLogo} alt="" />
+							</a>
 						</div>
 						<div className="logo2">
-							<img src={BlueLogo} alt="" />
+							<a
+								href="https://neurotechx.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img src={BlueLogo} alt="" />
+							</a>
 						</div>
 					</div>
 				</div>

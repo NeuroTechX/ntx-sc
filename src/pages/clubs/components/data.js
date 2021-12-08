@@ -27,6 +27,7 @@ import SynaptechLogo from "../components/logos/SynapTechUW.png";
 import NCULogo from "../components/logos/NCU.png";
 import WATOLogo from "../components/logos/WatoLink.png";
 import UnitLogo from "../components/logos/Unit.png";
+import NTSLogo from "../components/logos/NTS-Purdue.png";
 
 export const studentClubs = [
 	{
@@ -266,6 +267,14 @@ export const studentClubs = [
 		logo: UnitLogo,
 		link: "https://sites.google.com/union.edu/unit",
 	},
+	{
+		id: 41,
+		name: "NeuroTech Society (NTS)",
+		school: "Purdue",
+		country: "United States",
+		logo: NTSLogo,
+		link: "https://purduensp.wordpress.com",
+	},
 ];
 
 export const newClubs = [
@@ -327,6 +336,14 @@ export const newClubs = [
 		country: "United States",
 		logo: UnitLogo,
 		link: "https://sites.google.com/union.edu/unit",
+	},
+	{
+		id: 40,
+		name: "NeuroTech Society (NTS)",
+		school: "Purdue",
+		country: "United States",
+		logo: NTSLogo,
+		link: "https://purduensp.wordpress.com",
 	},
 ];
 
