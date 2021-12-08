@@ -1,4 +1,5 @@
 import Book from "./Book";
+import Branding from "./Branding";
 import "./resources.scss";
 
 export default function Resources() {
@@ -60,6 +61,7 @@ export default function Resources() {
 				<button></button>
 			</div>
 			<Book />
+			<Branding />
 		</div>
 	);
 }

@@ -1,0 +1,44 @@
+.branding {
+	.brandingContainer {
+		height: 100%;
+		height: 100%;
+
+		.topText {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			margin-bottom: 15%;
+			h2 {
+				font-family: "Hind";
+				margin-bottom: 15%;
+				font-size: clamp(2rem, 3vw, 4rem);
+			}
+		}
+		.logoContainer {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-direction: row;
+			width: 80%;
+			height: 80%;
+			.logo1 {
+				flex: 0.4;
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: scale-down;
+				}
+			}
+			.logo2 {
+				flex: 0.4;
+
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: scale-down;
+				}
+			}
+		}
+	}
+}
