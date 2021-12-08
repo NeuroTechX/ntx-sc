@@ -26,6 +26,7 @@ import BrainwareLogo from "../components/logos/Brainware.png";
 import SynaptechLogo from "../components/logos/SynapTechUW.png";
 import NCULogo from "../components/logos/NCU.png";
 import WATOLogo from "../components/logos/WatoLink.png";
+import UnitLogo from "../components/logos/Unit.png";
 
 export const studentClubs = [
 	{
@@ -257,6 +258,14 @@ export const studentClubs = [
 		logo: WATOLogo,
 		link: "https://www.watolink.com/",
 	},
+	{
+		id: 37,
+		name: "UNIT",
+		school: "Union College",
+		country: "United States",
+		logo: UnitLogo,
+		link: "https://sites.google.com/union.edu/unit",
+	},
 ];
 
 export const newClubs = [
@@ -309,6 +318,12 @@ export const newClubs = [
 		logo:
 			"https://neurotechx.github.io/studentclubs/images/SC-Logos/WatoLink.png",
 		link: "https://www.watolink.com/",
+		id: 37,
+		name: "UNIT",
+		school: "Union College",
+		country: "United States",
+		logo: UnitLogo,
+		link: "https://sites.google.com/union.edu/unit",
 	},
 ];
 
