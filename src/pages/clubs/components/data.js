@@ -317,8 +317,11 @@ export const newClubs = [
 		school: "Waterloo",
 		logo:
 			"https://neurotechx.github.io/studentclubs/images/SC-Logos/WatoLink.png",
+
 		link: "https://www.watolink.com/",
-		id: 37,
+	},
+	{
+		id: 39,
 		name: "UNIT",
 		school: "Union College",
 		country: "United States",
