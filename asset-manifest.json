@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ntx-sc/static/css/main.f8e934a7.chunk.css",
-    "main.js": "/ntx-sc/static/js/main.1b20ddfb.chunk.js",
-    "main.js.map": "/ntx-sc/static/js/main.1b20ddfb.chunk.js.map",
+    "main.css": "/ntx-sc/static/css/main.3f0a73b8.chunk.css",
+    "main.js": "/ntx-sc/static/js/main.a90f6363.chunk.js",
+    "main.js.map": "/ntx-sc/static/js/main.a90f6363.chunk.js.map",
     "runtime-main.js": "/ntx-sc/static/js/runtime-main.2f7e4822.js",
     "runtime-main.js.map": "/ntx-sc/static/js/runtime-main.2f7e4822.js.map",
-    "static/js/2.58e65e89.chunk.js": "/ntx-sc/static/js/2.58e65e89.chunk.js",
-    "static/js/2.58e65e89.chunk.js.map": "/ntx-sc/static/js/2.58e65e89.chunk.js.map",
+    "static/js/2.b678392a.chunk.js": "/ntx-sc/static/js/2.b678392a.chunk.js",
+    "static/js/2.b678392a.chunk.js.map": "/ntx-sc/static/js/2.b678392a.chunk.js.map",
     "index.html": "/ntx-sc/index.html",
-    "static/css/main.f8e934a7.chunk.css.map": "/ntx-sc/static/css/main.f8e934a7.chunk.css.map",
-    "static/js/2.58e65e89.chunk.js.LICENSE.txt": "/ntx-sc/static/js/2.58e65e89.chunk.js.LICENSE.txt",
+    "static/css/main.3f0a73b8.chunk.css.map": "/ntx-sc/static/css/main.3f0a73b8.chunk.css.map",
+    "static/js/2.b678392a.chunk.js.LICENSE.txt": "/ntx-sc/static/js/2.b678392a.chunk.js.LICENSE.txt",
     "static/media/AxonBPGC.ddeec26d.png": "/ntx-sc/static/media/AxonBPGC.ddeec26d.png",
     "static/media/BrainStormBGU.1196860b.png": "/ntx-sc/static/media/BrainStormBGU.1196860b.png",
     "static/media/Brainware.df34589a.png": "/ntx-sc/static/media/Brainware.df34589a.png",
@@ -23,7 +23,10 @@
     "static/media/NEURAPILOT.0dd6e46c.png": "/ntx-sc/static/media/NEURAPILOT.0dd6e46c.png",
     "static/media/NRG-York.17043a48.png": "/ntx-sc/static/media/NRG-York.17043a48.png",
     "static/media/NTBerkeley.8c890b35.png": "/ntx-sc/static/media/NTBerkeley.8c890b35.png",
+    "static/media/NTS-Purdue.76c4d9cb.png": "/ntx-sc/static/media/NTS-Purdue.76c4d9cb.png",
     "static/media/NTUIUC.7171265b.png": "/ntx-sc/static/media/NTUIUC.7171265b.png",
+    "static/media/NTX-Logo-blue.727cff4c.png": "/ntx-sc/static/media/NTX-Logo-blue.727cff4c.png",
+    "static/media/NTX-Logo.974fe6f2.png": "/ntx-sc/static/media/NTX-Logo.974fe6f2.png",
     "static/media/NTXSC-Main.cf7a16e9.png": "/ntx-sc/static/media/NTXSC-Main.cf7a16e9.png",
     "static/media/NTatOhioState.fbf2f20d.png": "/ntx-sc/static/media/NTatOhioState.fbf2f20d.png",
     "static/media/NaNLab.110fd027.png": "/ntx-sc/static/media/NaNLab.110fd027.png",
@@ -48,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2f7e4822.js",
-    "static/js/2.58e65e89.chunk.js",
-    "static/css/main.f8e934a7.chunk.css",
-    "static/js/main.1b20ddfb.chunk.js"
+    "static/js/2.b678392a.chunk.js",
+    "static/css/main.3f0a73b8.chunk.css",
+    "static/js/main.a90f6363.chunk.js"
   ]
 }
