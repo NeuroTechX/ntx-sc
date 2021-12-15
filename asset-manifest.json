@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ntx-sc/static/css/main.3f0a73b8.chunk.css",
-    "main.js": "/ntx-sc/static/js/main.a90f6363.chunk.js",
-    "main.js.map": "/ntx-sc/static/js/main.a90f6363.chunk.js.map",
+    "main.js": "/ntx-sc/static/js/main.db73b95b.chunk.js",
+    "main.js.map": "/ntx-sc/static/js/main.db73b95b.chunk.js.map",
     "runtime-main.js": "/ntx-sc/static/js/runtime-main.2f7e4822.js",
     "runtime-main.js.map": "/ntx-sc/static/js/runtime-main.2f7e4822.js.map",
     "static/js/2.b678392a.chunk.js": "/ntx-sc/static/js/2.b678392a.chunk.js",
@@ -13,6 +13,7 @@
     "static/media/AxonBPGC.ddeec26d.png": "/ntx-sc/static/media/AxonBPGC.ddeec26d.png",
     "static/media/BrainStormBGU.1196860b.png": "/ntx-sc/static/media/BrainStormBGU.1196860b.png",
     "static/media/Brainware.df34589a.png": "/ntx-sc/static/media/Brainware.df34589a.png",
+    "static/media/CruXLogo.c6eeb70d.png": "/ntx-sc/static/media/CruXLogo.c6eeb70d.png",
     "static/media/FRL_Research_Black_RGB.68eb2625.png": "/ntx-sc/static/media/FRL_Research_Black_RGB.68eb2625.png",
     "static/media/Logo.79dbcf38.png": "/ntx-sc/static/media/Logo.79dbcf38.png",
     "static/media/MINT.2f5b22b8.png": "/ntx-sc/static/media/MINT.2f5b22b8.png",
@@ -38,6 +39,7 @@
     "static/media/NeurotechUSC.89a25c85.png": "/ntx-sc/static/media/NeurotechUSC.89a25c85.png",
     "static/media/NeurotechUofT.9a66d406.png": "/ntx-sc/static/media/NeurotechUofT.9a66d406.png",
     "static/media/PolyCortex.ec1e0660.png": "/ntx-sc/static/media/PolyCortex.ec1e0660.png",
+    "static/media/PrincetonNeuroTech.b7ac9c3d.png": "/ntx-sc/static/media/PrincetonNeuroTech.b7ac9c3d.png",
     "static/media/SynapTechUW.d4aed6a2.png": "/ntx-sc/static/media/SynapTechUW.d4aed6a2.png",
     "static/media/SynapsETS.8ba197c6.png": "/ntx-sc/static/media/SynapsETS.8ba197c6.png",
     "static/media/TNT-UCSD.14359cbd.png": "/ntx-sc/static/media/TNT-UCSD.14359cbd.png",
@@ -53,6 +55,6 @@
     "static/js/runtime-main.2f7e4822.js",
     "static/js/2.b678392a.chunk.js",
     "static/css/main.3f0a73b8.chunk.css",
-    "static/js/main.a90f6363.chunk.js"
+    "static/js/main.db73b95b.chunk.js"
   ]
 }
