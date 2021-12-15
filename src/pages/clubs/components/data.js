@@ -28,6 +28,8 @@ import NCULogo from "../components/logos/NCU.png";
 import WATOLogo from "../components/logos/WatoLink.png";
 import UnitLogo from "../components/logos/Unit.png";
 import NTSLogo from "../components/logos/NTS-Purdue.png";
+import CruxLogo from "../components/logos/CruXLogo.png";
+import PrincetonLogo from "../components/logos/PrincetonNeuroTech.png";
 
 export const studentClubs = [
 	{
@@ -268,12 +270,29 @@ export const studentClubs = [
 		link: "https://sites.google.com/union.edu/unit",
 	},
 	{
+		id: 42,
+		name: "CruX",
+		school: "UCLA",
+		country: "United States",
+		logo: CruxLogo,
+		link: "https://www.cruxucla.com/",
+	},
+	{
 		id: 41,
 		name: "NeuroTech Society (NTS)",
 		school: "Purdue",
 		country: "United States",
 		logo: NTSLogo,
 		link: "https://purduensp.wordpress.com",
+	},
+	{
+		id: 42,
+		name: "Princeton NeuroTech",
+		school: "Princeton",
+		country: "United States",
+		logo: PrincetonLogo,
+		link:
+			"https://lshudson.wixsite.com/princetonneurotech",
 	},
 ];
 
@@ -344,6 +363,15 @@ export const newClubs = [
 		country: "United States",
 		logo: NTSLogo,
 		link: "https://purduensp.wordpress.com",
+	},
+	{
+		id: 43,
+		name: "Princeton NeuroTech",
+		school: "Princeton",
+		country: "United States",
+		logo: PrincetonLogo,
+		link:
+			"https://lshudson.wixsite.com/princetonneurotech",
 	},
 ];
 
