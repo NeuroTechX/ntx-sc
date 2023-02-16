@@ -263,11 +263,11 @@ export const studentClubs = [
 	},
 	{
 		id: 37,
-		name: "UNIT",
+		name: "Union Neurotech",
 		school: "Union College",
 		country: "United States",
 		logo: UnitLogo,
-		link: "https://sites.google.com/union.edu/unit",
+		link: "https://www.unionneurotech.com",
 	},
 	{
 		id: 42,
