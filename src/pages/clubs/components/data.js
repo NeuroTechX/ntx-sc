@@ -26,10 +26,12 @@ import BrainwareLogo from "../components/logos/Brainware.png";
 import SynaptechLogo from "../components/logos/SynapTechUW.png";
 import NCULogo from "../components/logos/NCU.png";
 import WATOLogo from "../components/logos/WatoLink.png";
-import UnitLogo from "../components/logos/Unit.png";
+import UnitLogo from "../components/logos/UnitLogo.png";
 import NTSLogo from "../components/logos/NTS-Purdue.png";
 import CruxLogo from "../components/logos/CruXLogo.png";
 import PrincetonLogo from "../components/logos/PrincetonNeuroTech.png";
+import OxfordLogo from "../components/logos/OxfordNeurotech.jpeg";
+import NeurotechClub from "../components/logos/NeurotechClub.jpg";
 
 export const studentClubs = [
 	{
@@ -298,81 +300,19 @@ export const studentClubs = [
 
 export const newClubs = [
 	{
-		id: 24,
-		name: "WashU NeuroTech",
-		school: "Washington U. in St. Louis",
-		logo:
-			"https://neurotechx.github.io/studentclubs/images/SC-Logos/WashU.png",
-		link: "https://sites.wustl.edu/neurotechx/",
+		id: 44,
+		name: "Oxford Neurotech",
+		school: "University of Oxford",
+		logo: OxfordLogo,
+		link: "https://oxfordneurotech.notion.site/",
 	},
 	{
-		id: 25,
-		name: "Neuroinformatics Student Club",
-		school: "U. of Warsaw",
-		logo:
-			"https://neurotechx.github.io/studentclubs/images/SC-Logos/NeuroinformaticsWarsaw.png",
-		link: "https://knneuro.fuw.edu.pl/",
-	},
-	{
-		id: 26,
-		name: "Brainware",
-		school:
-			" Instituto Tecnológico de Buenos Aires (ITBA)",
-		logo:
-			"https://neurotechx.github.io/studentclubs/images/SC-Logos/Brainware.png",
-		link: "https://brainwareitba.github.io/",
-	},
-	{
-		id: 27,
-		name: "Synaptech",
-		school: "U. of Washington",
-		logo:
-			"https://neurotechx.github.io/studentclubs/images/SC-Logos/SynapTechUW.png",
-		link: "https://synaptechuw.org/",
-	},
-	{
-		id: 28,
-		name: "Neurotechtor",
-		school: "NCU (Poland)",
-		logo:
-			"https://neurotechx.github.io/studentclubs/images/SC-Logos/NCU.png",
-		link:
-			"https://neurotech.umk.pl/pages/main_page/?lang=en",
-	},
-	{
-		id: 29,
-		name: "WATOLINK",
-		school: "Waterloo",
-		logo:
-			"https://neurotechx.github.io/studentclubs/images/SC-Logos/WatoLink.png",
-
-		link: "https://www.watolink.com/",
-	},
-	{
-		id: 39,
-		name: "UNIT",
-		school: "Union College",
-		country: "United States",
-		logo: UnitLogo,
-		link: "https://sites.google.com/union.edu/unit",
-	},
-	{
-		id: 40,
-		name: "NeuroTech Society (NTS)",
-		school: "Purdue",
-		country: "United States",
-		logo: NTSLogo,
-		link: "https://purduensp.wordpress.com",
-	},
-	{
-		id: 43,
-		name: "Princeton NeuroTech",
-		school: "Princeton",
-		country: "United States",
-		logo: PrincetonLogo,
-		link:
-			"https://lshudson.wixsite.com/princetonneurotech",
-	},
+		id: 44,
+		name: "The NeuroTech Club",
+		school: "The Ohio State University",
+		logo: NeurotechClub,
+		link: "https://activities.osu.edu/involvement/student_organizations/find_a_student_org/?i=a7e[…]4a85-be4d-1f38705f40c3&v=card&s=neurotech&c=Columbus&page=0",
+	}
 ];
 
 export const alumniClubs = [
