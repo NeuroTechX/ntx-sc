@@ -134,11 +134,11 @@ export const studentClubs = [
 	},
 	{
 		id: 14,
-		name: "NeurotechUSC",
+		name: "NeuroTechSC",
 		school: "University of Southern California",
 		country: "United States",
-		logo: USCLogo,
-		link: "https://www.neurotechusc.org/",
+		logo: SCLogo,
+		link: "https://sites.google.com/view/neurotechusc/home",
 	},
 	{
 		id: 15,
