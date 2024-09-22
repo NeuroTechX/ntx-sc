@@ -10,7 +10,7 @@ import BrainStormLogo from "../components/logos/BrainStormBGU.png";
 import NeurAlbertaLogo from "../components/logos/NeurAlbertaTech.png";
 import NaNLogo from "../components/logos/NaNLab.png";
 import OhioLogo from "../components/logos/NTatOhioState.png";
-import USCLogo from "../components/logos/NeurotechUSC.png";
+import USCLogo from "../components/logos/NeuroTechUSC.png";
 import NRGLogo from "../components/logos/NRG-York.png";
 import UIUCLogo from "../components/logos/NTUIUC.png";
 import UVicLogo from "../components/logos/UVICNT.png";
